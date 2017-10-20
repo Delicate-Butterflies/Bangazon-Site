@@ -52,5 +52,5 @@ Thumbs.db
 /dist/***
 
 .env
-/config/config.json
+config/config.json
 /docs/***
