@@ -1,5 +1,5 @@
 # BANGAZON WEBSITE
-## BANGAZON WEBSITE APPLICATION SYSTEM
+## BANGAZON WEB APPLICATION
 
 This system allows users to view, create, edit, and delete a list of: users, products, product types, orders, order items, and payment types.
 
@@ -11,7 +11,7 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 1. [Third Party Libraries](#third-party-libraries)
 1. [Usage Directions](#usage-directions)
 1. [Credits](#credits)
-1. [Contribute to the CLI](#contribute-to-cli)
+1. [Contribute to Website](#contribute-to-website)
 
 ## Software Requirements
 - [Node.js](https://nodejs.org/en/)
@@ -46,14 +46,14 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 ### Project Manager
 - [Jufe Brown-Tsai](https://github.com/Jufebrown)
 
-### Workforce App Developers
+### Bangazon Website Developers
 - [Megan Brown](https://github.com/megbrown)
 - [Arwa Kuterwadliwala](https://github.com/Arwask)
 - [Jon Roberts](https://github.com/thejonroberts)
 - [Sam Baker](https://github.com/SamBDev)
 - [Josh Lloyd](https://github.com/joshualloyd)
 
-## Contribute to Workforce App
+## Contribute to Website
 - Fork - issue tickets and pull requests are welcome
 - Follow the template for PR requests
 - Tab size 2
