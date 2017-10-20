@@ -10,7 +10,8 @@ module.exports = function(sequelize, DataTypes) {
     cityAddress: DataTypes.STRING,
     stateCode: DataTypes.STRING,
     zipCode: DataTypes.INTEGER,
-    phoneNumber: DataTypes.STRING
+    phoneNumber: DataTypes.STRING,
+    lastLoginDate: DataTypes.DATE
   });
 
   user.associate = function(models) {
@@ -26,7 +27,7 @@ module.exports = function(sequelize, DataTypes) {
   };
 
   user.associate = function(models) {
-    user.hasMany(models.payment_type, {
+    user.hasMany(models.paymentType, {
       foreignKey: 'customerUserId'
     });
   };
