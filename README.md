@@ -1,5 +1,5 @@
-# BANGAZON WORKFORCE MANAGEMENT
-## BANGAZON WORKFORCE HUMAN RESOURCES INFORMATION SYSTEM
+# BANGAZON WEBSITE
+## BANGAZON WEBSITE APPLICATION SYSTEM
 
 This system allows users to view, create, edit, and delete a list of: users, products, product types, orders, order items, and payment types.
 
