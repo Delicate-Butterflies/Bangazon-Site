@@ -1,4 +1,17 @@
-if session.passport
-  span #{session.passport.user.username}
-  form(method="POST")
-    button(type="submit" formaction="/logout") logout
+nav(class="navbar navbar-expand-lg navbar-light bg-light")
+  a(class="navbar-brand" href="/") Bangazon
+  button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
+    span(class="navbar-toggler-icon")
+  div(class="collapse navbar-collapse" id="navbarNavAltMarkup")
+    ul(class="nav navbar-nav")
+      if session.passport
+        li(class="nav-link")
+          a(class="nav-item nav-link" href="#") Link example
+        li(class="nav-link")
+          span(class="navbar-text") #{session.passport.user.username}
+        li(class="nav-link")
+          form(method="POST" class="form-inline")
+            button(class="btn btn-outline-primary" type="submit" formaction="/logout") logout
+            //- a(class="nav-item nav-link" href="#")
+            //- a(class="nav-item nav-link" href="#")
+            //- a(class="nav-item nav-link" href="#")
