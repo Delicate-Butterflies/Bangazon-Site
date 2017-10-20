@@ -1,15 +1,8 @@
-doctype html
-html
-  head
-    title Bangazon!
-  body
-    include partials/nav.pug
-    h1 Bangazon!
-    h2 #{globalWow}
+extends layout.pug
+block content
+  h1 Bangazon!
+  button(class="btn-primary" id="showLogin") login
+  button(class="btn-primary" id="showRegister") register
 
-  block content
-    button#showLogin login
-    button#showRegister register
-
-    script
-      include ../client/client.js
+  script
+    include ../client/client.js

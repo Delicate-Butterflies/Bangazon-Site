@@ -1,14 +1,22 @@
-form#signin(name="signin" method="post" action="/register")
-  label(for="first_name") First name
-  input.text(id="first_name" name="first_name" type="text")
-  label(for="last_name") Last name
-  input.text(name="last_name" type="text")
-  label(for="username") Username
-  input.text(name="username" type="text")
-  label(for="email") Email Address
-  input.text(name="email" type="text")
-  label(for="password") Password
-  input(name="password" type="password")
-  label(for="confirmation") Confirmation
-  input(name="confirmation" type="password")
-  input.btn(type="submit" value="Sign In")
+.row
+  .col-6
+    form(name="register-user" method="post" action="/register")
+      .form-group
+        label(class="form-control-label" for="first_name") First name
+        input(id="first_name" type="text" class="form-control" placeholder="e.g Maria" name="first_name")
+      .form-group
+        label(class="form-control-label" for="last_name") Last name
+        input(id="last_name" type="text" class="form-control" placeholder="e.g. Jones" name="last_name")
+      .form-group
+        label(class="form-control-label" for="username") Username
+        input(id="username" type="text" class="form-control" placeholder="e.g. mjones5" name="username")
+      .form-group
+        label(class="form-control-label" for="email") Email
+        input(id="email" type="text" class="form-control" placeholder="e.g maria@example.com" name="email")
+      .form-group
+        label(class="form-control-label" for="password") Please choose a password.
+        input(id="password" type="password" class="form-control" placeholder="Password" name="password")
+      .form-group
+        label(class="form-control-label" for="confimation") Please confirm your passord.
+        input(id="confirmation" type="password" class="form-control" placeholder="Confirmation" name="confirmation")
+      button(type="submit" class="btn-primary") Submit

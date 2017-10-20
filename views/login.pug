@@ -1,12 +1,6 @@
-extends index.pug
-
+extends layout.pug
 block content
-  h1 This is a form
+  h1 Please login
   if message
     h2= message
-
-  form(action="/login", method="post")
-    input(type="text" placeholder="username" name="username")
-    input(type="email" placeholder="email" name="email")
-    input(type="password" placeholder="password" name="password")
-    button(type="submit") login
+  include partials/login-form.pug
