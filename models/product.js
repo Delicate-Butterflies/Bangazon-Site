@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-	var product = sequelize.define('product', {
+	var Product = sequelize.define('Product', {
 		title: DataTypes.STRING,
 		price: DataTypes.DECIMAL,
 		description: DataTypes.STRING,
@@ -9,19 +9,19 @@ module.exports = (sequelize, DataTypes) => {
 		quantity: DataTypes.INTEGER
 	});
 
-	product.associate = models => {
-		product.belongsToMany(models.order, {
+	Product.associate = models => {
+		Product.belongsToMany(models.order, {
 			through: 'ordersProducts'
 		});
 
-		product.hasOne(models.productType, {
+		Product.hasOne(models.productType, {
 			foreignKey: 'productTypeId'
 		});
 
-		product.hasOne(models.user, {
+		Product.hasOne(models.user, {
 			foreignKey: 'sellerUserId'
 		});
 	};
 
-	return product;
+	return Product;
 };

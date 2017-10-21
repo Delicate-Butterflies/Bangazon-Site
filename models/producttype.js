@@ -1,14 +1,14 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-	var productType = sequelize.define('productType', {
+	var ProductType = sequelize.define('ProductType', {
 		name: DataTypes.STRING
 	});
 
-	productType.associate = models => {
-		productType.hasMany(models.product, {
+	ProductType.associate = models => {
+		ProductType.hasMany(models.product, {
 			foreignKey: 'productTypeId'
 		});
 	};
 
-	return productType;
+	return ProductType;
 };

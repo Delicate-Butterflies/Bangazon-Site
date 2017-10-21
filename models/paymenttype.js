@@ -1,20 +1,20 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-	var paymentType = sequelize.define('paymentType', {
+	var PaymentType = sequelize.define('PaymentType', {
 		type: DataTypes.STRING,
 		customerUserId: DataTypes.INTEGER,
 		accountNumber: DataTypes.INTEGER
 	});
 
-	paymentType.associate = models => {
-		paymentType.hasMany(models.order, {
+	PaymentType.associate = models => {
+		PaymentType.hasMany(models.order, {
 			foreignKey: 'paymentTypeId'
 		});
 
-		paymentType.belongsToOne(models.user, {
+		PaymentType.belongsToOne(models.user, {
 			foreignKey: 'customerUserId'
 		});
 	};
 
-	return paymentType;
+	return PaymentType;
 };
