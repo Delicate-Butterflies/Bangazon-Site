@@ -7,18 +7,18 @@ module.exports = (sequelize, DataTypes) => {
 	});
 
 	Order.associate = models => {
-		Order.belongsToMany(models.product, {
+		Order.belongsToMany(models.Product, {
 			through: 'ordersProducts',
 			onDelete: 'CASCADE',
 			onUpdate: 'CASCADE'
 		});
 
-		Order.belongsToOne(models.paymentType, {
-			foreignKey: 'paymentTypeId'
+		Order.belongsTo(models.PaymentType, {
+			foreignKey: 'id'
 		});
 
-		Order.belongsToOne(models.user, {
-			foreignKey: 'customerUserId'
+		Order.belongsTo(models.User, {
+			foreignKey: 'idf'
 		});
 	};
 

@@ -10,16 +10,16 @@ module.exports = (sequelize, DataTypes) => {
 	});
 
 	Product.associate = models => {
-		Product.belongsToMany(models.order, {
+		Product.belongsToMany(models.Order, {
 			through: 'ordersProducts'
 		});
 
-		Product.hasOne(models.productType, {
+		Product.hasOne(models.ProductType, {
 			foreignKey: 'productTypeId'
 		});
 
-		Product.hasOne(models.user, {
-			foreignKey: 'sellerUserId'
+		Product.hasOne(models.User, {
+			foreignKey: 'id'
 		});
 	};
 
