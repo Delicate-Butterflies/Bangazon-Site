@@ -13,11 +13,15 @@ for (let i = 0; i < numPaymentTypes; i++) {
 	let customerUserId = Math.floor(Math.random() * numUsers) + 1;
 	let type = faker.finance.accountName();
 	let accountNumber = faker.finance.account();
+	let updatedAt = new Date().toISOString();
+	let createdAt = faker.date.past().toISOString();
 
 	payments.push({
 		customerUserId,
 		type,
-		accountNumber
+		accountNumber,
+		updatedAt,
+		createdAt
 	});
 }
 

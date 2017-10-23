@@ -1,6 +1,6 @@
 'use strict';
 
-const productTypes = require('../data/producttype');
+const productTypes = require('../data/product-types');
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
