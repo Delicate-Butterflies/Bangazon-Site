@@ -1,0 +1,19 @@
+.row
+  .col-6
+    form(name="register-user" method="post" action="/register")
+      .form-group
+        label(class="form-control-label" for="title") Product Name
+        input(id="title" type="text" class="form-control" placeholder="Green Oven Mitts" name="title")
+      .form-group
+        label(class="form-control-label" for="price") Price
+        input(id="price" type="text" class="form-control" placeholder="15.99" name="price")
+      .form-group
+        label(class="form-control-label" for="description") Description
+        input(id="description" type="text" class="form-control" placeholder="Mitts for protecting your hands" name="description")
+      .form-group
+        label(class="form-control-label" for="productTypeId") Product Type
+        input(id="productTypeId" type="text" class="form-control" placeholder="Cooking" name="productTypeId")
+      .form-group
+        label(class="form-control-label" for="quantity") Quantity
+        input(id="quantity" type="text" class="form-control" placeholder="Password" name="quantity")
+      button(type="submit" class="btn-primary") Submit
