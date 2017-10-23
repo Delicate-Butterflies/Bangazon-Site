@@ -21,6 +21,7 @@ for (let i = 0; i < numUsers; i++) {
 	let cityAddress = faker.address.city();
 	let stateCode = faker.address.stateAbbr();
 	let zipCode = faker.address.zipCode();
+	let updatedAt = new Date().toISOString();
 
 	users.push({
 		firstName,
@@ -34,12 +35,13 @@ for (let i = 0; i < numUsers; i++) {
 		zipCode,
 		email,
 		username,
-		password
+		password,
+		updatedAt
 	});
 }
 
-users = JSON.stringify(users);
+let usersJSONSTRING = JSON.stringify(users);
 
-fs.writeFile('../users.json', users, err => {
+fs.writeFile('../users.json', usersJSONSTRING, err => {
 	if (err) console.log('error!', err);
 });

@@ -16,6 +16,8 @@ for (let i = 0; i < numProducts; i++) {
 	let productTypeId = Math.floor(Math.random() * numProductTypes) + 1;
 	let sellerUserId = Math.floor(Math.random() * numUsers) + 1;
 	let quantity = Math.floor(faker.random.number() / 1000);
+	let updatedAt = new Date().toISOString();
+	let createdAt = faker.date.past().toISOString();
 
 	products.push({
 		title,
@@ -23,7 +25,9 @@ for (let i = 0; i < numProducts; i++) {
 		description,
 		productTypeId,
 		sellerUserId,
-		quantity
+		quantity,
+		updatedAt,
+		createdAt
 	});
 }
 
