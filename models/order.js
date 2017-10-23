@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
 
 	Order.associate = models => {
 		Order.belongsToMany(models.Product, {
-			through: 'ordersProducts',
+			through: 'OrdersProducts',
 			onDelete: 'CASCADE',
 			onUpdate: 'CASCADE'
 		});

@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
 
 	Product.associate = models => {
 		Product.belongsToMany(models.Order, {
-			through: 'ordersProducts'
+			through: 'OrdersProducts'
 		});
 
 		Product.hasOne(models.ProductType, {
