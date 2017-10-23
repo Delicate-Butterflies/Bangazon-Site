@@ -1,0 +1,14 @@
+extends layout.pug
+block content
+  .col-sm-6
+    h1 Product Types
+    table(class="table")
+      each productType in productTypes
+        thead
+          tr
+            th
+              h4 #{productType.name}
+        each product in productType.Products
+          tbody
+            tr
+              td: a(href=`/products/${product.id}`) #{product.title}
