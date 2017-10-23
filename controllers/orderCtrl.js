@@ -9,6 +9,8 @@ module.exports.getOpenOrder = (req, res, next) => {
     include: [{ model: Product }],
     where: { customerUserId: activeUserId, paymentTypeId: null }
   }).then(data => {
-    res.json(data);
+    // res.json(data);
+    let products = data[0].Products;
+    res.render('cart', { products });
   });
 };

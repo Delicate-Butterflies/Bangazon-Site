@@ -2,13 +2,14 @@ extends layout.pug
 block content
   h1 Your Cart
   table(class="table")
-		tbody
-			tr
-				td
-					h4 Product:
-				td
+    tbody
+      tr
+        td
+          h4 Product:
+        td
           h4 Price:
       each product in products
         tr
           td #{product.title}
           td #{product.price}
+      form(action="/", method="post")
