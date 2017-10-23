@@ -2,13 +2,14 @@
 
 const { assert } = require('chai');
 const db = require('../models/index.js');
-const app = require('../app');
+const { ProductTypes } = require('../seeders/b-product-types');
+
+// const app = require('../app');
 
 describe('Product Types', () => {
   before(() => {
-    const models = app.get('models');
-    const { ProductTypes } = require('../seeders/b-product-types');
-    models.sequelize.sync()
+    // const models = app.get('models');
+    db.sequelize.sync()
       .then(() => {
         models.ProductType.bulkCreate(ProductTypes);
       });

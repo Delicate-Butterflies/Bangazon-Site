@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
 		});
 
 		Product.hasOne(models.ProductType, {
-			foreignKey: 'productTypeId'
+			foreignKey: 'id'
 		});
 
 		Product.hasOne(models.User, {

@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
 		});
 
 		Order.belongsTo(models.User, {
-			foreignKey: 'idf'
+			foreignKey: 'id'
 		});
 	};
 
