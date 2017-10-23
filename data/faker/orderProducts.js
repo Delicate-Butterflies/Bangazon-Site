@@ -1,5 +1,7 @@
 'use strict';
 
+const faker = require('faker');
+
 const {
 	amounts: { maxQuantity, maxProductsPerOrder, numProducts, numOrders }
 } = require('./generatorAmounts.json');
@@ -19,14 +21,14 @@ for (let k = 1; k <= numOrders; k++) {
 		// randomize the quantity pushed to array (ordered) between 1 and an upper limit
 		let qty = Math.floor(Math.random() * maxQuantity) + 1;
 		for (let i = 0; i < qty; i++) {
-			// let createdAt = faker.date.past().toISOString();
-			// let updatedAt = new Date().toISOString();
+			let createdAt = faker.date.past().toISOString();
+			let updatedAt = new Date().toISOString();
 
 			orderProducts.push({
 				productId,
-				orderId
-				// updatedAt,
-				// createdAt
+				orderId,
+				updatedAt,
+				createdAt
 			});
 		}
 	}

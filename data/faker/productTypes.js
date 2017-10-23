@@ -8,9 +8,13 @@ let types = [];
 
 for (let i = 0; i < numProductTypes; i++) {
 	let name = faker.commerce.department();
+	let updatedAt = new Date().toISOString();
+	let createdAt = faker.date.past().toISOString();
 
 	types.push({
-		name
+		name,
+		updatedAt,
+		createdAt
 	});
 }
 
