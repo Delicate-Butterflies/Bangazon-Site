@@ -12,20 +12,46 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      first_name: {
+      firstName: {
         type: Sequelize.STRING
       },
-      last_name: {
+      lastName: {
+        type: Sequelize.STRING
+      },
+      email: {
         type: Sequelize.STRING
       },
       username: {
         type: Sequelize.TEXT
       },
-      email: {
-        type: Sequelize.STRING
-      },
       password: {
         type: Sequelize.STRING
+      },
+      streetAddress: {
+        type: Sequelize.STRING
+      },
+      cityAddress: {
+        type: Sequelize.STRING
+      },
+      stateCode: {
+        type: Sequelize.STRING
+      },
+      zipCode: {
+        type: Sequelize.INTEGER
+      },
+      phoneNumber: {
+        type: Sequelize.STRING
+      },
+      lastLoginDate: {
+        type: Sequelize.DATE
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
