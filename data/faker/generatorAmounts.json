@@ -1,0 +1,17 @@
+{
+	"amounts": {
+		"numProductTypes": 20,
+		"numUsers": 200,
+		"numComputers": 40,
+		"numEmployees": 25,
+		"numOrders": 350,
+		"numPaymentTypes": 400,
+		"numProducts": 500,
+		"numTrainingPrograms": 10,
+		"numDepartments": 8,
+		"numEmployeeTrainings": 25,
+		"numEmployeeComputers": 40,
+		"maxQuantity": 5,
+		"maxProductsPerOrder": 5
+	}
+}
