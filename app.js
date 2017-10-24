@@ -55,5 +55,7 @@ app.use(routes);
 // Add error handler to pipe all server errors to from the routing middleware
 
 app.listen(port, () => {
+	/* eslint-disable */
 	console.log(`listening on port ${port}`);
+	/* eslint-enable */
 });
