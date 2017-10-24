@@ -30,7 +30,7 @@ module.exports.getOpenOrder = (req, res, next) => {
 module.exports.savePaymentType = (req, res, next) => {
   const { Order } = req.app.get('models');
   Order.update(
-    { paymentTypeId: req.body.paymentId },
+    { PaymentTypeId: req.body.paymentId },
     {
       where: { id: currentOrder[0].id }
     }
