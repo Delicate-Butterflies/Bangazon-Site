@@ -13,7 +13,6 @@ module.exports.displayProductAdd = (req, res, next) => {
     data.productTypes = data.map(trainee => {
       return Object.assign({}, trainee.dataValues);
     });
-    console.log('my god damn product data', data);
     res.render('add-product', data);
   });
 };
@@ -27,7 +26,8 @@ module.exports.createNewProduct = (req, res, next) => {
     }
   })
     .then(response => {
-      res.redirect('/welcome');
+      console.log('RESPONSE FROM THE POST', response);
+      res.redirect(`/products/${response.dataValues.id}`);
     })
     .catch(err => {
       next(err);
