@@ -79,22 +79,23 @@ module.exports.createNewProduct = (req, res, next) => {
 
 module.exports.getProductById = (req, res, next) => {
   const { Product, Order } = req.app.get('models');
-  Product.findById(req.params.id, {
-    include: [
-      {
-        all: true
-        // model: Order,
-        // where: {
-        // 	PaymentTypeId: {
-        // 		$ne: null
-        // 	}
-        // }
-      }
-    ]
-  })
+  Product.findById(req.params.id, {})
     .then(product => {
-      // res.json(product);
-      res.render('product-details', { product });
+      Product.count({
+        where: { id: req.params.id },
+        include: [
+          {
+            model: Order,
+            where: {
+              PaymentTypeId: {
+                $ne: null
+              }
+            }
+          }
+        ]
+      }).then(sales => {
+        res.render('product-details', { product, sales });
+      });
     })
     .catch(err => {
       next(err);
