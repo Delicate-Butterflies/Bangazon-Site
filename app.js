@@ -48,6 +48,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(flash());
 
+// add middleware to get product type info for nav partial on every request
+app.use(function(req, res, next) {
+	const { ProductType } = req.app.get('models');
+	ProductType.findAll()
+		.then(prodTypes => {
+			res.locals.prodTypes = prodTypes;
+			next();
+		})
+		.catch(err => {
+			next(err);
+		});
+});
+
 // note that this needs to be after the above stuff
 app.use(routes);
 

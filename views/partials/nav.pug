@@ -10,8 +10,8 @@ nav(class="navbar navbar-expand-lg navbar-light bg-light")
 				a(class="dropdown-item" href="#") Latest
 				a(class="dropdown-item" href="/product-types") Categories
 				div(class="dropdown-divider")
-				if productTypes
-					each product in productTypes
+				if locals.prodTypes
+					each product in locals.	prodTypes
 						a(class="dropdown-item" href="#") #{product.name}
 		if session.passport
 			span(class="navbar-text nav-item") #{session.passport.user.username}
