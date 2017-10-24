@@ -10,12 +10,17 @@ module.exports.getAllProductTypes = (req, res, next) => {
     include: [
       {
         model: Product,
-        limit: 3
+        attributes: []
       }
-    ]
+    ],
+    attributes: {
+      include: [[sequelize.fn('COUNT', sequelize.col('Products.id')), 'productCount']]
+    },
+    group: ['ProductType.id']
   })
     .then(productTypes => {
-      res.render('product-types', { productTypes });
+      res.json(productTypes);
+      // res.render('product-types', { productTypes });
     })
     .catch(err => {
       next(err);
