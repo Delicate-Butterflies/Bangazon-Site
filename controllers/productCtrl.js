@@ -26,7 +26,7 @@ module.exports.createNewProduct = (req, res, next) => {
     }
   })
     .then(response => {
-      console.log('RESPONSE FROM THE POST', response);
+      // console.log('RESPONSE FROM THE POST', response);
       res.redirect(`/products/${response.dataValues.id}`);
     })
     .catch(err => {
