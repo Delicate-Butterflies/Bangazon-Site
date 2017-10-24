@@ -21,8 +21,8 @@ module.exports.getProductById = (req, res, next) => {
 		]
 	})
 		.then(product => {
-			res.json(product);
-			// res.render('product-details', { product });
+			// res.json(product);
+			res.render('product-details', { product });
 		})
 		.catch(err => {
 			next(err);

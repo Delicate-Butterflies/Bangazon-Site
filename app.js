@@ -2,7 +2,6 @@
 
 const express = require('express');
 const app = express();
-const path = require('path');
 const passport = require('passport');
 var session = require('express-session');
 let bodyParser = require('body-parser');
@@ -20,7 +19,7 @@ app.set('view engine', 'pug');
 app.locals.globalWow = 'Express is, like, MAGIC'; //If we end up needing some value to be available to every pug template, look into using something like this that can be accessed in the templates just like any variable we pass directly to the template.
 
 //static assets
-app.use('/public', express.static(path.join(__dirname + '/static')));
+app.use('/public', express.static(__dirname + '/static'));
 
 let routes = require('./routes/');
 
