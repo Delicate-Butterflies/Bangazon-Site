@@ -3,7 +3,7 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getUserPaymentTypes, savePaymentType } = require('../controllers/paymentTypeCtrl');
+const { getUserPaymentTypes } = require('../controllers/paymentTypeCtrl');
 
 router.get('/payment-types', isLoggedIn, getUserPaymentTypes);
 module.exports = router;

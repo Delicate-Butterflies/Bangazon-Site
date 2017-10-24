@@ -14,7 +14,7 @@ block content
           tr
             td #{product.title}
             td #{product.price}
-            - price += parseFloat(product.price);
+            - price += parseFloat(product.price); //- to calculate the total of the current open order
         tr
           td
             h3 Total:

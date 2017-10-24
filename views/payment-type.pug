@@ -7,6 +7,7 @@ block content
       if(paymentTypes)
         each payment in paymentTypes
           if payment == paymentTypes[0]
+            //- by default select the first in the payment list
             .form-group
               input(type="radio" id=`${payment.id}` name="paymentId" value=`${payment.id}` checked)
               label(for=`${payment.id}`) #{payment.type}
