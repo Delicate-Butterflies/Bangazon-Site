@@ -1,0 +1,7 @@
+extends layout.pug
+block content
+  ul
+    each product in products
+      li= product.title
+    else
+      li No products returned
