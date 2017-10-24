@@ -22,9 +22,12 @@ module.exports.createNewProduct = (req, res, next) => {
   const { Product } = req.app.get('models');
 
   // Validate req.body information
-  req.checkBody('title', 'Title must be alphanumeric.').isAlpha();
+
+  // doesn't allow for spaces commented out for now
+  // req.checkBody('title', 'Title must be alphanumeric.').isAlpha();
   req.checkBody('price', 'Price must be a decimal').isNumeric();
-  req.checkBody('description', 'Description must be alphanumeric').isAlpha();
+  // doesn't allow for spaces commented out for now
+  // req.checkBody('description', 'Description must be alphanumeric').isAlpha();
   req.checkBody('ProductTypeId', 'Product Type must be an integer').isInt();
   req.checkBody('quantity', 'Quantity must be an integer').isInt();
   req.checkBody('pictureUrl', 'ImageURL must be a URL').isURL();
