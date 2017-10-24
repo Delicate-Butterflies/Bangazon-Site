@@ -1,7 +1,21 @@
 extends layout.pug
 block content
-  ul
-    each product in products
-      li= product.title
-    else
-      li No products returned
+  table(class="table")
+    thead
+      tr
+        th(scope="col") ID
+        th(scope="col") Title
+        th(scope="col") Price
+        th(scope="col") Description
+        th(scope="col") Action
+    tbody
+      each product in products
+        tr
+          th(scope="row") #{product.id}
+          td #{product.title}
+          td #{product.price}
+          td #{product.description}
+          td
+            button(type="button" class="btn btn-success") Buy
+      else
+        tr No products returned
