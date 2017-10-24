@@ -23,6 +23,7 @@ module.exports.getProductById = (req, res, next) => {
 				]
 			}).then(sales => {
 				res.render('product-details', { product, sales });
+				// res.json({ product, sales });
 			});
 		})
 		.catch(err => {
