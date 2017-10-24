@@ -1,0 +1,9 @@
+extends layout.pug
+block content
+	h3 #{productType.name}
+	.row
+		//- TODO put these in product cards
+		each product in productType.Products
+			p.col-md-6
+				a(href=`/products/${product.id}`) #{product.title}
+				span  - $#{Number.parseFloat(product.price).toFixed(2)}
