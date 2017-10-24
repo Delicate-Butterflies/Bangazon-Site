@@ -3,10 +3,9 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getOpenOrder, savePaymentType } = require('../controllers/orderCtrl');
+const { getUserPaymentTypes, savePaymentType } = require('../controllers/paymentTypeCtrl');
 
-router.get('/cart', isLoggedIn, getOpenOrder);
-router.post('/add-payment', isLoggedIn, savePaymentType);
+router.get('/payment-types', isLoggedIn, getUserPaymentTypes);
 module.exports = router;
 
 function isLoggedIn(req, res, next) {

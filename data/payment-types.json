@@ -1,1 +1,2802 @@
-[{"customerUserId":199,"type":"Personal Loan Account","accountNumber":"57713097","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-17T12:29:17.563Z"},{"customerUserId":32,"type":"Money Market Account","accountNumber":"90888156","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-18T20:13:02.884Z"},{"customerUserId":45,"type":"Checking Account","accountNumber":"70553439","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-26T23:51:31.522Z"},{"customerUserId":156,"type":"Auto Loan Account","accountNumber":"51611737","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-05T22:35:22.802Z"},{"customerUserId":39,"type":"Credit Card Account","accountNumber":"14199958","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-09T13:00:34.804Z"},{"customerUserId":16,"type":"Auto Loan Account","accountNumber":"85525062","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-09T00:00:41.527Z"},{"customerUserId":124,"type":"Money Market Account","accountNumber":"65352252","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-24T17:37:09.228Z"},{"customerUserId":142,"type":"Auto Loan Account","accountNumber":"41257170","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-24T09:31:37.269Z"},{"customerUserId":32,"type":"Savings Account","accountNumber":"65161249","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-24T20:53:42.582Z"},{"customerUserId":153,"type":"Money Market Account","accountNumber":"95854109","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-10-23T12:16:56.900Z"},{"customerUserId":169,"type":"Personal Loan Account","accountNumber":"32382499","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-23T18:17:46.770Z"},{"customerUserId":48,"type":"Credit Card Account","accountNumber":"33989268","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-07-17T00:47:30.701Z"},{"customerUserId":27,"type":"Auto Loan Account","accountNumber":"17231595","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-25T03:43:17.661Z"},{"customerUserId":199,"type":"Investment Account","accountNumber":"29821810","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-23T21:01:32.693Z"},{"customerUserId":106,"type":"Auto Loan Account","accountNumber":"50191976","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-05T14:25:27.303Z"},{"customerUserId":42,"type":"Investment Account","accountNumber":"90335993","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-13T22:10:14.998Z"},{"customerUserId":131,"type":"Savings Account","accountNumber":"08563052","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-06T14:53:43.123Z"},{"customerUserId":78,"type":"Home Loan Account","accountNumber":"34849474","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-30T08:56:36.355Z"},{"customerUserId":82,"type":"Auto Loan Account","accountNumber":"32927355","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-05T09:56:15.830Z"},{"customerUserId":196,"type":"Credit Card Account","accountNumber":"57034576","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-07T17:14:09.195Z"},{"customerUserId":36,"type":"Investment Account","accountNumber":"26020035","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-26T22:50:07.684Z"},{"customerUserId":130,"type":"Investment Account","accountNumber":"10702049","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-06T22:17:54.645Z"},{"customerUserId":8,"type":"Money Market Account","accountNumber":"47150080","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-26T18:17:49.705Z"},{"customerUserId":137,"type":"Checking Account","accountNumber":"12445041","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-14T19:18:29.978Z"},{"customerUserId":193,"type":"Money Market Account","accountNumber":"53435798","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-10-08T00:34:32.406Z"},{"customerUserId":102,"type":"Personal Loan Account","accountNumber":"21921007","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-17T11:09:48.537Z"},{"customerUserId":52,"type":"Money Market Account","accountNumber":"28672418","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-23T12:12:15.566Z"},{"customerUserId":52,"type":"Personal Loan Account","accountNumber":"09053110","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-09T03:02:19.644Z"},{"customerUserId":28,"type":"Personal Loan Account","accountNumber":"52395917","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-10-16T04:30:16.527Z"},{"customerUserId":9,"type":"Checking Account","accountNumber":"67163270","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-02T05:53:40.854Z"},{"customerUserId":89,"type":"Credit Card Account","accountNumber":"16871083","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-07-02T11:36:16.222Z"},{"customerUserId":102,"type":"Credit Card Account","accountNumber":"80365134","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-09T04:35:56.257Z"},{"customerUserId":106,"type":"Checking Account","accountNumber":"90339491","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-26T12:47:42.975Z"},{"customerUserId":96,"type":"Investment Account","accountNumber":"40517916","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-28T03:23:31.419Z"},{"customerUserId":90,"type":"Credit Card Account","accountNumber":"82972317","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-17T17:43:43.239Z"},{"customerUserId":27,"type":"Investment Account","accountNumber":"56962016","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-13T21:47:14.075Z"},{"customerUserId":46,"type":"Credit Card Account","accountNumber":"11037925","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-10T05:38:29.438Z"},{"customerUserId":70,"type":"Investment Account","accountNumber":"06222708","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-10T08:08:08.415Z"},{"customerUserId":97,"type":"Savings Account","accountNumber":"22366715","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-26T02:08:20.333Z"},{"customerUserId":17,"type":"Money Market Account","accountNumber":"43397748","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-09T14:32:29.416Z"},{"customerUserId":3,"type":"Money Market Account","accountNumber":"82471872","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-17T15:08:33.118Z"},{"customerUserId":89,"type":"Personal Loan Account","accountNumber":"65134935","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-06T19:58:52.740Z"},{"customerUserId":91,"type":"Personal Loan Account","accountNumber":"19978048","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-25T15:58:24.068Z"},{"customerUserId":58,"type":"Home Loan Account","accountNumber":"19628192","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-30T15:40:21.094Z"},{"customerUserId":118,"type":"Personal Loan Account","accountNumber":"44936786","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-07T10:26:11.588Z"},{"customerUserId":95,"type":"Credit Card Account","accountNumber":"00077324","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-06T02:29:24.148Z"},{"customerUserId":200,"type":"Investment Account","accountNumber":"69729099","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-09-14T13:17:58.242Z"},{"customerUserId":50,"type":"Investment Account","accountNumber":"67735773","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-11T21:50:33.910Z"},{"customerUserId":41,"type":"Money Market Account","accountNumber":"03464259","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-21T18:07:19.807Z"},{"customerUserId":116,"type":"Savings Account","accountNumber":"37614427","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-23T14:09:45.638Z"},{"customerUserId":18,"type":"Personal Loan Account","accountNumber":"71480357","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-17T12:42:37.285Z"},{"customerUserId":23,"type":"Investment Account","accountNumber":"27132838","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-28T22:38:13.234Z"},{"customerUserId":142,"type":"Personal Loan Account","accountNumber":"46717620","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-03T01:19:04.648Z"},{"customerUserId":175,"type":"Home Loan Account","accountNumber":"59852135","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-02T05:11:06.002Z"},{"customerUserId":37,"type":"Home Loan Account","accountNumber":"17974867","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-01T06:30:52.738Z"},{"customerUserId":28,"type":"Home Loan Account","accountNumber":"00754062","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-28T01:54:07.124Z"},{"customerUserId":104,"type":"Savings Account","accountNumber":"82508048","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-06T23:02:07.206Z"},{"customerUserId":194,"type":"Credit Card Account","accountNumber":"29103049","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-15T21:51:19.085Z"},{"customerUserId":18,"type":"Savings Account","accountNumber":"09503539","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-23T21:52:03.468Z"},{"customerUserId":100,"type":"Personal Loan Account","accountNumber":"51492924","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-23T09:36:59.350Z"},{"customerUserId":159,"type":"Investment Account","accountNumber":"38580771","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-04T13:52:05.199Z"},{"customerUserId":67,"type":"Personal Loan Account","accountNumber":"60184978","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-09T22:07:32.967Z"},{"customerUserId":29,"type":"Investment Account","accountNumber":"71765155","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-20T06:19:38.320Z"},{"customerUserId":156,"type":"Home Loan Account","accountNumber":"98084712","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-09-22T06:32:41.706Z"},{"customerUserId":72,"type":"Home Loan Account","accountNumber":"07416676","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-18T05:15:41.838Z"},{"customerUserId":75,"type":"Investment Account","accountNumber":"53204080","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-11T06:56:03.540Z"},{"customerUserId":86,"type":"Savings Account","accountNumber":"41358816","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-26T03:50:19.549Z"},{"customerUserId":176,"type":"Money Market Account","accountNumber":"49463863","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-07-04T05:44:58.647Z"},{"customerUserId":101,"type":"Investment Account","accountNumber":"50442194","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-12T00:15:27.372Z"},{"customerUserId":43,"type":"Home Loan Account","accountNumber":"19445906","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-23T06:43:33.353Z"},{"customerUserId":102,"type":"Home Loan Account","accountNumber":"70181445","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-22T16:35:56.141Z"},{"customerUserId":168,"type":"Auto Loan Account","accountNumber":"11170374","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-18T14:46:41.252Z"},{"customerUserId":193,"type":"Investment Account","accountNumber":"66870291","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-21T09:51:29.652Z"},{"customerUserId":123,"type":"Money Market Account","accountNumber":"80067102","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-10-07T06:10:07.359Z"},{"customerUserId":136,"type":"Home Loan Account","accountNumber":"12930890","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-26T08:28:20.060Z"},{"customerUserId":56,"type":"Personal Loan Account","accountNumber":"34236938","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-01T03:19:52.992Z"},{"customerUserId":198,"type":"Investment Account","accountNumber":"77916001","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-07-20T02:34:36.038Z"},{"customerUserId":34,"type":"Investment Account","accountNumber":"83852010","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-22T12:28:31.141Z"},{"customerUserId":106,"type":"Personal Loan Account","accountNumber":"72680031","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-25T23:38:37.224Z"},{"customerUserId":104,"type":"Savings Account","accountNumber":"37449613","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-07T17:34:54.665Z"},{"customerUserId":11,"type":"Investment Account","accountNumber":"18755721","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-17T02:02:12.705Z"},{"customerUserId":13,"type":"Personal Loan Account","accountNumber":"57480218","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-20T00:20:56.700Z"},{"customerUserId":193,"type":"Auto Loan Account","accountNumber":"23899680","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-10-24T23:08:22.820Z"},{"customerUserId":169,"type":"Savings Account","accountNumber":"79734710","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-11T13:18:40.373Z"},{"customerUserId":193,"type":"Home Loan Account","accountNumber":"76675560","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-09T02:30:39.381Z"},{"customerUserId":189,"type":"Checking Account","accountNumber":"64484919","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-06-21T01:31:29.844Z"},{"customerUserId":42,"type":"Credit Card Account","accountNumber":"70577683","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-18T17:53:07.462Z"},{"customerUserId":3,"type":"Savings Account","accountNumber":"62196405","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-04T08:40:36.605Z"},{"customerUserId":114,"type":"Home Loan Account","accountNumber":"96901805","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-14T22:30:41.262Z"},{"customerUserId":167,"type":"Savings Account","accountNumber":"60393525","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-11-18T02:10:56.854Z"},{"customerUserId":44,"type":"Checking Account","accountNumber":"07913382","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-09-17T15:51:45.355Z"},{"customerUserId":154,"type":"Credit Card Account","accountNumber":"09167950","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-24T02:31:14.381Z"},{"customerUserId":195,"type":"Auto Loan Account","accountNumber":"35272420","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-15T06:33:56.219Z"},{"customerUserId":6,"type":"Personal Loan Account","accountNumber":"73862847","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-08-14T14:28:18.833Z"},{"customerUserId":124,"type":"Home Loan Account","accountNumber":"23858824","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-28T06:34:37.147Z"},{"customerUserId":145,"type":"Investment Account","accountNumber":"94938089","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2016-12-04T00:35:48.413Z"},{"customerUserId":144,"type":"Home Loan Account","accountNumber":"22822609","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-21T08:43:49.613Z"},{"customerUserId":168,"type":"Home Loan Account","accountNumber":"05791252","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-02-18T01:59:15.218Z"},{"customerUserId":23,"type":"Auto Loan Account","accountNumber":"49443207","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-22T03:36:06.516Z"},{"customerUserId":149,"type":"Checking Account","accountNumber":"54836705","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-21T04:20:41.456Z"},{"customerUserId":170,"type":"Auto Loan Account","accountNumber":"33712797","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-03-18T17:38:36.104Z"},{"customerUserId":113,"type":"Personal Loan Account","accountNumber":"06154871","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-05-27T13:26:28.451Z"},{"customerUserId":96,"type":"Checking Account","accountNumber":"91791744","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-01-21T23:00:54.400Z"},{"customerUserId":145,"type":"Credit Card Account","accountNumber":"26852492","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-09-12T13:56:34.780Z"},{"customerUserId":99,"type":"Savings Account","accountNumber":"75145475","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-10-08T06:00:20.527Z"},{"customerUserId":19,"type":"Credit Card Account","accountNumber":"29956021","updatedAt":"2017-10-23T20:24:00.040Z","createdAt":"2017-04-09T08:32:56.663Z"},{"customerUserId":64,"type":"Investment Account","accountNumber":"12819896","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-19T05:56:22.396Z"},{"customerUserId":181,"type":"Savings Account","accountNumber":"40105266","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-29T01:21:37.397Z"},{"customerUserId":9,"type":"Money Market Account","accountNumber":"58270953","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-24T06:22:53.830Z"},{"customerUserId":54,"type":"Credit Card Account","accountNumber":"00233608","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-03T18:36:34.351Z"},{"customerUserId":41,"type":"Checking Account","accountNumber":"25801236","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-24T08:08:22.542Z"},{"customerUserId":182,"type":"Investment Account","accountNumber":"29202457","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-18T14:22:05.351Z"},{"customerUserId":96,"type":"Investment Account","accountNumber":"24411079","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-28T08:43:35.789Z"},{"customerUserId":122,"type":"Money Market Account","accountNumber":"33201563","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-27T05:12:12.277Z"},{"customerUserId":17,"type":"Savings Account","accountNumber":"59359432","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-12T23:20:08.243Z"},{"customerUserId":71,"type":"Money Market Account","accountNumber":"33672339","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-06T03:47:03.862Z"},{"customerUserId":156,"type":"Auto Loan Account","accountNumber":"07235311","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-06T14:43:54.371Z"},{"customerUserId":64,"type":"Checking Account","accountNumber":"17046505","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-10T18:06:40.578Z"},{"customerUserId":75,"type":"Money Market Account","accountNumber":"28752267","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-27T21:15:33.371Z"},{"customerUserId":39,"type":"Money Market Account","accountNumber":"53597076","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-13T00:58:00.224Z"},{"customerUserId":39,"type":"Credit Card Account","accountNumber":"88039711","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-05T01:29:12.508Z"},{"customerUserId":79,"type":"Money Market Account","accountNumber":"51927087","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-02T14:56:11.412Z"},{"customerUserId":188,"type":"Personal Loan Account","accountNumber":"99701203","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-25T12:13:14.782Z"},{"customerUserId":30,"type":"Home Loan Account","accountNumber":"55158504","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-03T15:48:59.721Z"},{"customerUserId":122,"type":"Auto Loan Account","accountNumber":"94422983","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-17T09:10:25.778Z"},{"customerUserId":130,"type":"Savings Account","accountNumber":"28659928","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-12T19:49:06.674Z"},{"customerUserId":109,"type":"Investment Account","accountNumber":"06014285","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-16T03:08:46.933Z"},{"customerUserId":154,"type":"Investment Account","accountNumber":"86166415","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-12T11:18:07.703Z"},{"customerUserId":126,"type":"Checking Account","accountNumber":"17798211","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-14T07:10:39.086Z"},{"customerUserId":80,"type":"Home Loan Account","accountNumber":"73489828","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-10T14:06:23.863Z"},{"customerUserId":25,"type":"Checking Account","accountNumber":"90235584","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-07T12:00:44.582Z"},{"customerUserId":155,"type":"Personal Loan Account","accountNumber":"32752570","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-27T04:52:47.904Z"},{"customerUserId":198,"type":"Checking Account","accountNumber":"54225719","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-11T00:02:50.233Z"},{"customerUserId":125,"type":"Credit Card Account","accountNumber":"67245914","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-17T09:53:12.252Z"},{"customerUserId":99,"type":"Personal Loan Account","accountNumber":"42453855","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-06T16:24:39.723Z"},{"customerUserId":105,"type":"Credit Card Account","accountNumber":"24467384","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-18T10:57:37.679Z"},{"customerUserId":39,"type":"Money Market Account","accountNumber":"07069843","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-20T13:59:04.161Z"},{"customerUserId":193,"type":"Personal Loan Account","accountNumber":"06953129","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-12T20:09:25.185Z"},{"customerUserId":45,"type":"Home Loan Account","accountNumber":"03167568","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-09T19:50:07.374Z"},{"customerUserId":137,"type":"Checking Account","accountNumber":"58520540","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-19T04:55:46.914Z"},{"customerUserId":173,"type":"Home Loan Account","accountNumber":"75987298","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-12T13:38:06.873Z"},{"customerUserId":114,"type":"Credit Card Account","accountNumber":"55464862","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-26T10:00:38.357Z"},{"customerUserId":107,"type":"Home Loan Account","accountNumber":"56566927","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-28T16:27:43.766Z"},{"customerUserId":185,"type":"Savings Account","accountNumber":"90117693","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-06T08:18:12.696Z"},{"customerUserId":18,"type":"Auto Loan Account","accountNumber":"11388704","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-20T07:08:03.306Z"},{"customerUserId":29,"type":"Savings Account","accountNumber":"57336416","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-28T13:10:45.366Z"},{"customerUserId":23,"type":"Home Loan Account","accountNumber":"08758538","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-11T02:55:25.221Z"},{"customerUserId":77,"type":"Home Loan Account","accountNumber":"74843071","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-12T08:59:58.464Z"},{"customerUserId":38,"type":"Savings Account","accountNumber":"92994089","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-16T10:23:44.318Z"},{"customerUserId":167,"type":"Savings Account","accountNumber":"64858928","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-19T13:05:14.542Z"},{"customerUserId":74,"type":"Auto Loan Account","accountNumber":"16817467","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-30T12:41:47.114Z"},{"customerUserId":134,"type":"Auto Loan Account","accountNumber":"29855759","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-27T18:35:31.719Z"},{"customerUserId":198,"type":"Credit Card Account","accountNumber":"08422638","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-10T14:49:05.961Z"},{"customerUserId":153,"type":"Money Market Account","accountNumber":"46369628","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-24T12:37:03.892Z"},{"customerUserId":62,"type":"Personal Loan Account","accountNumber":"84642800","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-06T03:05:16.876Z"},{"customerUserId":16,"type":"Savings Account","accountNumber":"08450107","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-18T12:32:03.963Z"},{"customerUserId":198,"type":"Personal Loan Account","accountNumber":"58798097","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-24T22:27:37.461Z"},{"customerUserId":190,"type":"Savings Account","accountNumber":"80882568","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-04T23:26:07.981Z"},{"customerUserId":73,"type":"Personal Loan Account","accountNumber":"36229590","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-05T07:45:30.025Z"},{"customerUserId":83,"type":"Savings Account","accountNumber":"93594745","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-11T03:01:07.413Z"},{"customerUserId":125,"type":"Checking Account","accountNumber":"23748605","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-17T19:19:53.737Z"},{"customerUserId":93,"type":"Money Market Account","accountNumber":"70837901","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-15T07:01:39.190Z"},{"customerUserId":148,"type":"Savings Account","accountNumber":"20217534","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-03T08:07:13.862Z"},{"customerUserId":51,"type":"Checking Account","accountNumber":"28310760","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-02T18:40:51.214Z"},{"customerUserId":4,"type":"Checking Account","accountNumber":"41801263","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-20T09:35:21.389Z"},{"customerUserId":82,"type":"Checking Account","accountNumber":"37779974","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-23T21:28:15.326Z"},{"customerUserId":169,"type":"Personal Loan Account","accountNumber":"99382734","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-24T06:56:33.804Z"},{"customerUserId":43,"type":"Investment Account","accountNumber":"37016256","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-01T16:55:01.118Z"},{"customerUserId":105,"type":"Money Market Account","accountNumber":"03949747","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-06T23:27:14.552Z"},{"customerUserId":127,"type":"Personal Loan Account","accountNumber":"41940102","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-26T17:42:37.586Z"},{"customerUserId":197,"type":"Auto Loan Account","accountNumber":"42624919","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-24T01:57:49.617Z"},{"customerUserId":98,"type":"Checking Account","accountNumber":"21760969","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-25T14:32:58.576Z"},{"customerUserId":170,"type":"Personal Loan Account","accountNumber":"73847553","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-22T04:52:37.126Z"},{"customerUserId":199,"type":"Checking Account","accountNumber":"66934286","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-13T06:54:41.146Z"},{"customerUserId":105,"type":"Checking Account","accountNumber":"90320154","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-20T09:30:36.808Z"},{"customerUserId":169,"type":"Home Loan Account","accountNumber":"24408088","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-29T15:27:18.548Z"},{"customerUserId":165,"type":"Home Loan Account","accountNumber":"86207506","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-16T17:20:08.194Z"},{"customerUserId":31,"type":"Auto Loan Account","accountNumber":"59561025","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-03T09:49:24.550Z"},{"customerUserId":76,"type":"Investment Account","accountNumber":"64664783","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-10T07:12:16.497Z"},{"customerUserId":139,"type":"Investment Account","accountNumber":"48406441","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-13T05:36:37.197Z"},{"customerUserId":154,"type":"Savings Account","accountNumber":"95273540","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-01T09:59:12.190Z"},{"customerUserId":12,"type":"Money Market Account","accountNumber":"65964411","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-11-29T01:13:41.464Z"},{"customerUserId":191,"type":"Investment Account","accountNumber":"41447142","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-30T18:16:43.475Z"},{"customerUserId":13,"type":"Personal Loan Account","accountNumber":"30961268","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-23T09:24:00.847Z"},{"customerUserId":1,"type":"Home Loan Account","accountNumber":"32867666","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-14T02:10:51.434Z"},{"customerUserId":34,"type":"Investment Account","accountNumber":"72925916","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-20T14:09:07.369Z"},{"customerUserId":26,"type":"Investment Account","accountNumber":"10248661","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-08T10:59:11.580Z"},{"customerUserId":89,"type":"Savings Account","accountNumber":"44509353","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-12T00:51:58.630Z"},{"customerUserId":82,"type":"Savings Account","accountNumber":"97792017","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-14T04:00:31.659Z"},{"customerUserId":59,"type":"Personal Loan Account","accountNumber":"74991368","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-31T23:45:44.917Z"},{"customerUserId":38,"type":"Personal Loan Account","accountNumber":"57081963","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-11T14:05:31.496Z"},{"customerUserId":121,"type":"Auto Loan Account","accountNumber":"37533237","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-22T19:14:46.375Z"},{"customerUserId":83,"type":"Savings Account","accountNumber":"10229785","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-17T04:10:33.327Z"},{"customerUserId":78,"type":"Investment Account","accountNumber":"53742181","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-10T16:12:06.005Z"},{"customerUserId":37,"type":"Investment Account","accountNumber":"41268685","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-25T08:12:41.360Z"},{"customerUserId":26,"type":"Home Loan Account","accountNumber":"57653698","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-16T01:08:43.607Z"},{"customerUserId":43,"type":"Checking Account","accountNumber":"04471703","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-28T00:44:07.302Z"},{"customerUserId":27,"type":"Savings Account","accountNumber":"35423861","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-03T08:44:44.825Z"},{"customerUserId":22,"type":"Personal Loan Account","accountNumber":"21687428","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-08T17:24:12.941Z"},{"customerUserId":34,"type":"Credit Card Account","accountNumber":"96701326","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-14T05:36:29.077Z"},{"customerUserId":96,"type":"Investment Account","accountNumber":"80358771","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-29T04:46:42.796Z"},{"customerUserId":128,"type":"Money Market Account","accountNumber":"17723992","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-10T21:45:49.976Z"},{"customerUserId":54,"type":"Auto Loan Account","accountNumber":"70060044","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-01T22:49:21.131Z"},{"customerUserId":60,"type":"Money Market Account","accountNumber":"26349681","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-29T02:52:08.140Z"},{"customerUserId":108,"type":"Home Loan Account","accountNumber":"83142782","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-01T23:22:22.993Z"},{"customerUserId":134,"type":"Personal Loan Account","accountNumber":"91106518","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-02T10:01:42.041Z"},{"customerUserId":151,"type":"Savings Account","accountNumber":"92606639","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-06T18:24:41.633Z"},{"customerUserId":14,"type":"Investment Account","accountNumber":"58041540","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-18T21:14:58.197Z"},{"customerUserId":108,"type":"Investment Account","accountNumber":"78342426","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-29T07:51:40.476Z"},{"customerUserId":157,"type":"Auto Loan Account","accountNumber":"66416941","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-06T23:28:46.194Z"},{"customerUserId":87,"type":"Checking Account","accountNumber":"50196781","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-16T06:58:24.561Z"},{"customerUserId":86,"type":"Money Market Account","accountNumber":"34296696","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-03T06:34:28.192Z"},{"customerUserId":132,"type":"Investment Account","accountNumber":"33483309","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-06T21:11:33.071Z"},{"customerUserId":52,"type":"Investment Account","accountNumber":"53744009","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-15T09:30:14.005Z"},{"customerUserId":191,"type":"Money Market Account","accountNumber":"34102434","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-01T20:05:30.631Z"},{"customerUserId":23,"type":"Home Loan Account","accountNumber":"99422597","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-24T18:05:12.792Z"},{"customerUserId":82,"type":"Credit Card Account","accountNumber":"95890704","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-10-17T20:46:39.384Z"},{"customerUserId":28,"type":"Credit Card Account","accountNumber":"63301883","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-09T03:27:01.993Z"},{"customerUserId":129,"type":"Credit Card Account","accountNumber":"58034589","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-11T20:07:20.245Z"},{"customerUserId":151,"type":"Investment Account","accountNumber":"14317563","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-09T20:35:58.422Z"},{"customerUserId":88,"type":"Investment Account","accountNumber":"11887904","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-20T18:00:37.290Z"},{"customerUserId":163,"type":"Checking Account","accountNumber":"36671132","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-18T01:39:28.162Z"},{"customerUserId":46,"type":"Checking Account","accountNumber":"21694243","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-03-25T05:33:15.902Z"},{"customerUserId":191,"type":"Auto Loan Account","accountNumber":"62818780","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-08-30T00:18:00.087Z"},{"customerUserId":79,"type":"Personal Loan Account","accountNumber":"99749023","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-11T08:54:26.589Z"},{"customerUserId":31,"type":"Personal Loan Account","accountNumber":"27481218","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-05-26T12:13:38.823Z"},{"customerUserId":148,"type":"Investment Account","accountNumber":"91607419","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-08T07:15:51.442Z"},{"customerUserId":98,"type":"Auto Loan Account","accountNumber":"27148187","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-19T21:26:47.324Z"},{"customerUserId":40,"type":"Credit Card Account","accountNumber":"21282991","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-02-16T20:14:37.867Z"},{"customerUserId":103,"type":"Investment Account","accountNumber":"33321028","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-10T04:10:09.068Z"},{"customerUserId":179,"type":"Checking Account","accountNumber":"15974121","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-30T10:52:44.246Z"},{"customerUserId":184,"type":"Home Loan Account","accountNumber":"12363324","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-10-25T21:14:23.209Z"},{"customerUserId":175,"type":"Savings Account","accountNumber":"74075102","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-16T05:42:23.612Z"},{"customerUserId":139,"type":"Investment Account","accountNumber":"61865501","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-23T23:39:20.776Z"},{"customerUserId":17,"type":"Money Market Account","accountNumber":"08415196","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-28T06:18:59.114Z"},{"customerUserId":195,"type":"Home Loan Account","accountNumber":"43350272","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-13T00:22:01.069Z"},{"customerUserId":56,"type":"Investment Account","accountNumber":"18958860","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-01-09T05:00:17.273Z"},{"customerUserId":107,"type":"Credit Card Account","accountNumber":"83290368","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-01T06:43:33.911Z"},{"customerUserId":108,"type":"Money Market Account","accountNumber":"64683839","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2016-12-05T21:52:17.450Z"},{"customerUserId":18,"type":"Auto Loan Account","accountNumber":"65102792","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-14T06:11:49.447Z"},{"customerUserId":40,"type":"Checking Account","accountNumber":"44653573","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-07T11:43:07.166Z"},{"customerUserId":161,"type":"Savings Account","accountNumber":"30854998","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-06-06T02:18:36.139Z"},{"customerUserId":158,"type":"Checking Account","accountNumber":"63336315","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-05T09:11:28.831Z"},{"customerUserId":139,"type":"Credit Card Account","accountNumber":"74686423","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-09-29T02:05:34.217Z"},{"customerUserId":23,"type":"Investment Account","accountNumber":"74327349","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-04-06T15:24:44.937Z"},{"customerUserId":172,"type":"Personal Loan Account","accountNumber":"65623178","updatedAt":"2017-10-23T20:24:00.042Z","createdAt":"2017-07-18T13:12:16.615Z"},{"customerUserId":185,"type":"Personal Loan Account","accountNumber":"42119961","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-14T11:12:29.531Z"},{"customerUserId":51,"type":"Home Loan Account","accountNumber":"67760449","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-19T01:44:04.038Z"},{"customerUserId":79,"type":"Credit Card Account","accountNumber":"44339146","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-19T17:26:06.591Z"},{"customerUserId":130,"type":"Savings Account","accountNumber":"01836134","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-02T07:00:51.799Z"},{"customerUserId":23,"type":"Checking Account","accountNumber":"55659199","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-06T07:50:14.090Z"},{"customerUserId":174,"type":"Home Loan Account","accountNumber":"33817831","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-18T22:33:49.540Z"},{"customerUserId":76,"type":"Personal Loan Account","accountNumber":"16415324","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-27T02:49:47.783Z"},{"customerUserId":127,"type":"Auto Loan Account","accountNumber":"22823709","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-29T06:51:51.960Z"},{"customerUserId":172,"type":"Checking Account","accountNumber":"80657904","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-22T03:31:21.973Z"},{"customerUserId":194,"type":"Money Market Account","accountNumber":"09704262","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-30T15:43:41.192Z"},{"customerUserId":152,"type":"Money Market Account","accountNumber":"32559898","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-05T20:09:14.573Z"},{"customerUserId":154,"type":"Checking Account","accountNumber":"40783550","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-09T13:55:57.746Z"},{"customerUserId":200,"type":"Savings Account","accountNumber":"88801269","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-20T04:58:13.930Z"},{"customerUserId":184,"type":"Investment Account","accountNumber":"92156696","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-09T17:58:59.568Z"},{"customerUserId":173,"type":"Savings Account","accountNumber":"99266823","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-12T17:40:59.680Z"},{"customerUserId":177,"type":"Money Market Account","accountNumber":"77833097","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-08T03:21:03.365Z"},{"customerUserId":186,"type":"Home Loan Account","accountNumber":"36330673","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-06T08:17:07.251Z"},{"customerUserId":29,"type":"Savings Account","accountNumber":"14015703","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-10-08T03:52:32.921Z"},{"customerUserId":73,"type":"Credit Card Account","accountNumber":"35534045","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-02T17:55:00.931Z"},{"customerUserId":59,"type":"Checking Account","accountNumber":"35797945","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-08T13:42:42.893Z"},{"customerUserId":99,"type":"Auto Loan Account","accountNumber":"62557424","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-12T02:24:09.027Z"},{"customerUserId":140,"type":"Auto Loan Account","accountNumber":"07902557","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-25T15:20:36.153Z"},{"customerUserId":75,"type":"Home Loan Account","accountNumber":"42456204","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-26T16:53:48.146Z"},{"customerUserId":150,"type":"Auto Loan Account","accountNumber":"06595405","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-16T14:49:55.227Z"},{"customerUserId":57,"type":"Checking Account","accountNumber":"75806284","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-02T06:13:12.655Z"},{"customerUserId":157,"type":"Credit Card Account","accountNumber":"14826161","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-24T03:53:18.614Z"},{"customerUserId":131,"type":"Auto Loan Account","accountNumber":"33504971","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-10T02:18:02.305Z"},{"customerUserId":179,"type":"Investment Account","accountNumber":"83307131","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-08T02:37:13.609Z"},{"customerUserId":120,"type":"Investment Account","accountNumber":"92935460","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-20T16:56:13.902Z"},{"customerUserId":88,"type":"Savings Account","accountNumber":"84432444","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-10T00:30:07.614Z"},{"customerUserId":23,"type":"Home Loan Account","accountNumber":"87776522","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-22T19:20:17.507Z"},{"customerUserId":193,"type":"Savings Account","accountNumber":"35419235","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-04T22:44:22.727Z"},{"customerUserId":176,"type":"Auto Loan Account","accountNumber":"77799752","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-17T01:41:28.953Z"},{"customerUserId":24,"type":"Money Market Account","accountNumber":"34373844","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-07T22:24:33.558Z"},{"customerUserId":144,"type":"Credit Card Account","accountNumber":"31446075","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-10-12T22:16:08.104Z"},{"customerUserId":114,"type":"Checking Account","accountNumber":"04366941","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-06T21:12:24.806Z"},{"customerUserId":191,"type":"Checking Account","accountNumber":"65765297","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-28T06:33:51.913Z"},{"customerUserId":168,"type":"Home Loan Account","accountNumber":"39462270","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-06T02:37:32.009Z"},{"customerUserId":173,"type":"Credit Card Account","accountNumber":"49646263","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-23T04:00:04.407Z"},{"customerUserId":130,"type":"Investment Account","accountNumber":"24946457","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-17T08:06:50.999Z"},{"customerUserId":27,"type":"Home Loan Account","accountNumber":"65852067","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-26T18:20:43.191Z"},{"customerUserId":7,"type":"Investment Account","accountNumber":"61544391","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-22T06:13:10.406Z"},{"customerUserId":86,"type":"Credit Card Account","accountNumber":"45379223","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-03T11:48:32.543Z"},{"customerUserId":187,"type":"Savings Account","accountNumber":"99071422","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-04T15:43:38.657Z"},{"customerUserId":63,"type":"Credit Card Account","accountNumber":"69684543","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-14T18:11:35.144Z"},{"customerUserId":81,"type":"Personal Loan Account","accountNumber":"76646227","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-27T16:29:18.492Z"},{"customerUserId":45,"type":"Savings Account","accountNumber":"49842691","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-05T18:18:05.058Z"},{"customerUserId":9,"type":"Money Market Account","accountNumber":"59718656","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-22T11:29:15.021Z"},{"customerUserId":121,"type":"Savings Account","accountNumber":"83871726","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-27T09:23:11.710Z"},{"customerUserId":157,"type":"Money Market Account","accountNumber":"63995849","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-12T07:19:08.584Z"},{"customerUserId":87,"type":"Personal Loan Account","accountNumber":"69294004","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-19T07:16:42.763Z"},{"customerUserId":185,"type":"Home Loan Account","accountNumber":"98306146","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-05T14:21:46.473Z"},{"customerUserId":57,"type":"Savings Account","accountNumber":"77124358","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-08T11:30:28.355Z"},{"customerUserId":162,"type":"Home Loan Account","accountNumber":"49593061","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-06T03:24:11.806Z"},{"customerUserId":178,"type":"Savings Account","accountNumber":"78950015","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-12T07:28:56.638Z"},{"customerUserId":87,"type":"Credit Card Account","accountNumber":"81560718","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-26T14:07:28.116Z"},{"customerUserId":142,"type":"Credit Card Account","accountNumber":"72894080","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-22T16:24:48.535Z"},{"customerUserId":48,"type":"Personal Loan Account","accountNumber":"55598710","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-16T00:11:43.414Z"},{"customerUserId":110,"type":"Auto Loan Account","accountNumber":"04769966","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-02T20:16:38.614Z"},{"customerUserId":146,"type":"Investment Account","accountNumber":"59758879","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-29T23:53:40.591Z"},{"customerUserId":111,"type":"Investment Account","accountNumber":"52595147","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-20T17:03:25.618Z"},{"customerUserId":58,"type":"Home Loan Account","accountNumber":"06873709","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-11T02:55:52.832Z"},{"customerUserId":54,"type":"Checking Account","accountNumber":"77823783","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-02T20:56:41.175Z"},{"customerUserId":17,"type":"Savings Account","accountNumber":"55167781","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-06T22:12:16.069Z"},{"customerUserId":78,"type":"Checking Account","accountNumber":"14481209","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-04T11:48:21.804Z"},{"customerUserId":108,"type":"Auto Loan Account","accountNumber":"16941702","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-05T20:22:17.830Z"},{"customerUserId":153,"type":"Personal Loan Account","accountNumber":"32667378","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-26T10:18:17.739Z"},{"customerUserId":50,"type":"Money Market Account","accountNumber":"89735643","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-18T22:28:15.985Z"},{"customerUserId":111,"type":"Savings Account","accountNumber":"96480167","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-13T16:07:02.364Z"},{"customerUserId":109,"type":"Money Market Account","accountNumber":"11299063","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-27T19:16:01.809Z"},{"customerUserId":163,"type":"Savings Account","accountNumber":"29197263","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-01T06:34:19.745Z"},{"customerUserId":114,"type":"Personal Loan Account","accountNumber":"63776403","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-11T05:56:30.326Z"},{"customerUserId":86,"type":"Auto Loan Account","accountNumber":"00043726","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-29T18:49:07.119Z"},{"customerUserId":155,"type":"Savings Account","accountNumber":"16804762","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-07T02:40:22.770Z"},{"customerUserId":55,"type":"Savings Account","accountNumber":"21181693","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-03T01:43:19.088Z"},{"customerUserId":111,"type":"Money Market Account","accountNumber":"86464156","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-03T13:12:04.512Z"},{"customerUserId":182,"type":"Investment Account","accountNumber":"23951564","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-11T11:22:57.815Z"},{"customerUserId":179,"type":"Credit Card Account","accountNumber":"58440078","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-01-29T14:04:19.887Z"},{"customerUserId":196,"type":"Investment Account","accountNumber":"42254293","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-25T10:30:38.667Z"},{"customerUserId":109,"type":"Investment Account","accountNumber":"47768592","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-20T02:26:42.349Z"},{"customerUserId":45,"type":"Checking Account","accountNumber":"32690711","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-18T10:55:13.350Z"},{"customerUserId":178,"type":"Savings Account","accountNumber":"53100670","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-15T11:13:52.266Z"},{"customerUserId":17,"type":"Investment Account","accountNumber":"96105657","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-21T19:30:53.131Z"},{"customerUserId":124,"type":"Credit Card Account","accountNumber":"52761982","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-31T23:44:31.085Z"},{"customerUserId":3,"type":"Investment Account","accountNumber":"20587789","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-12-25T10:17:12.884Z"},{"customerUserId":144,"type":"Credit Card Account","accountNumber":"00926056","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-10T14:04:51.628Z"},{"customerUserId":45,"type":"Checking Account","accountNumber":"39476559","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-08T01:08:52.326Z"},{"customerUserId":147,"type":"Credit Card Account","accountNumber":"78517551","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-17T23:10:47.497Z"},{"customerUserId":46,"type":"Money Market Account","accountNumber":"46944853","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-10-18T16:59:10.434Z"},{"customerUserId":136,"type":"Money Market Account","accountNumber":"85944850","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-07T08:45:22.993Z"},{"customerUserId":24,"type":"Personal Loan Account","accountNumber":"32713284","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-24T16:31:09.590Z"},{"customerUserId":147,"type":"Credit Card Account","accountNumber":"04633397","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-29T18:09:41.305Z"},{"customerUserId":163,"type":"Home Loan Account","accountNumber":"74327858","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-28T17:36:06.320Z"},{"customerUserId":159,"type":"Savings Account","accountNumber":"74196450","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-10-28T10:56:55.853Z"},{"customerUserId":190,"type":"Investment Account","accountNumber":"41842184","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-04-07T05:08:59.760Z"},{"customerUserId":151,"type":"Credit Card Account","accountNumber":"06725761","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-10-05T11:01:56.870Z"},{"customerUserId":189,"type":"Credit Card Account","accountNumber":"88944928","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-03T09:10:30.216Z"},{"customerUserId":128,"type":"Checking Account","accountNumber":"29463534","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-10-17T22:54:01.486Z"},{"customerUserId":93,"type":"Credit Card Account","accountNumber":"42578621","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-18T03:01:16.186Z"},{"customerUserId":11,"type":"Investment Account","accountNumber":"19989640","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-06-03T15:12:13.307Z"},{"customerUserId":49,"type":"Auto Loan Account","accountNumber":"47004010","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-08-02T20:29:13.502Z"},{"customerUserId":108,"type":"Personal Loan Account","accountNumber":"76021179","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-08T09:04:31.550Z"},{"customerUserId":70,"type":"Investment Account","accountNumber":"40318032","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-17T05:23:05.115Z"},{"customerUserId":84,"type":"Checking Account","accountNumber":"49196753","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-05-05T08:48:28.187Z"},{"customerUserId":124,"type":"Investment Account","accountNumber":"96706441","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-02-05T21:30:34.496Z"},{"customerUserId":91,"type":"Savings Account","accountNumber":"36960251","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2016-11-07T16:52:01.100Z"},{"customerUserId":163,"type":"Money Market Account","accountNumber":"89560212","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-20T02:37:53.262Z"},{"customerUserId":35,"type":"Home Loan Account","accountNumber":"88818289","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-07-01T13:07:24.294Z"},{"customerUserId":4,"type":"Money Market Account","accountNumber":"49698530","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-02T04:54:10.491Z"},{"customerUserId":75,"type":"Home Loan Account","accountNumber":"76673190","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-03-29T10:24:28.329Z"},{"customerUserId":197,"type":"Checking Account","accountNumber":"58049562","updatedAt":"2017-10-23T20:24:00.043Z","createdAt":"2017-09-14T08:10:14.913Z"},{"customerUserId":175,"type":"Credit Card Account","accountNumber":"03336214","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-10-12T19:46:39.741Z"},{"customerUserId":129,"type":"Personal Loan Account","accountNumber":"11120693","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-06-29T03:54:58.027Z"},{"customerUserId":10,"type":"Credit Card Account","accountNumber":"76272588","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-06-26T01:44:26.159Z"},{"customerUserId":107,"type":"Auto Loan Account","accountNumber":"65676007","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-03-31T00:12:36.071Z"},{"customerUserId":153,"type":"Investment Account","accountNumber":"48654758","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-04T17:29:10.664Z"},{"customerUserId":46,"type":"Personal Loan Account","accountNumber":"86656602","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-10-28T22:13:52.650Z"},{"customerUserId":140,"type":"Savings Account","accountNumber":"37076276","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-03-09T01:12:21.395Z"},{"customerUserId":162,"type":"Home Loan Account","accountNumber":"97896984","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-02-15T22:13:54.532Z"},{"customerUserId":192,"type":"Home Loan Account","accountNumber":"09613551","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-01-21T00:15:56.877Z"},{"customerUserId":106,"type":"Investment Account","accountNumber":"76456414","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-07-02T16:06:17.211Z"},{"customerUserId":40,"type":"Home Loan Account","accountNumber":"98527281","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-11-27T03:34:13.075Z"},{"customerUserId":47,"type":"Savings Account","accountNumber":"49666810","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-08-04T07:36:51.091Z"},{"customerUserId":155,"type":"Savings Account","accountNumber":"47075575","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-02-18T03:35:48.793Z"},{"customerUserId":163,"type":"Personal Loan Account","accountNumber":"40394698","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-10-05T04:31:48.655Z"},{"customerUserId":44,"type":"Home Loan Account","accountNumber":"84282882","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-07-10T09:19:20.793Z"},{"customerUserId":80,"type":"Personal Loan Account","accountNumber":"60937840","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-02-03T22:48:56.621Z"},{"customerUserId":183,"type":"Checking Account","accountNumber":"56395120","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-11-13T01:16:03.955Z"},{"customerUserId":15,"type":"Investment Account","accountNumber":"13767117","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-08-24T00:37:05.375Z"},{"customerUserId":185,"type":"Checking Account","accountNumber":"56033094","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-08-07T03:47:45.526Z"},{"customerUserId":33,"type":"Home Loan Account","accountNumber":"16501472","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-04-02T13:48:40.307Z"},{"customerUserId":164,"type":"Home Loan Account","accountNumber":"00710084","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-11-21T12:23:49.506Z"},{"customerUserId":68,"type":"Checking Account","accountNumber":"77291443","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-08-20T12:59:47.500Z"},{"customerUserId":122,"type":"Personal Loan Account","accountNumber":"14663337","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-11-20T06:59:24.591Z"},{"customerUserId":170,"type":"Auto Loan Account","accountNumber":"67280335","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-03-14T04:01:36.334Z"},{"customerUserId":136,"type":"Investment Account","accountNumber":"74221609","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-07-30T05:54:20.029Z"},{"customerUserId":19,"type":"Money Market Account","accountNumber":"50815466","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-21T07:48:18.868Z"},{"customerUserId":165,"type":"Auto Loan Account","accountNumber":"80373667","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-03-24T02:02:59.235Z"},{"customerUserId":166,"type":"Home Loan Account","accountNumber":"02634005","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-12-07T08:40:19.520Z"},{"customerUserId":147,"type":"Investment Account","accountNumber":"05467292","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-12-07T20:53:27.286Z"},{"customerUserId":178,"type":"Investment Account","accountNumber":"02909332","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-07-05T09:07:18.957Z"},{"customerUserId":175,"type":"Home Loan Account","accountNumber":"81177847","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-03-11T09:57:30.217Z"},{"customerUserId":191,"type":"Money Market Account","accountNumber":"77369165","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-02-28T07:44:11.904Z"},{"customerUserId":177,"type":"Money Market Account","accountNumber":"41733219","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-11-25T03:33:51.276Z"},{"customerUserId":200,"type":"Personal Loan Account","accountNumber":"35273947","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-10-07T17:09:15.517Z"},{"customerUserId":156,"type":"Investment Account","accountNumber":"22392216","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-02-07T04:19:26.937Z"},{"customerUserId":6,"type":"Savings Account","accountNumber":"16483332","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-01-08T20:26:59.806Z"},{"customerUserId":15,"type":"Money Market Account","accountNumber":"14818875","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-26T08:07:49.231Z"},{"customerUserId":116,"type":"Auto Loan Account","accountNumber":"76588370","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2016-12-24T00:23:27.369Z"},{"customerUserId":38,"type":"Checking Account","accountNumber":"62961555","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-11T03:10:06.223Z"},{"customerUserId":141,"type":"Investment Account","accountNumber":"78469892","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-01-06T16:30:16.054Z"},{"customerUserId":4,"type":"Money Market Account","accountNumber":"67348085","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-01T15:51:39.713Z"},{"customerUserId":155,"type":"Home Loan Account","accountNumber":"75929850","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-09-14T01:26:59.142Z"},{"customerUserId":67,"type":"Savings Account","accountNumber":"27292419","updatedAt":"2017-10-23T20:24:00.044Z","createdAt":"2017-04-10T13:38:05.746Z"}]
+[
+  {
+    "customerUserId": 199,
+    "type": "Personal Loan Account",
+    "accountNumber": "57713097",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-17T12:29:17.563Z"
+  },
+  {
+    "customerUserId": 32,
+    "type": "Money Market Account",
+    "accountNumber": "90888156",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-18T20:13:02.884Z"
+  },
+  {
+    "customerUserId": 45,
+    "type": "Checking Account",
+    "accountNumber": "70553439",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-26T23:51:31.522Z"
+  },
+  {
+    "customerUserId": 156,
+    "type": "Auto Loan Account",
+    "accountNumber": "51611737",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-05T22:35:22.802Z"
+  },
+  {
+    "customerUserId": 39,
+    "type": "Credit Card Account",
+    "accountNumber": "14199958",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-09T13:00:34.804Z"
+  },
+  {
+    "customerUserId": 16,
+    "type": "Auto Loan Account",
+    "accountNumber": "85525062",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-09T00:00:41.527Z"
+  },
+  {
+    "customerUserId": 124,
+    "type": "Money Market Account",
+    "accountNumber": "65352252",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-24T17:37:09.228Z"
+  },
+  {
+    "customerUserId": 142,
+    "type": "Auto Loan Account",
+    "accountNumber": "41257170",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-24T09:31:37.269Z"
+  },
+  {
+    "customerUserId": 32,
+    "type": "Savings Account",
+    "accountNumber": "65161249",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-24T20:53:42.582Z"
+  },
+  {
+    "customerUserId": 153,
+    "type": "Money Market Account",
+    "accountNumber": "95854109",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-10-23T12:16:56.900Z"
+  },
+  {
+    "customerUserId": 169,
+    "type": "Personal Loan Account",
+    "accountNumber": "32382499",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-23T18:17:46.770Z"
+  },
+  {
+    "customerUserId": 48,
+    "type": "Credit Card Account",
+    "accountNumber": "33989268",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-07-17T00:47:30.701Z"
+  },
+  {
+    "customerUserId": 27,
+    "type": "Auto Loan Account",
+    "accountNumber": "17231595",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-25T03:43:17.661Z"
+  },
+  {
+    "customerUserId": 199,
+    "type": "Investment Account",
+    "accountNumber": "29821810",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-23T21:01:32.693Z"
+  },
+  {
+    "customerUserId": 106,
+    "type": "Auto Loan Account",
+    "accountNumber": "50191976",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-05T14:25:27.303Z"
+  },
+  {
+    "customerUserId": 42,
+    "type": "Investment Account",
+    "accountNumber": "90335993",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-13T22:10:14.998Z"
+  },
+  {
+    "customerUserId": 131,
+    "type": "Savings Account",
+    "accountNumber": "08563052",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-06T14:53:43.123Z"
+  },
+  {
+    "customerUserId": 78,
+    "type": "Home Loan Account",
+    "accountNumber": "34849474",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-30T08:56:36.355Z"
+  },
+  {
+    "customerUserId": 82,
+    "type": "Auto Loan Account",
+    "accountNumber": "32927355",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-05T09:56:15.830Z"
+  },
+  {
+    "customerUserId": 196,
+    "type": "Credit Card Account",
+    "accountNumber": "57034576",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-07T17:14:09.195Z"
+  },
+  {
+    "customerUserId": 36,
+    "type": "Investment Account",
+    "accountNumber": "26020035",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-26T22:50:07.684Z"
+  },
+  {
+    "customerUserId": 130,
+    "type": "Investment Account",
+    "accountNumber": "10702049",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-06T22:17:54.645Z"
+  },
+  {
+    "customerUserId": 8,
+    "type": "Money Market Account",
+    "accountNumber": "47150080",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-26T18:17:49.705Z"
+  },
+  {
+    "customerUserId": 137,
+    "type": "Checking Account",
+    "accountNumber": "12445041",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-14T19:18:29.978Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Money Market Account",
+    "accountNumber": "53435798",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-10-08T00:34:32.406Z"
+  },
+  {
+    "customerUserId": 102,
+    "type": "Personal Loan Account",
+    "accountNumber": "21921007",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-17T11:09:48.537Z"
+  },
+  {
+    "customerUserId": 52,
+    "type": "Money Market Account",
+    "accountNumber": "28672418",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-23T12:12:15.566Z"
+  },
+  {
+    "customerUserId": 52,
+    "type": "Personal Loan Account",
+    "accountNumber": "09053110",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-09T03:02:19.644Z"
+  },
+  {
+    "customerUserId": 28,
+    "type": "Personal Loan Account",
+    "accountNumber": "52395917",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-10-16T04:30:16.527Z"
+  },
+  {
+    "customerUserId": 9,
+    "type": "Checking Account",
+    "accountNumber": "67163270",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-02T05:53:40.854Z"
+  },
+  {
+    "customerUserId": 89,
+    "type": "Credit Card Account",
+    "accountNumber": "16871083",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-07-02T11:36:16.222Z"
+  },
+  {
+    "customerUserId": 102,
+    "type": "Credit Card Account",
+    "accountNumber": "80365134",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-09T04:35:56.257Z"
+  },
+  {
+    "customerUserId": 106,
+    "type": "Checking Account",
+    "accountNumber": "90339491",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-26T12:47:42.975Z"
+  },
+  {
+    "customerUserId": 96,
+    "type": "Investment Account",
+    "accountNumber": "40517916",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-28T03:23:31.419Z"
+  },
+  {
+    "customerUserId": 90,
+    "type": "Credit Card Account",
+    "accountNumber": "82972317",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-17T17:43:43.239Z"
+  },
+  {
+    "customerUserId": 27,
+    "type": "Investment Account",
+    "accountNumber": "56962016",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-13T21:47:14.075Z"
+  },
+  {
+    "customerUserId": 46,
+    "type": "Credit Card Account",
+    "accountNumber": "11037925",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-10T05:38:29.438Z"
+  },
+  {
+    "customerUserId": 70,
+    "type": "Investment Account",
+    "accountNumber": "06222708",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-10T08:08:08.415Z"
+  },
+  {
+    "customerUserId": 97,
+    "type": "Savings Account",
+    "accountNumber": "22366715",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-26T02:08:20.333Z"
+  },
+  {
+    "customerUserId": 17,
+    "type": "Money Market Account",
+    "accountNumber": "43397748",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-09T14:32:29.416Z"
+  },
+  {
+    "customerUserId": 3,
+    "type": "Money Market Account",
+    "accountNumber": "82471872",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-17T15:08:33.118Z"
+  },
+  {
+    "customerUserId": 89,
+    "type": "Personal Loan Account",
+    "accountNumber": "65134935",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-06T19:58:52.740Z"
+  },
+  {
+    "customerUserId": 91,
+    "type": "Personal Loan Account",
+    "accountNumber": "19978048",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-25T15:58:24.068Z"
+  },
+  {
+    "customerUserId": 58,
+    "type": "Home Loan Account",
+    "accountNumber": "19628192",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-30T15:40:21.094Z"
+  },
+  {
+    "customerUserId": 118,
+    "type": "Personal Loan Account",
+    "accountNumber": "44936786",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-07T10:26:11.588Z"
+  },
+  {
+    "customerUserId": 95,
+    "type": "Credit Card Account",
+    "accountNumber": "00077324",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-06T02:29:24.148Z"
+  },
+  {
+    "customerUserId": 200,
+    "type": "Investment Account",
+    "accountNumber": "69729099",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-09-14T13:17:58.242Z"
+  },
+  {
+    "customerUserId": 50,
+    "type": "Investment Account",
+    "accountNumber": "67735773",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-11T21:50:33.910Z"
+  },
+  {
+    "customerUserId": 41,
+    "type": "Money Market Account",
+    "accountNumber": "03464259",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-21T18:07:19.807Z"
+  },
+  {
+    "customerUserId": 116,
+    "type": "Savings Account",
+    "accountNumber": "37614427",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-23T14:09:45.638Z"
+  },
+  {
+    "customerUserId": 18,
+    "type": "Personal Loan Account",
+    "accountNumber": "71480357",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-17T12:42:37.285Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Investment Account",
+    "accountNumber": "27132838",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-28T22:38:13.234Z"
+  },
+  {
+    "customerUserId": 142,
+    "type": "Personal Loan Account",
+    "accountNumber": "46717620",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-03T01:19:04.648Z"
+  },
+  {
+    "customerUserId": 175,
+    "type": "Home Loan Account",
+    "accountNumber": "59852135",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-02T05:11:06.002Z"
+  },
+  {
+    "customerUserId": 37,
+    "type": "Home Loan Account",
+    "accountNumber": "17974867",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-01T06:30:52.738Z"
+  },
+  {
+    "customerUserId": 28,
+    "type": "Home Loan Account",
+    "accountNumber": "00754062",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-28T01:54:07.124Z"
+  },
+  {
+    "customerUserId": 104,
+    "type": "Savings Account",
+    "accountNumber": "82508048",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-06T23:02:07.206Z"
+  },
+  {
+    "customerUserId": 194,
+    "type": "Credit Card Account",
+    "accountNumber": "29103049",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-15T21:51:19.085Z"
+  },
+  {
+    "customerUserId": 18,
+    "type": "Savings Account",
+    "accountNumber": "09503539",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-23T21:52:03.468Z"
+  },
+  {
+    "customerUserId": 100,
+    "type": "Personal Loan Account",
+    "accountNumber": "51492924",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-23T09:36:59.350Z"
+  },
+  {
+    "customerUserId": 159,
+    "type": "Investment Account",
+    "accountNumber": "38580771",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-04T13:52:05.199Z"
+  },
+  {
+    "customerUserId": 67,
+    "type": "Personal Loan Account",
+    "accountNumber": "60184978",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-09T22:07:32.967Z"
+  },
+  {
+    "customerUserId": 29,
+    "type": "Investment Account",
+    "accountNumber": "71765155",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-20T06:19:38.320Z"
+  },
+  {
+    "customerUserId": 156,
+    "type": "Home Loan Account",
+    "accountNumber": "98084712",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-09-22T06:32:41.706Z"
+  },
+  {
+    "customerUserId": 72,
+    "type": "Home Loan Account",
+    "accountNumber": "07416676",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-18T05:15:41.838Z"
+  },
+  {
+    "customerUserId": 75,
+    "type": "Investment Account",
+    "accountNumber": "53204080",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-11T06:56:03.540Z"
+  },
+  {
+    "customerUserId": 86,
+    "type": "Savings Account",
+    "accountNumber": "41358816",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-26T03:50:19.549Z"
+  },
+  {
+    "customerUserId": 176,
+    "type": "Money Market Account",
+    "accountNumber": "49463863",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-07-04T05:44:58.647Z"
+  },
+  {
+    "customerUserId": 101,
+    "type": "Investment Account",
+    "accountNumber": "50442194",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-12T00:15:27.372Z"
+  },
+  {
+    "customerUserId": 43,
+    "type": "Home Loan Account",
+    "accountNumber": "19445906",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-23T06:43:33.353Z"
+  },
+  {
+    "customerUserId": 102,
+    "type": "Home Loan Account",
+    "accountNumber": "70181445",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-22T16:35:56.141Z"
+  },
+  {
+    "customerUserId": 168,
+    "type": "Auto Loan Account",
+    "accountNumber": "11170374",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-18T14:46:41.252Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Investment Account",
+    "accountNumber": "66870291",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-21T09:51:29.652Z"
+  },
+  {
+    "customerUserId": 123,
+    "type": "Money Market Account",
+    "accountNumber": "80067102",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-10-07T06:10:07.359Z"
+  },
+  {
+    "customerUserId": 136,
+    "type": "Home Loan Account",
+    "accountNumber": "12930890",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-26T08:28:20.060Z"
+  },
+  {
+    "customerUserId": 56,
+    "type": "Personal Loan Account",
+    "accountNumber": "34236938",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-01T03:19:52.992Z"
+  },
+  {
+    "customerUserId": 198,
+    "type": "Investment Account",
+    "accountNumber": "77916001",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-07-20T02:34:36.038Z"
+  },
+  {
+    "customerUserId": 34,
+    "type": "Investment Account",
+    "accountNumber": "83852010",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-22T12:28:31.141Z"
+  },
+  {
+    "customerUserId": 106,
+    "type": "Personal Loan Account",
+    "accountNumber": "72680031",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-25T23:38:37.224Z"
+  },
+  {
+    "customerUserId": 104,
+    "type": "Savings Account",
+    "accountNumber": "37449613",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-07T17:34:54.665Z"
+  },
+  {
+    "customerUserId": 11,
+    "type": "Investment Account",
+    "accountNumber": "18755721",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-17T02:02:12.705Z"
+  },
+  {
+    "customerUserId": 13,
+    "type": "Personal Loan Account",
+    "accountNumber": "57480218",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-20T00:20:56.700Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Auto Loan Account",
+    "accountNumber": "23899680",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-10-24T23:08:22.820Z"
+  },
+  {
+    "customerUserId": 169,
+    "type": "Savings Account",
+    "accountNumber": "79734710",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-11T13:18:40.373Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Home Loan Account",
+    "accountNumber": "76675560",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-09T02:30:39.381Z"
+  },
+  {
+    "customerUserId": 189,
+    "type": "Checking Account",
+    "accountNumber": "64484919",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-06-21T01:31:29.844Z"
+  },
+  {
+    "customerUserId": 42,
+    "type": "Credit Card Account",
+    "accountNumber": "70577683",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-18T17:53:07.462Z"
+  },
+  {
+    "customerUserId": 3,
+    "type": "Savings Account",
+    "accountNumber": "62196405",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-04T08:40:36.605Z"
+  },
+  {
+    "customerUserId": 114,
+    "type": "Home Loan Account",
+    "accountNumber": "96901805",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-14T22:30:41.262Z"
+  },
+  {
+    "customerUserId": 167,
+    "type": "Savings Account",
+    "accountNumber": "60393525",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-11-18T02:10:56.854Z"
+  },
+  {
+    "customerUserId": 44,
+    "type": "Checking Account",
+    "accountNumber": "07913382",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-09-17T15:51:45.355Z"
+  },
+  {
+    "customerUserId": 154,
+    "type": "Credit Card Account",
+    "accountNumber": "09167950",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-24T02:31:14.381Z"
+  },
+  {
+    "customerUserId": 195,
+    "type": "Auto Loan Account",
+    "accountNumber": "35272420",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-15T06:33:56.219Z"
+  },
+  {
+    "customerUserId": 6,
+    "type": "Personal Loan Account",
+    "accountNumber": "73862847",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-08-14T14:28:18.833Z"
+  },
+  {
+    "customerUserId": 124,
+    "type": "Home Loan Account",
+    "accountNumber": "23858824",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-28T06:34:37.147Z"
+  },
+  {
+    "customerUserId": 145,
+    "type": "Investment Account",
+    "accountNumber": "94938089",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2016-12-04T00:35:48.413Z"
+  },
+  {
+    "customerUserId": 144,
+    "type": "Home Loan Account",
+    "accountNumber": "22822609",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-21T08:43:49.613Z"
+  },
+  {
+    "customerUserId": 168,
+    "type": "Home Loan Account",
+    "accountNumber": "05791252",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-02-18T01:59:15.218Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Auto Loan Account",
+    "accountNumber": "49443207",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-22T03:36:06.516Z"
+  },
+  {
+    "customerUserId": 149,
+    "type": "Checking Account",
+    "accountNumber": "54836705",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-21T04:20:41.456Z"
+  },
+  {
+    "customerUserId": 170,
+    "type": "Auto Loan Account",
+    "accountNumber": "33712797",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-03-18T17:38:36.104Z"
+  },
+  {
+    "customerUserId": 113,
+    "type": "Personal Loan Account",
+    "accountNumber": "06154871",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-05-27T13:26:28.451Z"
+  },
+  {
+    "customerUserId": 96,
+    "type": "Checking Account",
+    "accountNumber": "91791744",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-01-21T23:00:54.400Z"
+  },
+  {
+    "customerUserId": 145,
+    "type": "Credit Card Account",
+    "accountNumber": "26852492",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-09-12T13:56:34.780Z"
+  },
+  {
+    "customerUserId": 99,
+    "type": "Savings Account",
+    "accountNumber": "75145475",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-10-08T06:00:20.527Z"
+  },
+  {
+    "customerUserId": 19,
+    "type": "Credit Card Account",
+    "accountNumber": "29956021",
+    "updatedAt": "2017-10-23T20:24:00.040Z",
+    "createdAt": "2017-04-09T08:32:56.663Z"
+  },
+  {
+    "customerUserId": 64,
+    "type": "Investment Account",
+    "accountNumber": "12819896",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-19T05:56:22.396Z"
+  },
+  {
+    "customerUserId": 181,
+    "type": "Savings Account",
+    "accountNumber": "40105266",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-29T01:21:37.397Z"
+  },
+  {
+    "customerUserId": 9,
+    "type": "Money Market Account",
+    "accountNumber": "58270953",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-24T06:22:53.830Z"
+  },
+  {
+    "customerUserId": 54,
+    "type": "Credit Card Account",
+    "accountNumber": "00233608",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-03T18:36:34.351Z"
+  },
+  {
+    "customerUserId": 41,
+    "type": "Checking Account",
+    "accountNumber": "25801236",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-24T08:08:22.542Z"
+  },
+  {
+    "customerUserId": 182,
+    "type": "Investment Account",
+    "accountNumber": "29202457",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-18T14:22:05.351Z"
+  },
+  {
+    "customerUserId": 96,
+    "type": "Investment Account",
+    "accountNumber": "24411079",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-28T08:43:35.789Z"
+  },
+  {
+    "customerUserId": 122,
+    "type": "Money Market Account",
+    "accountNumber": "33201563",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-27T05:12:12.277Z"
+  },
+  {
+    "customerUserId": 17,
+    "type": "Savings Account",
+    "accountNumber": "59359432",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-12T23:20:08.243Z"
+  },
+  {
+    "customerUserId": 71,
+    "type": "Money Market Account",
+    "accountNumber": "33672339",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-06T03:47:03.862Z"
+  },
+  {
+    "customerUserId": 156,
+    "type": "Auto Loan Account",
+    "accountNumber": "07235311",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-06T14:43:54.371Z"
+  },
+  {
+    "customerUserId": 64,
+    "type": "Checking Account",
+    "accountNumber": "17046505",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-10T18:06:40.578Z"
+  },
+  {
+    "customerUserId": 75,
+    "type": "Money Market Account",
+    "accountNumber": "28752267",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-27T21:15:33.371Z"
+  },
+  {
+    "customerUserId": 39,
+    "type": "Money Market Account",
+    "accountNumber": "53597076",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-13T00:58:00.224Z"
+  },
+  {
+    "customerUserId": 39,
+    "type": "Credit Card Account",
+    "accountNumber": "88039711",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-05T01:29:12.508Z"
+  },
+  {
+    "customerUserId": 79,
+    "type": "Money Market Account",
+    "accountNumber": "51927087",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-02T14:56:11.412Z"
+  },
+  {
+    "customerUserId": 188,
+    "type": "Personal Loan Account",
+    "accountNumber": "99701203",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-25T12:13:14.782Z"
+  },
+  {
+    "customerUserId": 30,
+    "type": "Home Loan Account",
+    "accountNumber": "55158504",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-03T15:48:59.721Z"
+  },
+  {
+    "customerUserId": 122,
+    "type": "Auto Loan Account",
+    "accountNumber": "94422983",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-17T09:10:25.778Z"
+  },
+  {
+    "customerUserId": 130,
+    "type": "Savings Account",
+    "accountNumber": "28659928",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-12T19:49:06.674Z"
+  },
+  {
+    "customerUserId": 109,
+    "type": "Investment Account",
+    "accountNumber": "06014285",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-16T03:08:46.933Z"
+  },
+  {
+    "customerUserId": 154,
+    "type": "Investment Account",
+    "accountNumber": "86166415",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-12T11:18:07.703Z"
+  },
+  {
+    "customerUserId": 126,
+    "type": "Checking Account",
+    "accountNumber": "17798211",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-14T07:10:39.086Z"
+  },
+  {
+    "customerUserId": 80,
+    "type": "Home Loan Account",
+    "accountNumber": "73489828",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-10T14:06:23.863Z"
+  },
+  {
+    "customerUserId": 25,
+    "type": "Checking Account",
+    "accountNumber": "90235584",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-07T12:00:44.582Z"
+  },
+  {
+    "customerUserId": 155,
+    "type": "Personal Loan Account",
+    "accountNumber": "32752570",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-27T04:52:47.904Z"
+  },
+  {
+    "customerUserId": 198,
+    "type": "Checking Account",
+    "accountNumber": "54225719",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-11T00:02:50.233Z"
+  },
+  {
+    "customerUserId": 125,
+    "type": "Credit Card Account",
+    "accountNumber": "67245914",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-17T09:53:12.252Z"
+  },
+  {
+    "customerUserId": 99,
+    "type": "Personal Loan Account",
+    "accountNumber": "42453855",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-06T16:24:39.723Z"
+  },
+  {
+    "customerUserId": 105,
+    "type": "Credit Card Account",
+    "accountNumber": "24467384",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-18T10:57:37.679Z"
+  },
+  {
+    "customerUserId": 39,
+    "type": "Money Market Account",
+    "accountNumber": "07069843",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-20T13:59:04.161Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Personal Loan Account",
+    "accountNumber": "06953129",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-12T20:09:25.185Z"
+  },
+  {
+    "customerUserId": 45,
+    "type": "Home Loan Account",
+    "accountNumber": "03167568",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-09T19:50:07.374Z"
+  },
+  {
+    "customerUserId": 137,
+    "type": "Checking Account",
+    "accountNumber": "58520540",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-19T04:55:46.914Z"
+  },
+  {
+    "customerUserId": 173,
+    "type": "Home Loan Account",
+    "accountNumber": "75987298",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-12T13:38:06.873Z"
+  },
+  {
+    "customerUserId": 114,
+    "type": "Credit Card Account",
+    "accountNumber": "55464862",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-26T10:00:38.357Z"
+  },
+  {
+    "customerUserId": 107,
+    "type": "Home Loan Account",
+    "accountNumber": "56566927",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-28T16:27:43.766Z"
+  },
+  {
+    "customerUserId": 185,
+    "type": "Savings Account",
+    "accountNumber": "90117693",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-06T08:18:12.696Z"
+  },
+  {
+    "customerUserId": 18,
+    "type": "Auto Loan Account",
+    "accountNumber": "11388704",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-20T07:08:03.306Z"
+  },
+  {
+    "customerUserId": 29,
+    "type": "Savings Account",
+    "accountNumber": "57336416",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-28T13:10:45.366Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Home Loan Account",
+    "accountNumber": "08758538",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-11T02:55:25.221Z"
+  },
+  {
+    "customerUserId": 77,
+    "type": "Home Loan Account",
+    "accountNumber": "74843071",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-12T08:59:58.464Z"
+  },
+  {
+    "customerUserId": 38,
+    "type": "Savings Account",
+    "accountNumber": "92994089",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-16T10:23:44.318Z"
+  },
+  {
+    "customerUserId": 167,
+    "type": "Savings Account",
+    "accountNumber": "64858928",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-19T13:05:14.542Z"
+  },
+  {
+    "customerUserId": 74,
+    "type": "Auto Loan Account",
+    "accountNumber": "16817467",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-30T12:41:47.114Z"
+  },
+  {
+    "customerUserId": 134,
+    "type": "Auto Loan Account",
+    "accountNumber": "29855759",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-27T18:35:31.719Z"
+  },
+  {
+    "customerUserId": 198,
+    "type": "Credit Card Account",
+    "accountNumber": "08422638",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-10T14:49:05.961Z"
+  },
+  {
+    "customerUserId": 153,
+    "type": "Money Market Account",
+    "accountNumber": "46369628",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-24T12:37:03.892Z"
+  },
+  {
+    "customerUserId": 62,
+    "type": "Personal Loan Account",
+    "accountNumber": "84642800",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-06T03:05:16.876Z"
+  },
+  {
+    "customerUserId": 16,
+    "type": "Savings Account",
+    "accountNumber": "08450107",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-18T12:32:03.963Z"
+  },
+  {
+    "customerUserId": 198,
+    "type": "Personal Loan Account",
+    "accountNumber": "58798097",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-24T22:27:37.461Z"
+  },
+  {
+    "customerUserId": 190,
+    "type": "Savings Account",
+    "accountNumber": "80882568",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-04T23:26:07.981Z"
+  },
+  {
+    "customerUserId": 73,
+    "type": "Personal Loan Account",
+    "accountNumber": "36229590",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-05T07:45:30.025Z"
+  },
+  {
+    "customerUserId": 83,
+    "type": "Savings Account",
+    "accountNumber": "93594745",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-11T03:01:07.413Z"
+  },
+  {
+    "customerUserId": 125,
+    "type": "Checking Account",
+    "accountNumber": "23748605",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-17T19:19:53.737Z"
+  },
+  {
+    "customerUserId": 93,
+    "type": "Money Market Account",
+    "accountNumber": "70837901",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-15T07:01:39.190Z"
+  },
+  {
+    "customerUserId": 148,
+    "type": "Savings Account",
+    "accountNumber": "20217534",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-03T08:07:13.862Z"
+  },
+  {
+    "customerUserId": 51,
+    "type": "Checking Account",
+    "accountNumber": "28310760",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-02T18:40:51.214Z"
+  },
+  {
+    "customerUserId": 4,
+    "type": "Checking Account",
+    "accountNumber": "41801263",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-20T09:35:21.389Z"
+  },
+  {
+    "customerUserId": 82,
+    "type": "Checking Account",
+    "accountNumber": "37779974",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-23T21:28:15.326Z"
+  },
+  {
+    "customerUserId": 169,
+    "type": "Personal Loan Account",
+    "accountNumber": "99382734",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-24T06:56:33.804Z"
+  },
+  {
+    "customerUserId": 43,
+    "type": "Investment Account",
+    "accountNumber": "37016256",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-01T16:55:01.118Z"
+  },
+  {
+    "customerUserId": 105,
+    "type": "Money Market Account",
+    "accountNumber": "03949747",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-06T23:27:14.552Z"
+  },
+  {
+    "customerUserId": 127,
+    "type": "Personal Loan Account",
+    "accountNumber": "41940102",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-26T17:42:37.586Z"
+  },
+  {
+    "customerUserId": 197,
+    "type": "Auto Loan Account",
+    "accountNumber": "42624919",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-24T01:57:49.617Z"
+  },
+  {
+    "customerUserId": 98,
+    "type": "Checking Account",
+    "accountNumber": "21760969",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-25T14:32:58.576Z"
+  },
+  {
+    "customerUserId": 170,
+    "type": "Personal Loan Account",
+    "accountNumber": "73847553",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-22T04:52:37.126Z"
+  },
+  {
+    "customerUserId": 199,
+    "type": "Checking Account",
+    "accountNumber": "66934286",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-13T06:54:41.146Z"
+  },
+  {
+    "customerUserId": 105,
+    "type": "Checking Account",
+    "accountNumber": "90320154",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-20T09:30:36.808Z"
+  },
+  {
+    "customerUserId": 169,
+    "type": "Home Loan Account",
+    "accountNumber": "24408088",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-29T15:27:18.548Z"
+  },
+  {
+    "customerUserId": 165,
+    "type": "Home Loan Account",
+    "accountNumber": "86207506",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-16T17:20:08.194Z"
+  },
+  {
+    "customerUserId": 31,
+    "type": "Auto Loan Account",
+    "accountNumber": "59561025",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-03T09:49:24.550Z"
+  },
+  {
+    "customerUserId": 76,
+    "type": "Investment Account",
+    "accountNumber": "64664783",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-10T07:12:16.497Z"
+  },
+  {
+    "customerUserId": 139,
+    "type": "Investment Account",
+    "accountNumber": "48406441",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-13T05:36:37.197Z"
+  },
+  {
+    "customerUserId": 154,
+    "type": "Savings Account",
+    "accountNumber": "95273540",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-01T09:59:12.190Z"
+  },
+  {
+    "customerUserId": 12,
+    "type": "Money Market Account",
+    "accountNumber": "65964411",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-11-29T01:13:41.464Z"
+  },
+  {
+    "customerUserId": 191,
+    "type": "Investment Account",
+    "accountNumber": "41447142",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-30T18:16:43.475Z"
+  },
+  {
+    "customerUserId": 13,
+    "type": "Personal Loan Account",
+    "accountNumber": "30961268",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-23T09:24:00.847Z"
+  },
+  {
+    "customerUserId": 1,
+    "type": "Home Loan Account",
+    "accountNumber": "32867666",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-14T02:10:51.434Z"
+  },
+  {
+    "customerUserId": 34,
+    "type": "Investment Account",
+    "accountNumber": "72925916",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-20T14:09:07.369Z"
+  },
+  {
+    "customerUserId": 26,
+    "type": "Investment Account",
+    "accountNumber": "10248661",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-08T10:59:11.580Z"
+  },
+  {
+    "customerUserId": 89,
+    "type": "Savings Account",
+    "accountNumber": "44509353",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-12T00:51:58.630Z"
+  },
+  {
+    "customerUserId": 82,
+    "type": "Savings Account",
+    "accountNumber": "97792017",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-14T04:00:31.659Z"
+  },
+  {
+    "customerUserId": 59,
+    "type": "Personal Loan Account",
+    "accountNumber": "74991368",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-31T23:45:44.917Z"
+  },
+  {
+    "customerUserId": 38,
+    "type": "Personal Loan Account",
+    "accountNumber": "57081963",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-11T14:05:31.496Z"
+  },
+  {
+    "customerUserId": 121,
+    "type": "Auto Loan Account",
+    "accountNumber": "37533237",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-22T19:14:46.375Z"
+  },
+  {
+    "customerUserId": 83,
+    "type": "Savings Account",
+    "accountNumber": "10229785",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-17T04:10:33.327Z"
+  },
+  {
+    "customerUserId": 78,
+    "type": "Investment Account",
+    "accountNumber": "53742181",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-10T16:12:06.005Z"
+  },
+  {
+    "customerUserId": 37,
+    "type": "Investment Account",
+    "accountNumber": "41268685",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-25T08:12:41.360Z"
+  },
+  {
+    "customerUserId": 26,
+    "type": "Home Loan Account",
+    "accountNumber": "57653698",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-16T01:08:43.607Z"
+  },
+  {
+    "customerUserId": 43,
+    "type": "Checking Account",
+    "accountNumber": "04471703",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-28T00:44:07.302Z"
+  },
+  {
+    "customerUserId": 27,
+    "type": "Savings Account",
+    "accountNumber": "35423861",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-03T08:44:44.825Z"
+  },
+  {
+    "customerUserId": 22,
+    "type": "Personal Loan Account",
+    "accountNumber": "21687428",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-08T17:24:12.941Z"
+  },
+  {
+    "customerUserId": 34,
+    "type": "Credit Card Account",
+    "accountNumber": "96701326",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-14T05:36:29.077Z"
+  },
+  {
+    "customerUserId": 96,
+    "type": "Investment Account",
+    "accountNumber": "80358771",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-29T04:46:42.796Z"
+  },
+  {
+    "customerUserId": 128,
+    "type": "Money Market Account",
+    "accountNumber": "17723992",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-10T21:45:49.976Z"
+  },
+  {
+    "customerUserId": 54,
+    "type": "Auto Loan Account",
+    "accountNumber": "70060044",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-01T22:49:21.131Z"
+  },
+  {
+    "customerUserId": 60,
+    "type": "Money Market Account",
+    "accountNumber": "26349681",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-29T02:52:08.140Z"
+  },
+  {
+    "customerUserId": 108,
+    "type": "Home Loan Account",
+    "accountNumber": "83142782",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-01T23:22:22.993Z"
+  },
+  {
+    "customerUserId": 134,
+    "type": "Personal Loan Account",
+    "accountNumber": "91106518",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-02T10:01:42.041Z"
+  },
+  {
+    "customerUserId": 151,
+    "type": "Savings Account",
+    "accountNumber": "92606639",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-06T18:24:41.633Z"
+  },
+  {
+    "customerUserId": 14,
+    "type": "Investment Account",
+    "accountNumber": "58041540",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-18T21:14:58.197Z"
+  },
+  {
+    "customerUserId": 108,
+    "type": "Investment Account",
+    "accountNumber": "78342426",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-29T07:51:40.476Z"
+  },
+  {
+    "customerUserId": 157,
+    "type": "Auto Loan Account",
+    "accountNumber": "66416941",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-06T23:28:46.194Z"
+  },
+  {
+    "customerUserId": 87,
+    "type": "Checking Account",
+    "accountNumber": "50196781",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-16T06:58:24.561Z"
+  },
+  {
+    "customerUserId": 86,
+    "type": "Money Market Account",
+    "accountNumber": "34296696",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-03T06:34:28.192Z"
+  },
+  {
+    "customerUserId": 132,
+    "type": "Investment Account",
+    "accountNumber": "33483309",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-06T21:11:33.071Z"
+  },
+  {
+    "customerUserId": 52,
+    "type": "Investment Account",
+    "accountNumber": "53744009",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-15T09:30:14.005Z"
+  },
+  {
+    "customerUserId": 191,
+    "type": "Money Market Account",
+    "accountNumber": "34102434",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-01T20:05:30.631Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Home Loan Account",
+    "accountNumber": "99422597",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-24T18:05:12.792Z"
+  },
+  {
+    "customerUserId": 82,
+    "type": "Credit Card Account",
+    "accountNumber": "95890704",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-10-17T20:46:39.384Z"
+  },
+  {
+    "customerUserId": 28,
+    "type": "Credit Card Account",
+    "accountNumber": "63301883",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-09T03:27:01.993Z"
+  },
+  {
+    "customerUserId": 129,
+    "type": "Credit Card Account",
+    "accountNumber": "58034589",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-11T20:07:20.245Z"
+  },
+  {
+    "customerUserId": 151,
+    "type": "Investment Account",
+    "accountNumber": "14317563",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-09T20:35:58.422Z"
+  },
+  {
+    "customerUserId": 88,
+    "type": "Investment Account",
+    "accountNumber": "11887904",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-20T18:00:37.290Z"
+  },
+  {
+    "customerUserId": 163,
+    "type": "Checking Account",
+    "accountNumber": "36671132",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-18T01:39:28.162Z"
+  },
+  {
+    "customerUserId": 46,
+    "type": "Checking Account",
+    "accountNumber": "21694243",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-03-25T05:33:15.902Z"
+  },
+  {
+    "customerUserId": 191,
+    "type": "Auto Loan Account",
+    "accountNumber": "62818780",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-08-30T00:18:00.087Z"
+  },
+  {
+    "customerUserId": 79,
+    "type": "Personal Loan Account",
+    "accountNumber": "99749023",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-11T08:54:26.589Z"
+  },
+  {
+    "customerUserId": 31,
+    "type": "Personal Loan Account",
+    "accountNumber": "27481218",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-05-26T12:13:38.823Z"
+  },
+  {
+    "customerUserId": 148,
+    "type": "Investment Account",
+    "accountNumber": "91607419",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-08T07:15:51.442Z"
+  },
+  {
+    "customerUserId": 98,
+    "type": "Auto Loan Account",
+    "accountNumber": "27148187",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-19T21:26:47.324Z"
+  },
+  {
+    "customerUserId": 40,
+    "type": "Credit Card Account",
+    "accountNumber": "21282991",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-02-16T20:14:37.867Z"
+  },
+  {
+    "customerUserId": 103,
+    "type": "Investment Account",
+    "accountNumber": "33321028",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-10T04:10:09.068Z"
+  },
+  {
+    "customerUserId": 179,
+    "type": "Checking Account",
+    "accountNumber": "15974121",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-30T10:52:44.246Z"
+  },
+  {
+    "customerUserId": 184,
+    "type": "Home Loan Account",
+    "accountNumber": "12363324",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-10-25T21:14:23.209Z"
+  },
+  {
+    "customerUserId": 175,
+    "type": "Savings Account",
+    "accountNumber": "74075102",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-16T05:42:23.612Z"
+  },
+  {
+    "customerUserId": 139,
+    "type": "Investment Account",
+    "accountNumber": "61865501",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-23T23:39:20.776Z"
+  },
+  {
+    "customerUserId": 17,
+    "type": "Money Market Account",
+    "accountNumber": "08415196",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-28T06:18:59.114Z"
+  },
+  {
+    "customerUserId": 195,
+    "type": "Home Loan Account",
+    "accountNumber": "43350272",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-13T00:22:01.069Z"
+  },
+  {
+    "customerUserId": 56,
+    "type": "Investment Account",
+    "accountNumber": "18958860",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-01-09T05:00:17.273Z"
+  },
+  {
+    "customerUserId": 107,
+    "type": "Credit Card Account",
+    "accountNumber": "83290368",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-01T06:43:33.911Z"
+  },
+  {
+    "customerUserId": 108,
+    "type": "Money Market Account",
+    "accountNumber": "64683839",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2016-12-05T21:52:17.450Z"
+  },
+  {
+    "customerUserId": 18,
+    "type": "Auto Loan Account",
+    "accountNumber": "65102792",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-14T06:11:49.447Z"
+  },
+  {
+    "customerUserId": 40,
+    "type": "Checking Account",
+    "accountNumber": "44653573",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-07T11:43:07.166Z"
+  },
+  {
+    "customerUserId": 161,
+    "type": "Savings Account",
+    "accountNumber": "30854998",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-06-06T02:18:36.139Z"
+  },
+  {
+    "customerUserId": 158,
+    "type": "Checking Account",
+    "accountNumber": "63336315",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-05T09:11:28.831Z"
+  },
+  {
+    "customerUserId": 139,
+    "type": "Credit Card Account",
+    "accountNumber": "74686423",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-09-29T02:05:34.217Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Investment Account",
+    "accountNumber": "74327349",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-04-06T15:24:44.937Z"
+  },
+  {
+    "customerUserId": 172,
+    "type": "Personal Loan Account",
+    "accountNumber": "65623178",
+    "updatedAt": "2017-10-23T20:24:00.042Z",
+    "createdAt": "2017-07-18T13:12:16.615Z"
+  },
+  {
+    "customerUserId": 185,
+    "type": "Personal Loan Account",
+    "accountNumber": "42119961",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-14T11:12:29.531Z"
+  },
+  {
+    "customerUserId": 51,
+    "type": "Home Loan Account",
+    "accountNumber": "67760449",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-19T01:44:04.038Z"
+  },
+  {
+    "customerUserId": 79,
+    "type": "Credit Card Account",
+    "accountNumber": "44339146",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-19T17:26:06.591Z"
+  },
+  {
+    "customerUserId": 130,
+    "type": "Savings Account",
+    "accountNumber": "01836134",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-02T07:00:51.799Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Checking Account",
+    "accountNumber": "55659199",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-06T07:50:14.090Z"
+  },
+  {
+    "customerUserId": 174,
+    "type": "Home Loan Account",
+    "accountNumber": "33817831",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-18T22:33:49.540Z"
+  },
+  {
+    "customerUserId": 76,
+    "type": "Personal Loan Account",
+    "accountNumber": "16415324",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-27T02:49:47.783Z"
+  },
+  {
+    "customerUserId": 127,
+    "type": "Auto Loan Account",
+    "accountNumber": "22823709",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-29T06:51:51.960Z"
+  },
+  {
+    "customerUserId": 172,
+    "type": "Checking Account",
+    "accountNumber": "80657904",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-22T03:31:21.973Z"
+  },
+  {
+    "customerUserId": 194,
+    "type": "Money Market Account",
+    "accountNumber": "09704262",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-30T15:43:41.192Z"
+  },
+  {
+    "customerUserId": 152,
+    "type": "Money Market Account",
+    "accountNumber": "32559898",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-05T20:09:14.573Z"
+  },
+  {
+    "customerUserId": 154,
+    "type": "Checking Account",
+    "accountNumber": "40783550",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-09T13:55:57.746Z"
+  },
+  {
+    "customerUserId": 200,
+    "type": "Savings Account",
+    "accountNumber": "88801269",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-20T04:58:13.930Z"
+  },
+  {
+    "customerUserId": 184,
+    "type": "Investment Account",
+    "accountNumber": "92156696",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-09T17:58:59.568Z"
+  },
+  {
+    "customerUserId": 173,
+    "type": "Savings Account",
+    "accountNumber": "99266823",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-12T17:40:59.680Z"
+  },
+  {
+    "customerUserId": 177,
+    "type": "Money Market Account",
+    "accountNumber": "77833097",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-08T03:21:03.365Z"
+  },
+  {
+    "customerUserId": 186,
+    "type": "Home Loan Account",
+    "accountNumber": "36330673",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-06T08:17:07.251Z"
+  },
+  {
+    "customerUserId": 29,
+    "type": "Savings Account",
+    "accountNumber": "14015703",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-10-08T03:52:32.921Z"
+  },
+  {
+    "customerUserId": 73,
+    "type": "Credit Card Account",
+    "accountNumber": "35534045",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-02T17:55:00.931Z"
+  },
+  {
+    "customerUserId": 59,
+    "type": "Checking Account",
+    "accountNumber": "35797945",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-08T13:42:42.893Z"
+  },
+  {
+    "customerUserId": 99,
+    "type": "Auto Loan Account",
+    "accountNumber": "62557424",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-12T02:24:09.027Z"
+  },
+  {
+    "customerUserId": 140,
+    "type": "Auto Loan Account",
+    "accountNumber": "07902557",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-25T15:20:36.153Z"
+  },
+  {
+    "customerUserId": 75,
+    "type": "Home Loan Account",
+    "accountNumber": "42456204",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-26T16:53:48.146Z"
+  },
+  {
+    "customerUserId": 150,
+    "type": "Auto Loan Account",
+    "accountNumber": "06595405",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-16T14:49:55.227Z"
+  },
+  {
+    "customerUserId": 57,
+    "type": "Checking Account",
+    "accountNumber": "75806284",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-02T06:13:12.655Z"
+  },
+  {
+    "customerUserId": 157,
+    "type": "Credit Card Account",
+    "accountNumber": "14826161",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-24T03:53:18.614Z"
+  },
+  {
+    "customerUserId": 131,
+    "type": "Auto Loan Account",
+    "accountNumber": "33504971",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-10T02:18:02.305Z"
+  },
+  {
+    "customerUserId": 179,
+    "type": "Investment Account",
+    "accountNumber": "83307131",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-08T02:37:13.609Z"
+  },
+  {
+    "customerUserId": 120,
+    "type": "Investment Account",
+    "accountNumber": "92935460",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-20T16:56:13.902Z"
+  },
+  {
+    "customerUserId": 88,
+    "type": "Savings Account",
+    "accountNumber": "84432444",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-10T00:30:07.614Z"
+  },
+  {
+    "customerUserId": 23,
+    "type": "Home Loan Account",
+    "accountNumber": "87776522",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-22T19:20:17.507Z"
+  },
+  {
+    "customerUserId": 193,
+    "type": "Savings Account",
+    "accountNumber": "35419235",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-04T22:44:22.727Z"
+  },
+  {
+    "customerUserId": 176,
+    "type": "Auto Loan Account",
+    "accountNumber": "77799752",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-17T01:41:28.953Z"
+  },
+  {
+    "customerUserId": 24,
+    "type": "Money Market Account",
+    "accountNumber": "34373844",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-07T22:24:33.558Z"
+  },
+  {
+    "customerUserId": 144,
+    "type": "Credit Card Account",
+    "accountNumber": "31446075",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-10-12T22:16:08.104Z"
+  },
+  {
+    "customerUserId": 114,
+    "type": "Checking Account",
+    "accountNumber": "04366941",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-06T21:12:24.806Z"
+  },
+  {
+    "customerUserId": 191,
+    "type": "Checking Account",
+    "accountNumber": "65765297",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-28T06:33:51.913Z"
+  },
+  {
+    "customerUserId": 168,
+    "type": "Home Loan Account",
+    "accountNumber": "39462270",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-06T02:37:32.009Z"
+  },
+  {
+    "customerUserId": 173,
+    "type": "Credit Card Account",
+    "accountNumber": "49646263",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-23T04:00:04.407Z"
+  },
+  {
+    "customerUserId": 130,
+    "type": "Investment Account",
+    "accountNumber": "24946457",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-17T08:06:50.999Z"
+  },
+  {
+    "customerUserId": 27,
+    "type": "Home Loan Account",
+    "accountNumber": "65852067",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-26T18:20:43.191Z"
+  },
+  {
+    "customerUserId": 7,
+    "type": "Investment Account",
+    "accountNumber": "61544391",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-22T06:13:10.406Z"
+  },
+  {
+    "customerUserId": 86,
+    "type": "Credit Card Account",
+    "accountNumber": "45379223",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-03T11:48:32.543Z"
+  },
+  {
+    "customerUserId": 187,
+    "type": "Savings Account",
+    "accountNumber": "99071422",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-04T15:43:38.657Z"
+  },
+  {
+    "customerUserId": 63,
+    "type": "Credit Card Account",
+    "accountNumber": "69684543",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-14T18:11:35.144Z"
+  },
+  {
+    "customerUserId": 81,
+    "type": "Personal Loan Account",
+    "accountNumber": "76646227",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-27T16:29:18.492Z"
+  },
+  {
+    "customerUserId": 45,
+    "type": "Savings Account",
+    "accountNumber": "49842691",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-05T18:18:05.058Z"
+  },
+  {
+    "customerUserId": 9,
+    "type": "Money Market Account",
+    "accountNumber": "59718656",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-22T11:29:15.021Z"
+  },
+  {
+    "customerUserId": 121,
+    "type": "Savings Account",
+    "accountNumber": "83871726",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-27T09:23:11.710Z"
+  },
+  {
+    "customerUserId": 157,
+    "type": "Money Market Account",
+    "accountNumber": "63995849",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-12T07:19:08.584Z"
+  },
+  {
+    "customerUserId": 87,
+    "type": "Personal Loan Account",
+    "accountNumber": "69294004",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-19T07:16:42.763Z"
+  },
+  {
+    "customerUserId": 185,
+    "type": "Home Loan Account",
+    "accountNumber": "98306146",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-05T14:21:46.473Z"
+  },
+  {
+    "customerUserId": 57,
+    "type": "Savings Account",
+    "accountNumber": "77124358",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-08T11:30:28.355Z"
+  },
+  {
+    "customerUserId": 162,
+    "type": "Home Loan Account",
+    "accountNumber": "49593061",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-06T03:24:11.806Z"
+  },
+  {
+    "customerUserId": 178,
+    "type": "Savings Account",
+    "accountNumber": "78950015",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-12T07:28:56.638Z"
+  },
+  {
+    "customerUserId": 87,
+    "type": "Credit Card Account",
+    "accountNumber": "81560718",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-26T14:07:28.116Z"
+  },
+  {
+    "customerUserId": 142,
+    "type": "Credit Card Account",
+    "accountNumber": "72894080",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-22T16:24:48.535Z"
+  },
+  {
+    "customerUserId": 48,
+    "type": "Personal Loan Account",
+    "accountNumber": "55598710",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-16T00:11:43.414Z"
+  },
+  {
+    "customerUserId": 110,
+    "type": "Auto Loan Account",
+    "accountNumber": "04769966",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-02T20:16:38.614Z"
+  },
+  {
+    "customerUserId": 146,
+    "type": "Investment Account",
+    "accountNumber": "59758879",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-29T23:53:40.591Z"
+  },
+  {
+    "customerUserId": 111,
+    "type": "Investment Account",
+    "accountNumber": "52595147",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-20T17:03:25.618Z"
+  },
+  {
+    "customerUserId": 58,
+    "type": "Home Loan Account",
+    "accountNumber": "06873709",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-11T02:55:52.832Z"
+  },
+  {
+    "customerUserId": 54,
+    "type": "Checking Account",
+    "accountNumber": "77823783",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-02T20:56:41.175Z"
+  },
+  {
+    "customerUserId": 17,
+    "type": "Savings Account",
+    "accountNumber": "55167781",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-06T22:12:16.069Z"
+  },
+  {
+    "customerUserId": 78,
+    "type": "Checking Account",
+    "accountNumber": "14481209",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-04T11:48:21.804Z"
+  },
+  {
+    "customerUserId": 108,
+    "type": "Auto Loan Account",
+    "accountNumber": "16941702",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-05T20:22:17.830Z"
+  },
+  {
+    "customerUserId": 153,
+    "type": "Personal Loan Account",
+    "accountNumber": "32667378",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-26T10:18:17.739Z"
+  },
+  {
+    "customerUserId": 50,
+    "type": "Money Market Account",
+    "accountNumber": "89735643",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-18T22:28:15.985Z"
+  },
+  {
+    "customerUserId": 111,
+    "type": "Savings Account",
+    "accountNumber": "96480167",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-13T16:07:02.364Z"
+  },
+  {
+    "customerUserId": 109,
+    "type": "Money Market Account",
+    "accountNumber": "11299063",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-27T19:16:01.809Z"
+  },
+  {
+    "customerUserId": 163,
+    "type": "Savings Account",
+    "accountNumber": "29197263",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-01T06:34:19.745Z"
+  },
+  {
+    "customerUserId": 114,
+    "type": "Personal Loan Account",
+    "accountNumber": "63776403",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-11T05:56:30.326Z"
+  },
+  {
+    "customerUserId": 86,
+    "type": "Auto Loan Account",
+    "accountNumber": "00043726",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-29T18:49:07.119Z"
+  },
+  {
+    "customerUserId": 155,
+    "type": "Savings Account",
+    "accountNumber": "16804762",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-07T02:40:22.770Z"
+  },
+  {
+    "customerUserId": 55,
+    "type": "Savings Account",
+    "accountNumber": "21181693",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-03T01:43:19.088Z"
+  },
+  {
+    "customerUserId": 111,
+    "type": "Money Market Account",
+    "accountNumber": "86464156",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-03T13:12:04.512Z"
+  },
+  {
+    "customerUserId": 182,
+    "type": "Investment Account",
+    "accountNumber": "23951564",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-11T11:22:57.815Z"
+  },
+  {
+    "customerUserId": 179,
+    "type": "Credit Card Account",
+    "accountNumber": "58440078",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-01-29T14:04:19.887Z"
+  },
+  {
+    "customerUserId": 196,
+    "type": "Investment Account",
+    "accountNumber": "42254293",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-25T10:30:38.667Z"
+  },
+  {
+    "customerUserId": 109,
+    "type": "Investment Account",
+    "accountNumber": "47768592",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-20T02:26:42.349Z"
+  },
+  {
+    "customerUserId": 45,
+    "type": "Checking Account",
+    "accountNumber": "32690711",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-18T10:55:13.350Z"
+  },
+  {
+    "customerUserId": 178,
+    "type": "Savings Account",
+    "accountNumber": "53100670",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-15T11:13:52.266Z"
+  },
+  {
+    "customerUserId": 17,
+    "type": "Investment Account",
+    "accountNumber": "96105657",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-21T19:30:53.131Z"
+  },
+  {
+    "customerUserId": 124,
+    "type": "Credit Card Account",
+    "accountNumber": "52761982",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-31T23:44:31.085Z"
+  },
+  {
+    "customerUserId": 3,
+    "type": "Investment Account",
+    "accountNumber": "20587789",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-12-25T10:17:12.884Z"
+  },
+  {
+    "customerUserId": 144,
+    "type": "Credit Card Account",
+    "accountNumber": "00926056",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-10T14:04:51.628Z"
+  },
+  {
+    "customerUserId": 45,
+    "type": "Checking Account",
+    "accountNumber": "39476559",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-08T01:08:52.326Z"
+  },
+  {
+    "customerUserId": 147,
+    "type": "Credit Card Account",
+    "accountNumber": "78517551",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-17T23:10:47.497Z"
+  },
+  {
+    "customerUserId": 46,
+    "type": "Money Market Account",
+    "accountNumber": "46944853",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-10-18T16:59:10.434Z"
+  },
+  {
+    "customerUserId": 136,
+    "type": "Money Market Account",
+    "accountNumber": "85944850",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-07T08:45:22.993Z"
+  },
+  {
+    "customerUserId": 24,
+    "type": "Personal Loan Account",
+    "accountNumber": "32713284",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-24T16:31:09.590Z"
+  },
+  {
+    "customerUserId": 147,
+    "type": "Credit Card Account",
+    "accountNumber": "04633397",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-29T18:09:41.305Z"
+  },
+  {
+    "customerUserId": 163,
+    "type": "Home Loan Account",
+    "accountNumber": "74327858",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-28T17:36:06.320Z"
+  },
+  {
+    "customerUserId": 159,
+    "type": "Savings Account",
+    "accountNumber": "74196450",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-10-28T10:56:55.853Z"
+  },
+  {
+    "customerUserId": 190,
+    "type": "Investment Account",
+    "accountNumber": "41842184",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-04-07T05:08:59.760Z"
+  },
+  {
+    "customerUserId": 151,
+    "type": "Credit Card Account",
+    "accountNumber": "06725761",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-10-05T11:01:56.870Z"
+  },
+  {
+    "customerUserId": 189,
+    "type": "Credit Card Account",
+    "accountNumber": "88944928",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-03T09:10:30.216Z"
+  },
+  {
+    "customerUserId": 128,
+    "type": "Checking Account",
+    "accountNumber": "29463534",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-10-17T22:54:01.486Z"
+  },
+  {
+    "customerUserId": 93,
+    "type": "Credit Card Account",
+    "accountNumber": "42578621",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-18T03:01:16.186Z"
+  },
+  {
+    "customerUserId": 11,
+    "type": "Investment Account",
+    "accountNumber": "19989640",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-06-03T15:12:13.307Z"
+  },
+  {
+    "customerUserId": 49,
+    "type": "Auto Loan Account",
+    "accountNumber": "47004010",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-08-02T20:29:13.502Z"
+  },
+  {
+    "customerUserId": 108,
+    "type": "Personal Loan Account",
+    "accountNumber": "76021179",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-08T09:04:31.550Z"
+  },
+  {
+    "customerUserId": 70,
+    "type": "Investment Account",
+    "accountNumber": "40318032",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-17T05:23:05.115Z"
+  },
+  {
+    "customerUserId": 84,
+    "type": "Checking Account",
+    "accountNumber": "49196753",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-05-05T08:48:28.187Z"
+  },
+  {
+    "customerUserId": 124,
+    "type": "Investment Account",
+    "accountNumber": "96706441",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-02-05T21:30:34.496Z"
+  },
+  {
+    "customerUserId": 91,
+    "type": "Savings Account",
+    "accountNumber": "36960251",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2016-11-07T16:52:01.100Z"
+  },
+  {
+    "customerUserId": 163,
+    "type": "Money Market Account",
+    "accountNumber": "89560212",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-20T02:37:53.262Z"
+  },
+  {
+    "customerUserId": 35,
+    "type": "Home Loan Account",
+    "accountNumber": "88818289",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-07-01T13:07:24.294Z"
+  },
+  {
+    "customerUserId": 4,
+    "type": "Money Market Account",
+    "accountNumber": "49698530",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-02T04:54:10.491Z"
+  },
+  {
+    "customerUserId": 75,
+    "type": "Home Loan Account",
+    "accountNumber": "76673190",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-03-29T10:24:28.329Z"
+  },
+  {
+    "customerUserId": 197,
+    "type": "Checking Account",
+    "accountNumber": "58049562",
+    "updatedAt": "2017-10-23T20:24:00.043Z",
+    "createdAt": "2017-09-14T08:10:14.913Z"
+  },
+  {
+    "customerUserId": 175,
+    "type": "Credit Card Account",
+    "accountNumber": "03336214",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-10-12T19:46:39.741Z"
+  },
+  {
+    "customerUserId": 129,
+    "type": "Personal Loan Account",
+    "accountNumber": "11120693",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-06-29T03:54:58.027Z"
+  },
+  {
+    "customerUserId": 10,
+    "type": "Credit Card Account",
+    "accountNumber": "76272588",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-06-26T01:44:26.159Z"
+  },
+  {
+    "customerUserId": 107,
+    "type": "Auto Loan Account",
+    "accountNumber": "65676007",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-03-31T00:12:36.071Z"
+  },
+  {
+    "customerUserId": 153,
+    "type": "Investment Account",
+    "accountNumber": "48654758",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-04T17:29:10.664Z"
+  },
+  {
+    "customerUserId": 46,
+    "type": "Personal Loan Account",
+    "accountNumber": "86656602",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-10-28T22:13:52.650Z"
+  },
+  {
+    "customerUserId": 140,
+    "type": "Savings Account",
+    "accountNumber": "37076276",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-03-09T01:12:21.395Z"
+  },
+  {
+    "customerUserId": 162,
+    "type": "Home Loan Account",
+    "accountNumber": "97896984",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-02-15T22:13:54.532Z"
+  },
+  {
+    "customerUserId": 192,
+    "type": "Home Loan Account",
+    "accountNumber": "09613551",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-01-21T00:15:56.877Z"
+  },
+  {
+    "customerUserId": 106,
+    "type": "Investment Account",
+    "accountNumber": "76456414",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-07-02T16:06:17.211Z"
+  },
+  {
+    "customerUserId": 40,
+    "type": "Home Loan Account",
+    "accountNumber": "98527281",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-11-27T03:34:13.075Z"
+  },
+  {
+    "customerUserId": 47,
+    "type": "Savings Account",
+    "accountNumber": "49666810",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-08-04T07:36:51.091Z"
+  },
+  {
+    "customerUserId": 155,
+    "type": "Savings Account",
+    "accountNumber": "47075575",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-02-18T03:35:48.793Z"
+  },
+  {
+    "customerUserId": 163,
+    "type": "Personal Loan Account",
+    "accountNumber": "40394698",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-10-05T04:31:48.655Z"
+  },
+  {
+    "customerUserId": 44,
+    "type": "Home Loan Account",
+    "accountNumber": "84282882",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-07-10T09:19:20.793Z"
+  },
+  {
+    "customerUserId": 80,
+    "type": "Personal Loan Account",
+    "accountNumber": "60937840",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-02-03T22:48:56.621Z"
+  },
+  {
+    "customerUserId": 183,
+    "type": "Checking Account",
+    "accountNumber": "56395120",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-11-13T01:16:03.955Z"
+  },
+  {
+    "customerUserId": 15,
+    "type": "Investment Account",
+    "accountNumber": "13767117",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-08-24T00:37:05.375Z"
+  },
+  {
+    "customerUserId": 185,
+    "type": "Checking Account",
+    "accountNumber": "56033094",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-08-07T03:47:45.526Z"
+  },
+  {
+    "customerUserId": 33,
+    "type": "Home Loan Account",
+    "accountNumber": "16501472",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-04-02T13:48:40.307Z"
+  },
+  {
+    "customerUserId": 164,
+    "type": "Home Loan Account",
+    "accountNumber": "00710084",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-11-21T12:23:49.506Z"
+  },
+  {
+    "customerUserId": 68,
+    "type": "Checking Account",
+    "accountNumber": "77291443",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-08-20T12:59:47.500Z"
+  },
+  {
+    "customerUserId": 122,
+    "type": "Personal Loan Account",
+    "accountNumber": "14663337",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-11-20T06:59:24.591Z"
+  },
+  {
+    "customerUserId": 170,
+    "type": "Auto Loan Account",
+    "accountNumber": "67280335",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-03-14T04:01:36.334Z"
+  },
+  {
+    "customerUserId": 136,
+    "type": "Investment Account",
+    "accountNumber": "74221609",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-07-30T05:54:20.029Z"
+  },
+  {
+    "customerUserId": 19,
+    "type": "Money Market Account",
+    "accountNumber": "50815466",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-21T07:48:18.868Z"
+  },
+  {
+    "customerUserId": 165,
+    "type": "Auto Loan Account",
+    "accountNumber": "80373667",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-03-24T02:02:59.235Z"
+  },
+  {
+    "customerUserId": 166,
+    "type": "Home Loan Account",
+    "accountNumber": "02634005",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-12-07T08:40:19.520Z"
+  },
+  {
+    "customerUserId": 147,
+    "type": "Investment Account",
+    "accountNumber": "05467292",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-12-07T20:53:27.286Z"
+  },
+  {
+    "customerUserId": 178,
+    "type": "Investment Account",
+    "accountNumber": "02909332",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-07-05T09:07:18.957Z"
+  },
+  {
+    "customerUserId": 175,
+    "type": "Home Loan Account",
+    "accountNumber": "81177847",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-03-11T09:57:30.217Z"
+  },
+  {
+    "customerUserId": 191,
+    "type": "Money Market Account",
+    "accountNumber": "77369165",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-02-28T07:44:11.904Z"
+  },
+  {
+    "customerUserId": 177,
+    "type": "Money Market Account",
+    "accountNumber": "41733219",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-11-25T03:33:51.276Z"
+  },
+  {
+    "customerUserId": 200,
+    "type": "Personal Loan Account",
+    "accountNumber": "35273947",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-10-07T17:09:15.517Z"
+  },
+  {
+    "customerUserId": 156,
+    "type": "Investment Account",
+    "accountNumber": "22392216",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-02-07T04:19:26.937Z"
+  },
+  {
+    "customerUserId": 6,
+    "type": "Savings Account",
+    "accountNumber": "16483332",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-01-08T20:26:59.806Z"
+  },
+  {
+    "customerUserId": 15,
+    "type": "Money Market Account",
+    "accountNumber": "14818875",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-26T08:07:49.231Z"
+  },
+  {
+    "customerUserId": 116,
+    "type": "Auto Loan Account",
+    "accountNumber": "76588370",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2016-12-24T00:23:27.369Z"
+  },
+  {
+    "customerUserId": 38,
+    "type": "Checking Account",
+    "accountNumber": "62961555",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-11T03:10:06.223Z"
+  },
+  {
+    "customerUserId": 141,
+    "type": "Investment Account",
+    "accountNumber": "78469892",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-01-06T16:30:16.054Z"
+  },
+  {
+    "customerUserId": 4,
+    "type": "Money Market Account",
+    "accountNumber": "67348085",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-01T15:51:39.713Z"
+  },
+  {
+    "customerUserId": 155,
+    "type": "Home Loan Account",
+    "accountNumber": "75929850",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-09-14T01:26:59.142Z"
+  },
+  {
+    "customerUserId": 67,
+    "type": "Savings Account",
+    "accountNumber": "27292419",
+    "updatedAt": "2017-10-23T20:24:00.044Z",
+    "createdAt": "2017-04-10T13:38:05.746Z"
+  }
+]

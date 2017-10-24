@@ -1,0 +1,19 @@
+extends layout.pug
+block content
+  h1 Choose Payment Method
+  form(action="/add-payment" method="post")
+    fieldset(class="radiogroup")
+    legend
+      if(paymentTypes)
+        each payment in paymentTypes
+          if payment == paymentTypes[0]
+            .form-group
+              input(type="radio" id=`${payment.id}` name="paymentId" value=`${payment.id}` checked)
+              label(for=`${payment.id}`) #{payment.type}
+          else
+            .form-group
+              input(type="radio" id=`${payment.id}` name="paymentId" value=`${payment.id}`)
+              label(for=`${payment.id}`) #{payment.type}
+        button(type="submit" class="btn") Done
+      else
+        p No payment Types

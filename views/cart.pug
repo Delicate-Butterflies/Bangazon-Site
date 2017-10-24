@@ -3,13 +3,26 @@ block content
   h1 Your Cart
   table(class="table")
     tbody
+    -let price = 0;
       tr
         td
           h4 Product:
         td
           h4 Price:
-      each product in products
+      if(products)
+        each product in products
+          tr
+            td #{product.title}
+            td #{product.price}
+            - price += parseFloat(product.price);
         tr
-          td #{product.title}
-          td #{product.price}
-      form(action="/", method="post")
+          td
+            h3 Total:
+          td
+            h3 #{price}
+        tr
+          td
+          td
+            a(type="button" class="btn" href="/payment-types") Check Out
+      else
+        p No open order. Please add some products to your cart.
