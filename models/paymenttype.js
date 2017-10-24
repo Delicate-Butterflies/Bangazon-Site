@@ -8,11 +8,11 @@ module.exports = (sequelize, DataTypes) => {
 
 	PaymentType.associate = models => {
 		PaymentType.hasMany(models.Order, {
-			foreignKey: 'paymentTypeId'
+			foreignKey: 'PaymentTypeId'
 		});
 
 		PaymentType.belongsTo(models.User, {
-			foreignKey: 'customerUserId'
+			foreignKey: 'id'
 		});
 	};
 

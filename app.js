@@ -27,11 +27,11 @@ let routes = require('./routes/');
 // Begin middleware stack
 // Inject session persistence into middleware stack
 app.use(
-  session({
-    secret: 'keyboard cat',
-    resave: true,
-    saveUninitialized: true
-  })
+	session({
+		secret: 'keyboard cat',
+		resave: true,
+		saveUninitialized: true
+	})
 ); // session secret
 app.use(
   methodOverride(function(req, res) {
@@ -49,9 +49,9 @@ app.use(passport.session()); // persistent login sessions
 // This custom middleware adds the logged-in user's info to the locals variable,
 // so we can access it in the Pug templates
 app.use((req, res, next) => {
-  res.locals.session = req.session;
-  // console.log('res.locals.session', res.locals.session);
-  next();
+	res.locals.session = req.session;
+	// console.log('res.locals.session', res.locals.session);
+	next();
 });
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -64,5 +64,7 @@ app.use(routes);
 // Add error handler to pipe all server errors to from the routing middleware
 
 app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+	/* eslint-disable */
+	console.log(`listening on port ${port}`);
+	/* eslint-enable */
 });
