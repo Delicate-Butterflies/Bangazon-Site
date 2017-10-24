@@ -4,11 +4,12 @@ block content
     h1 Product Categories
     table(class="table")
       each productType in productTypes
+        - let productCount = productType.Products.length
         thead
           tr
             th
-              h4 #{productType.name}
-        each product in productType.Products
+              h4 #{productType.name} (#{productCount})
+        each product in productType.Products.slice(0, 3)
           tbody
             tr
               td: a(href=`/products/${product.id}`) #{product.title}
