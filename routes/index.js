@@ -10,7 +10,6 @@ router.get('/', (req, res, next) => {
 // pipe all other requests through the route modules
 router.use(require('./authRoute'));
 router.use(require('./product-types'));
-// router.use(require('./foo'));
 router.use(require('./products'));
 router.use(require('./user-account'));
 
