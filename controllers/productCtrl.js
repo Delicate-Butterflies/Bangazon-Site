@@ -6,11 +6,18 @@
  * Get single product and render 'product-details'
  */
 module.exports.getProductById = (req, res, next) => {
-	const { Product, Order, OrdersProducts } = req.app.get('models');
+	const { Product, Order } = req.app.get('models');
 	Product.findById(req.params.id, {
-		include: { model: Order },
-		through: OrdersProducts,
-		where: { PaymentTypeId: { $ne: null } }
+		include: [
+			{
+				model: Order,
+				where: {
+					PaymentTypeId: {
+						$ne: null
+					}
+				}
+			}
+		]
 	})
 		.then(product => {
 			res.json(product);
