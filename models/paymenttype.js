@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
 
 	PaymentType.associate = models => {
 		PaymentType.hasMany(models.Order, {
-			foreignKey: 'id'
+			foreignKey: 'PaymentTypeId'
 		});
 
 		PaymentType.belongsTo(models.User, {
