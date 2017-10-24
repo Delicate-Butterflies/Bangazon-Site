@@ -2,7 +2,8 @@ extends layout.pug
 block content
 	h5 #{product.title}
 	if product.pictureUrl
-		img(href=`#{product.pictureUrl}`)
+		img(href=`${product.pictureUrl}`)
+		//- img(href=`/public/images/500x500.png`)
 	h5 #{product.description}
 	- let price = Number.parseFloat(product.price).toFixed(2);
 	h5 $ #{ price }
