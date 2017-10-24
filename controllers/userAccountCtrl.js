@@ -7,5 +7,13 @@
  */
 
 module.exports.getCurrentUserAccount = (req, res, next) => {
-  res.render('user-account');
+  const { User } = req.app.get('models');
+  User.findById(req.params.id, {})
+    .then(user => {
+      res.json(user);
+      // res.render('user-account', { user });
+    })
+    .catch(err => {
+      next(err);
+    });
 };
