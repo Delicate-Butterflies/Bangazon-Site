@@ -20,6 +20,25 @@ module.exports.displayProductAdd = (req, res, next) => {
 module.exports.createNewProduct = (req, res, next) => {
   req.body.sellerUserId = req.session.passport.user.id;
   const { Product } = req.app.get('models');
+
+  // req.checkBody('title', 'Last Name must be alphanumeric.').isAlpha();
+
+  // const errors = req.validationErrors();
+
+  // const product = new Product(req.body);
+  // console.log(errors);
+
+  // if (errors) {
+  //   //If there are errors render the form again, passing the previously entered values and errors
+  //   const { ProductType } = req.app.get('models');
+  //   ProductType.findAll().then(data => {
+  //     data.productTypes = data.map(trainee => {
+  //       return Object.assign({}, trainee.dataValues);
+  //     });
+  //     res.render('add-product', data, { title: 'Create Product', product: product, errors: errors });
+  //   });
+  //   return;
+  // } else {
   Product.create(req.body, {
     'req.body.title': {
       validate: { isAlpha: true }
@@ -32,6 +51,7 @@ module.exports.createNewProduct = (req, res, next) => {
     .catch(err => {
       next(err);
     });
+  // }
 };
 
 module.exports.getProductById = (req, res, next) => {
