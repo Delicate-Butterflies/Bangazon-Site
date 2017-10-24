@@ -12,7 +12,7 @@ module.exports.getOpenOrder = (req, res, next) => {
   let activeUserId = req.session.passport.user.id; //get current active user
   Order.findAll({
     include: [{ model: Product }],
-    where: { customerUserId: activeUserId, paymentTypeId: null }
+    where: { customerUserId: activeUserId, PaymentTypeId: null }
   }).then(data => {
     currentOrder = data;
     if (data[0]) {
