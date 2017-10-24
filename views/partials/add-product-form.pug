@@ -3,21 +3,27 @@
 		form(method="post")
 			.form-group
 				label(class="form-control-label" for="title") Product Name
-				input(id="title" type="text" class="form-control" placeholder="Green Oven Mitts" name="title" required)
+				input(id="title" type="text" class="form-control" placeholder="Green Oven Mitts" name="title" value=(undefined===product ? '' : product.title) required)
 			.form-group
 				label(class="form-control-label" for="price") Price
-				input(id="price" type="text" class="form-control" placeholder="15.99" name="price" required)
+				input(id="price" type="text" class="form-control" placeholder="15.99" name="price" value=(undefined===product ? '' : product.price) required)
 			.form-group
 				label(class="form-control-label" for="description") Description
-				input(id="description" type="text" class="form-control" placeholder="Mitts for protecting your hands" name="description" required)
+				input(id="description" type="text" class="form-control" placeholder="Mitts for protecting your hands" name="description" value=(undefined===product ? '' : product.description) required)
 			.form-group
-				label(class="form-control-label" for="productTypeId") Product Type
-				select(class="form-control" id="productTypeId" name="productTypeId" required)
+				label(class="form-control-label" for="ProductTypeId") Product Type
+				select(class="form-control" id="ProductTypeId" name="ProductTypeId" value=(undefined===product ? '' : product.ProductTypeId) required)
 					each productType in productTypes
 						option(value=productType.id) #{productType.name}
 				label(class="form-control-label" for="quantity") Quantity
-				input(id="quantity" type="text" class="form-control" placeholder="15" name="quantity" required)
+				input(id="quantity" type="text" class="form-control" placeholder="15" name="quantity" value=(undefined===product ? '' : product.quantity) required)
 				label(class="form-control-label" for="pictureUrl") ImageURL
-				input(id="pictureUrl" type="text" class="form-control" placeholder="15" name="pictureUrl" required)
+				input(id="pictureUrl" type="text" class="form-control" placeholder="15" name="pictureUrl" value=(undefined===product ? '' : product.pictureUrl) required)
 
 			button(type="submit" class="btn-primary") Submit
+
+			if errors
+				ul
+					for error in errors
+						li!= error.msg
+
