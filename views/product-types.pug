@@ -1,0 +1,17 @@
+extends layout.pug
+block content
+  .col-sm-6
+    h1 Product Categories
+    table(class="table")
+      each productType in productTypes
+        //- count the number of products associated with each product type
+        - let productCount = productType.Products.length
+        thead
+          tr
+            th
+              h4 #{productType.name} (#{productCount})
+        //- only show 3 products
+        each product in productType.Products.slice(0, 3)
+          tbody
+            tr
+              td: a(href=`/products/${product.id}`) #{product.title}
