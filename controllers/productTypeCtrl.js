@@ -14,8 +14,7 @@ module.exports.getAllProductTypes = (req, res, next) => {
       }
     ]
   })
-    .then(results => {
-      let productTypes = results;
+    .then(productTypes => {
       res.render('product-types', { productTypes });
     })
     .catch(err => {
