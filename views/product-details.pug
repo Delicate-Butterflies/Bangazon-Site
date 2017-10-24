@@ -1,12 +1,12 @@
 extends layout.pug
 block content
-	h5 #{product.title}
+	h3 #{product.title}
 	if product.pictureUrl
 		img(src=`${product.pictureUrl}`)
 	h5 #{product.description}
 	//- TODO - can we return xx.00 directly from psql?
 	- let price = Number.parseFloat(product.price).toFixed(2);
-	h5 $ #{ price }
+	h4 $ #{ price }
 	button(class="btn btn-primary") Add to Cart
 	span()  left
 
