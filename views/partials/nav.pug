@@ -1,19 +1,21 @@
 nav(class="navbar navbar-expand-lg navbar-light bg-light")
-	a(class="navbar-brand" href="/") Bangazon
+	a(class="navbar-brand nav-item" href="/") Bangazon
 	button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
 		span(class="navbar-toggler-icon")
-	div(class="collapse navbar-collapse" id="navbarNavAltMarkup")
-		//- div(class="nav navbar-nav")
+	div(class="collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup")
 		div(class="nav-item dropdown")
-			button(class="btn btn-secondary nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown
+			button(class="btn btn-secondary nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Products
 			div(class="dropdown-menu" aria-labelledby="dropdownMenuButton")
 				a(class="dropdown-item" href="#") Latest
 				a(class="dropdown-item" href="/product-types") Categories
 				div(class="dropdown-divider")
 				if locals.prodTypes
-					each product in locals.	prodTypes
-						a(class="dropdown-item" href="#") #{product.name}
+					each product in locals.prodTypes
+						a(class="dropdown-item" href=`/product-types/${product.id}`) #{product.name}
+		button(class="btn btn-secondary nav-link nav-link" href="#") Sell a Product
+		button(class="btn btn-secondary nav-link nav-link" href="#") Cart
 		if session.passport
-			span(class="navbar-text nav-item") #{session.passport.user.username}
+			span(class="navbar-text") Welcome, #{session.passport.user.username}!
+			button(class="btn btn-secondary nav-link nav-link" href="#") Account
 			form(method="POST" class="form-inline")
-				button(class="btn btn-outline-primary" type="submit" formaction="/logout") logout
+				button(class="btn btn-outline-primary" type="submit" formaction="/logout") Logout
