@@ -18,6 +18,7 @@ for (let i = 0; i < numProducts; i++) {
 	let quantity = Math.floor(faker.random.number() / 1000);
 	let updatedAt = new Date().toISOString();
 	let createdAt = faker.date.past().toISOString();
+	let pictureUrl = './images/500x500.png';
 
 	products.push({
 		title,
@@ -26,6 +27,7 @@ for (let i = 0; i < numProducts; i++) {
 		productTypeId,
 		sellerUserId,
 		quantity,
+		pictureUrl,
 		updatedAt,
 		createdAt
 	});
