@@ -10,8 +10,12 @@ module.exports.getUserPaymentTypes = (req, res, next) => {
   PaymentType.findAll({
     where: { customerUserId: activeUserId }
   })
-    .then(paymentTypes => {
-      res.render('payment-type', { paymentTypes });
+    .then(data => {
+      // res.json(data);
+      if (data.length > 0) {
+        let paymentTypes = data;
+        res.render('payment-type', { paymentTypes });
+      } else res.render('payment-type', data[0]);
     })
     .catch(err => {
       next(err);
