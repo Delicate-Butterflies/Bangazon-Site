@@ -17,7 +17,7 @@ module.exports = {
 			description: {
 				type: Sequelize.STRING
 			},
-			productTypeId: {
+			ProductTypeId: {
 				type: Sequelize.INTEGER
 			},
 			sellerUserId: {
@@ -33,6 +33,9 @@ module.exports = {
 			updatedAt: {
 				allowNull: false,
 				type: Sequelize.DATE
+			},
+			pictureUrl: {
+				type: Sequelize.STRING
 			}
 		});
 	},

@@ -11,7 +11,7 @@ module.exports = {
 			orderDate: {
 				type: Sequelize.DATEONLY
 			},
-			paymentTypeId: {
+			PaymentTypeId: {
 				type: Sequelize.INTEGER
 			},
 			customerUserId: {
