@@ -13,7 +13,7 @@ for (let i = 0; i < numProducts; i++) {
 	let title = faker.commerce.productName();
 	let price = faker.commerce.price() / 10;
 	let description = faker.lorem.sentence();
-	let productTypeId = Math.floor(Math.random() * numProductTypes) + 1;
+	let ProductTypeId = Math.floor(Math.random() * numProductTypes) + 1;
 	let sellerUserId = Math.floor(Math.random() * numUsers) + 1;
 	let quantity = Math.floor(faker.random.number() / 1000);
 	let updatedAt = new Date().toISOString();
@@ -24,7 +24,7 @@ for (let i = 0; i < numProducts; i++) {
 		title,
 		price,
 		description,
-		productTypeId,
+		ProductTypeId,
 		sellerUserId,
 		quantity,
 		pictureUrl,
