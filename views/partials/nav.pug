@@ -1,21 +1,28 @@
 nav(class="navbar navbar-expand-lg navbar-light bg-light")
+	//- brand/logo
 	a(class="navbar-brand nav-item" href="/") Bangazon
+	//- hamburger button on small screens
 	button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
 		span(class="navbar-toggler-icon")
+	//- this div will be inside the hamburger!
 	div(class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup")
 		div(class="nav-item dropdown")
 			button(class="btn btn-light nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Products
+			//- product type dropdown
 			div(class="dropdown-menu" aria-labelledby="dropdownMenuButton")
 				a(class="dropdown-item" href="#") Latest
 				a(class="dropdown-item" href="/product-types") Categories
 				div(class="dropdown-divider")
+				//-prodTypes should be on every request - from app.use function in app.js
 				if locals.prodTypes
+					//-product type list
 					each product in locals.prodTypes
 						a(class="dropdown-item" href=`/product-types/${product.id}`) #{product.name}
-		button(class="btn btn-light nav-link nav-link" href="#") Sell a Product
+		button(class="btn btn-light nav-link nav-link" href="#") Sell Item
 		button(class="btn btn-light nav-link nav-link" href="#") Cart
+		//- user info shown only when logged in
 		if session.passport
-			span(class="navbar-text") Welcome, #{session.passport.user.username}!
+			span(class="navbar-text") Welcome, #{session.passport.user.firstName}!
 			button(class="btn btn-light nav-link nav-link" href="#") Account
 			form(method="POST" class="form-inline")
 				button(class="btn btn-outline-primary" type="submit" formaction="/logout") Logout
