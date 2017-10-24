@@ -2,7 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   var Order = sequelize.define('Order', {
     orderDate: DataTypes.DATEONLY,
-    paymentTypeId: DataTypes.INTEGER,
+    PaymentTypeId: DataTypes.INTEGER,
     customerUserId: DataTypes.INTEGER
   });
 
