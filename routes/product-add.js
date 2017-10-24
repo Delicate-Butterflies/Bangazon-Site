@@ -3,11 +3,11 @@
 const { Router } = require('express');
 const router = Router();
 // const
-const { displayProductAdd } = require('../controllers/productCtrl.js');
+const { displayProductAdd, createNewProduct } = require('../controllers/productCtrl.js');
 
 // adding a product
 router.get('/add-product', isLoggedIn, displayProductAdd);
-// router.post('/add-product', register);
+router.post('/add-product', isLoggedIn, createNewProduct);
 
 // We add this to the welcome route as an additional step to take before calling
 // the controller's 'welcome' method. 'isAuthenticated' is added to the request obj
