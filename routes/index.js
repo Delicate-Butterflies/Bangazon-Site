@@ -16,5 +16,6 @@ router.use(require('./product-types'));
 router.use(require('./products'));
 router.use(require('./payment-types'));
 router.use(require('./profile'));
+router.use(require('./my-products'));
 
 module.exports = router;

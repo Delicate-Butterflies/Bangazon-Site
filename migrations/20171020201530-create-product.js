@@ -26,6 +26,9 @@ module.exports = {
       quantity: {
         type: Sequelize.INTEGER
       },
+      pictureUrl: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
@@ -34,8 +37,8 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       },
-      pictureUrl: {
-        type: Sequelize.STRING
+      deletedAt: {
+        type: Sequelize.DATE
       }
     });
   },
