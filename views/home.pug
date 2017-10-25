@@ -1,0 +1,29 @@
+extends layout.pug
+block content
+	.welcome-text
+		if messages.registerMsg
+			h1= messages.registerMsg
+		else if messages.welcomeBackMsg
+			//- careful about flash messages. They go away when page refreshes...
+			h1 #{messages.welcomeBackMsg} #{session.passport.user.firstName}
+			//- This would be more permanent
+			//- h1 Welcome back, #{session.passport.user.first_name}
+	h2 Latest Products:
+	table(class="table")
+		thead
+			tr
+				th(scope="col") Title
+				th(scope="col") Price
+				th(scope="col") Description
+				th(scope="col") Action
+		tbody
+			if latestProducts
+				each product in latestProducts
+					tr
+						td
+							a(href=`/products/${product.id}`) #{product.title}
+						td $#{Number.parseFloat(product.price).toFixed(2)}
+						td #{product.description}
+						td
+							button(type="button" class="btn btn-success") Add to Cart
+

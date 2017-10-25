@@ -4,12 +4,12 @@ const { Router } = require('express');
 const router = Router();
 // const
 const {
-  displayRegister,
-  register,
-  displayLogin,
-  login,
-  welcome,
-  logout
+	displayRegister,
+	register,
+	displayLogin,
+	login,
+	welcome,
+	logout
 } = require('../controllers/authCtrl.js');
 
 // new users
@@ -30,9 +30,8 @@ router.post('/logout', logout);
 // by passport. Coolness
 // NOTE that we don't need to export this function. Why?
 function isLoggedIn(req, res, next) {
-  if (req.isAuthenticated())
-      return next();
-  res.redirect('/login');
+	if (req.isAuthenticated()) return next();
+	res.redirect('/login');
 }
 
 module.exports = router;

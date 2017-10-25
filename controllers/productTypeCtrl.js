@@ -1,6 +1,6 @@
 'use strict';
 
-const sequelize = require('sequelize');
+// const sequelize = require('sequelize');
 
 /** @module Product Type Controller */
 

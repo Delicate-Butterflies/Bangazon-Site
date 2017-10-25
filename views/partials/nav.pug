@@ -11,7 +11,7 @@ nav(class="navbar navbar-expand-lg navbar-light bg-light")
 			button(class="btn btn-light nav-item dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Products
 			div(class="dropdown-menu nav-item" aria-labelledby="dropdownMenuButton")
 				//-latest products link
-				a(class="dropdown-item nav-link" href="#") Latest
+				a(class="dropdown-item nav-link" href="/") Latest
 				//- product types link
 				a(class="dropdown-item nav-link" href="/product-types") Categories
 				//- divider
@@ -24,7 +24,7 @@ nav(class="navbar navbar-expand-lg navbar-light bg-light")
 		//- user info shown only when logged in
 		if session.passport
 			//- welcome message
-			span(class="navbar-text") Welcome, #{session.passport.user.firstName}!
+			//- span(class="navbar-text") Welcome, #{session.passport.user.firstName}!
 			//- cart link
 			a(class="btn btn-light nav-item nav-link" href="/cart") Cart
 			//- sell link
@@ -40,3 +40,9 @@ nav(class="navbar navbar-expand-lg navbar-light bg-light")
 			//- logout button
 			form(method="POST" class="form-inline nav-item")
 				button(class="btn btn-outline-primary" type="submit" formaction="/logout") Logout
+		else
+			div(class="nav-item row")
+				//- login button
+				a(class="btn btn-primary nav-link col-sm" href="/login") Login
+				//- register button
+				a(class="btn btn-info nav-link col-sm" href="/register") Register
