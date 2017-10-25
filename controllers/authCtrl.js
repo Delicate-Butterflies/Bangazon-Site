@@ -21,7 +21,7 @@ module.exports.register = (req, res, next) => {
 		passport.authenticate('local-signup', (err, user, msgObj) => {
 			// console.log('Where are we? session.js', user);
 			if (err) {
-				console.log(err);
+				next(err);
 			} //or return next(err)
 			if (!user) {
 				return res.render('register', msgObj);
@@ -35,7 +35,7 @@ module.exports.register = (req, res, next) => {
 				// Save a msg in a cookie whose value will be added to req
 				// using https://www.npmjs.com/package/express-flash-2 docs, but installed express-flash
 				req.flash('registerMsg', `Thanks for signing up, ${user.firstName}!`);
-				res.redirect('/welcome');
+				res.redirect('/');
 			});
 		})(req, res, next);
 	} else {
@@ -63,7 +63,7 @@ module.exports.login = (req, res, next) => {
 		// console.log('error msg?', msgObj);
 
 		if (err) {
-			console.log(err);
+			next(err);
 		} //or return next(err) once handler set up in app.js
 		if (!user) {
 			return res.render('login', msgObj);
@@ -75,13 +75,13 @@ module.exports.login = (req, res, next) => {
 			}
 			// console.log('authenticated. Rerouting to welcome!', user);
 			req.flash('welcomeBackMsg', `Welcome back, `);
-			res.redirect('/welcome');
+			res.redirect('/');
 		});
 	})(req, res, next);
 };
 
 module.exports.welcome = (req, res, next) => {
-	res.render('welcome');
+	res.render('home');
 };
 
 /**
