@@ -8,12 +8,17 @@ block content
 					th(scope="col") Account Name
 					th(scope="col") Created On
 					th(scope="col") Updated On
+					th(scope="col") Delete
 			tbody
 				each paymentType in paymentTypes
 					tr
 						th(scope="row") #{paymentType.type}
 						td #{paymentType.createdAt}
 						td #{paymentType.updatedAt}
+						td
+							a(href="#")
+								form(method="POST" action=`payment-types/${paymentType.id}/?_method=DELETE`)
+									button(type="submit" class="btn btn-danger") X
 				else
 					tr
 						th(scope="row") #

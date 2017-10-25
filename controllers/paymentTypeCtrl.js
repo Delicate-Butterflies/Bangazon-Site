@@ -49,3 +49,34 @@ module.exports.listUserPaymentTypes = (req, res, next) => {
 module.exports.showAddPaymentTypeForm = (req, res, next) => {
 	res.render('payment-type-add', {});
 };
+
+/**
+ * create a new payment type for the logged in user
+ */
+module.exports.createPaymentType = (req, res, next) => {
+	req.body.customerUserId = req.session.passport.user.id;
+	const { PaymentType } = req.app.get('models');
+	PaymentType.create(req.body)
+		.then(newPaymentType => {
+			res.redirect('/payment-types-list');
+		})
+		.catch(err => next(err));
+};
+
+/**
+ * delete a payment type
+ */
+module.exports.removePaymentType = (req, res, next) => {
+	const { PaymentType } = req.app.get('models');
+	console.log('product id: ', req.params);
+	PaymentType.findById(req.params.productId)
+		.then(paymentTypeToDelete => {
+			return paymentTypeToDelete.destroy();
+		})
+		.then(() => {
+			res.redirect('/payment-types-list');
+		})
+		.catch(err => {
+			next(err);
+		});
+};
