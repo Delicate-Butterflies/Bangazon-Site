@@ -1,0 +1,21 @@
+extends layout.pug
+block content
+	h1 Your Products
+	table(class="table")
+		thead
+			tr
+				th(scope="col") Title
+				th(scope="col") Price
+				th(scope="col") Description
+				th(scope="col") Action
+		tbody
+			each product in userProducts
+				tr
+					td #{product.title}
+					td #{product.price}
+					td #{product.description}
+					td
+						form(method="POST" class="form-inline")
+							button(type="submit" class="btn btn-danger" name="_productId" value=`${product.id}`) Delete
+			else
+				tr No products returned

@@ -3,7 +3,7 @@
 /** @module Product Controller */
 
 /**
- * Display form for creating new product
+ * display form for creating new product
  */
 module.exports.displayProductAdd = (req, res, next) => {
 	const { ProductType } = req.app.get('models');
@@ -19,6 +19,9 @@ module.exports.displayProductAdd = (req, res, next) => {
 		});
 };
 
+/**
+ * take product form information and return errors or store data
+ */
 module.exports.createNewProduct = (req, res, next) => {
 	req.body.sellerUserId = req.session.passport.user.id;
 	const { Product } = req.app.get('models');
@@ -56,11 +59,12 @@ module.exports.createNewProduct = (req, res, next) => {
 	req.checkBody('quantity').trim();
 	req.checkBody('pictureUrl').trim();
 
+	// validate for errors and assign the updated data to a new object
 	const errors = req.validationErrors();
 	const product = new Product(req.body);
 
+	//ff there are errors render the form again, passing the previously entered values and errors
 	if (errors) {
-		//If there are errors render the form again, passing the previously entered values and errors
 		const { ProductType } = req.app.get('models');
 		ProductType.findAll().then(data => {
 			data.productTypes = data.map(trainee => {
@@ -68,16 +72,15 @@ module.exports.createNewProduct = (req, res, next) => {
 			});
 			data.product = product;
 			data.errors = errors;
-			// console.log(data);
+			console.log(data);
 			res.render('add-product', data);
 		});
 		return;
 	} else {
-		Product.create(req.body, {
-			'req.body.title': {
-				validate: { isAlpha: true }
-			}
-		})
+		// if no errors then post to the db
+		// need to create using the sanitized product rather than the req.body
+		product
+			.save(() => {})
 			.then(response => {
 				// console.log('RESPONSE FROM THE POST', response);
 				res.redirect(`/products/${response.dataValues.id}`);
@@ -129,6 +132,38 @@ module.exports.searchProductsByName = (req, res, next) => {
 		}
 	})
 		.then(products => res.render('products-search', { products }))
+		.catch(err => next(err));
+};
+
+/**
+ * user can view all of their products
+ */
+module.exports.showAllUserProducts = (req, res, next) => {
+	const { Product } = req.app.get('models');
+	Product.findAll({
+		where: {
+			sellerUserId: req.session.passport.user.id
+		}
+	})
+		.then(userProducts => {
+			res.render('my-products', { userProducts });
+		})
+		.catch(err => next(err));
+};
+
+/**
+ * user can remove a product they created
+ */
+module.exports.deleteProduct = (req, res, next) => {
+	const { Product } = req.app.get('models');
+	Product.destroy({
+		where: {
+			id: req.body._productId
+		}
+	})
+		.then(() => {
+			res.redirect('my-products');
+		})
 		.catch(err => next(err));
 };
 
