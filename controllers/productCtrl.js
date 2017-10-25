@@ -31,6 +31,7 @@ module.exports.createNewProduct = (req, res, next) => {
   req.checkBody('ProductTypeId', 'Product Type must be an integer').isInt();
   req.checkBody('quantity', 'Quantity must be an integer').isInt();
   req.checkBody('pictureUrl', 'ImageURL must be a URL').isURL();
+  req.checkBody('pictureUrl', 'ImageURL is too long - must be less than 255 characters long').isLength({ max: 255 });
 
   // Sanitize req.body
   // Escape html characters
