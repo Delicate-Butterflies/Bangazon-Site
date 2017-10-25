@@ -36,6 +36,9 @@ module.exports = {
       },
       pictureUrl: {
         type: Sequelize.STRING
+      },
+      deletedAt: {
+        type: Sequelize.DATE
       }
     });
   },
