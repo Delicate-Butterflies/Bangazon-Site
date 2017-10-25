@@ -7,6 +7,7 @@ const passport = require('passport');
 var session = require('express-session');
 let bodyParser = require('body-parser');
 const flash = require('express-flash');
+const expressValidator = require('express-validator');
 
 require('dotenv').config();
 const port = process.env.PORT || 8080;
@@ -34,12 +35,12 @@ app.use(
 	})
 ); // session secret
 app.use(
-  methodOverride(function(req, res) {
-    if (req.body && typeof req.body === 'object' && '_method' in req.body) {
-      let method = req.body._method;
-      return method;
-    }
-  })
+	methodOverride(function(req, res) {
+		if (req.body && typeof req.body === 'object' && '_method' in req.body) {
+			let method = req.body._method;
+			return method;
+		}
+	})
 );
 
 //execute passport strategies file
@@ -56,6 +57,22 @@ app.use((req, res, next) => {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(flash());
+
+// validation - must be after bodyParser as it uses bodyParser to access parameters
+app.use(expressValidator());
+
+// add middleware to get product type info for nav partial on every request
+app.use(function(req, res, next) {
+	const { ProductType } = req.app.get('models');
+	ProductType.findAll()
+		.then(prodTypes => {
+			res.locals.prodTypes = prodTypes;
+			next();
+		})
+		.catch(err => {
+			next(err);
+		});
+});
 
 // note that this needs to be after the above stuff
 app.use(routes);
