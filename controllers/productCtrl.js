@@ -66,11 +66,10 @@ module.exports.createNewProduct = (req, res, next) => {
     });
     return;
   } else {
-    Product.create(req.body, {
-      'req.body.title': {
-        validate: { isAlpha: true }
-      }
-    })
+    // if no errors then post to the db
+    // need to create using the sanitized product rather than the req.body
+    product
+      .save(() => {})
       .then(response => {
         // console.log('RESPONSE FROM THE POST', response);
         res.redirect(`/products/${response.dataValues.id}`);
