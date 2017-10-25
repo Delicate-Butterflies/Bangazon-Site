@@ -1,0 +1,22 @@
+extends layout.pug
+block content
+	if(paymentTypes)
+		h1 Payment Types
+		table(class="table")
+			thead
+				tr
+					th(scope="col") Account Name
+					th(scope="col") Created On
+					th(scope="col") Updated On
+			tbody
+				each paymentType in paymentTypes
+					tr
+						th(scope="row") #{paymentType.type}
+						td #{paymentType.createdAt}
+						td #{paymentType.updatedAt}
+				else
+					tr
+						th(scope="row") #
+							td No payment Types
+	else
+		p No payment types
