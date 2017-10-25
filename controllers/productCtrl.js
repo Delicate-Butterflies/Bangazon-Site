@@ -134,13 +134,26 @@ module.exports.searchProductsByName = (req, res, next) => {
  * user can view all of their products
  */
 module.exports.showAllUserProducts = (req, res, next) => {
-  const { Product } = req.app.get('models');
+  const { Product, Order } = req.app.get('models');
   Product.findAll({
+    // limiting find all to the current users products
     where: {
       sellerUserId: req.session.passport.user.id
-    }
+    },
+    // need the include to get an array of all orders that product is found on
+    include: [
+      {
+        model: Order,
+        // only orders that have been completed should be returned
+        where: { PaymentTypeId: { $ne: null } },
+        // return ALL products regardless if they have orders on which they have been completed
+        // without required: false the findAll will ONLY return products that have been on a completed order
+        required: false
+      }
+    ]
   })
     .then(userProducts => {
+      console.log('SAIL', userProducts[0]);
       res.render('my-products', { userProducts });
     })
     .catch(err => next(err));
