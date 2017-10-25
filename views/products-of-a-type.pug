@@ -18,6 +18,5 @@ block content
 						td $#{Number.parseFloat(product.price).toFixed(2)}
 						td #{product.description}
 						td
-							form(action=`/cart/add-product/${product.id}`, method="POST")
-								button(type="submit" class="btn btn-primary") Add to Cart
+							a(type="button" class="btn btn-primary" href=`/products/${product.id}`) View
 
