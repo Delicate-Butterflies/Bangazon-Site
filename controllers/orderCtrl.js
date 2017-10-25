@@ -23,7 +23,6 @@ module.exports.getOpenOrder = (req, res, next) => {
           res.render('cart', { products });
         } else {
           deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
-          // res.render('cart', data[0]);
         }
       } else res.render('cart', data[0]); //if no open order
     })
@@ -95,16 +94,13 @@ module.exports.cancelOrder = (req, res, next) => {
     include: [{ model: Product }]
   })
     .then(cart => {
-      // return promise(resolve, reject) {
       cart.Products.forEach(product => {
         cart.removeProducts(product.id);
       });
     })
     .then(() => {
       deleteOrder(req, res, next);
-      // res.redirect('/cart');
     })
-    // }
     .catch(err => {
       next(err);
     });
