@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const methodOverride = require('method-override');
 const app = express();
 const passport = require('passport');
 var session = require('express-session');
@@ -33,6 +34,14 @@ app.use(
     saveUninitialized: true
   })
 ); // session secret
+app.use(
+  methodOverride(function(req, res) {
+    if (req.body && typeof req.body === 'object' && '_method' in req.body) {
+      let method = req.body._method;
+      return method;
+    }
+  })
+);
 
 //execute passport strategies file
 require('./config/passport-strat.js');
