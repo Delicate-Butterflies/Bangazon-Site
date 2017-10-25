@@ -14,10 +14,10 @@ block content
           tr
             td #{product.title}
             td #{product.price}
-            - price += parseFloat(product.price); //- to calculate the total of the current open order
-            form(action="", method="post")
+            - price += parseFloat(product.price);//- to calculate the total of the current open order
             td
-              button(type="button" class="btn btn-danger") Remove
+              form(method="POST" action=`cart/remove/${product.id}/?_method=DELETE`)
+                button(type="submit" class="btn btn-primary") Remove
 
         tr
           td

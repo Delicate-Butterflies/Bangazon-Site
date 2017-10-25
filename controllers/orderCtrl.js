@@ -38,3 +38,18 @@ module.exports.savePaymentType = (req, res, next) => {
     res.render('payment-confirmation');
   });
 };
+
+module.exports.removeProductFromCart = (req, res, next) => {
+  const { Order, Product } = req.app.get('models');
+  console.log('product id: ', req.params.productId);
+  // res.json(currentOrder[0].id);
+  Order.findById(currentOrder[0].id, {
+    include: [{ model: Product }]
+  })
+    .then(cart => {
+      cart.removeProducts(req.params.productId);
+    })
+    .then(() => {
+      res.redirect('/cart');
+    });
+};

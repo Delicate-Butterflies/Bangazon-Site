@@ -7,7 +7,7 @@ const { getOpenOrder, savePaymentType, removeProductFromCart } = require('../con
 
 router.get('/cart', isLoggedIn, getOpenOrder);
 router.post('/add-payment', isLoggedIn, savePaymentType);
-router.post('cart/remove/:productId', isLoggedIn, removeProductFromCart);
+router.post('/cart/remove/:productId', isLoggedIn, removeProductFromCart);
 module.exports = router;
 
 function isLoggedIn(req, res, next) {
