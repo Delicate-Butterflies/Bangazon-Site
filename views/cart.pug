@@ -1,14 +1,20 @@
 extends layout.pug
 block content
-  h1 Your Cart
   table(class="table")
     tbody
+      tr
+        td
+          h1 Your Cart
+        td
+          form(method="POST" action=`/cart?_method=DELETE`)
+            button(type="submit" class="btn btn-primary") Cancel Order
     -let total = 0;
       tr
         td
           h4 Product:
         td
           h4 Price:
+        td
       if(products)
         each product in products
           tr

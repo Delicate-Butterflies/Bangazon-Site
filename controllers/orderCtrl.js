@@ -52,7 +52,6 @@ module.exports.savePaymentType = (req, res, next) => {
  */
 module.exports.removeProductFromCart = (req, res, next) => {
   const { Order, Product } = req.app.get('models');
-  console.log('product id: ', req.params.productId);
   Order.findById(currentOrder[0].id, {
     include: [{ model: Product }]
   })
@@ -62,6 +61,30 @@ module.exports.removeProductFromCart = (req, res, next) => {
     .then(() => {
       res.redirect('/cart');
     })
+    .catch(err => {
+      next(err);
+    });
+};
+
+/**
+ * cancels the whole order. Removes all the rows associated with that order from database.
+ */
+
+module.exports.cancelOrder = (req, res, next) => {
+  const { Order, Product } = req.app.get('models');
+  Order.findById(currentOrder[0].id, {
+    include: [{ model: Product }]
+  })
+    .then(cart => {
+      // return promise(resolve, reject) {
+      cart.Products.forEach(product => {
+        cart.removeProducts(product.id);
+      });
+    })
+    .then(() => {
+      res.redirect('/cart');
+    })
+    // }
     .catch(err => {
       next(err);
     });
