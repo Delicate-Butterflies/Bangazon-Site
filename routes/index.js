@@ -3,9 +3,10 @@
 const { Router } = require('express');
 const router = Router();
 
-router.get('/', (req, res, next) => {
-	res.render('index');
-});
+// latest products shown at root
+const { getLatestProducts } = require('../controllers/productCtrl');
+
+router.get('/', getLatestProducts);
 
 // pipe all other requests through the route modules
 router.use(require('./authRoute'));
