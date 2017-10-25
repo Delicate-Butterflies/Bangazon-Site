@@ -9,12 +9,16 @@
 // display form for creating new product
 module.exports.displayProductAdd = (req, res, next) => {
 	const { ProductType } = req.app.get('models');
-	ProductType.findAll().then(data => {
-		data.productTypes = data.map(trainee => {
-			return Object.assign({}, trainee.dataValues);
+	ProductType.findAll()
+		.then(data => {
+			data.productTypes = data.map(trainee => {
+				return Object.assign({}, trainee.dataValues);
+			});
+			res.render('add-product', data);
+		})
+		.catch(err => {
+			next(err);
 		});
-		res.render('add-product', data);
-	});
 };
 
 module.exports.createNewProduct = (req, res, next) => {
@@ -66,7 +70,7 @@ module.exports.createNewProduct = (req, res, next) => {
 			});
 			data.product = product;
 			data.errors = errors;
-			console.log(data);
+			// console.log(data);
 			res.render('add-product', data);
 		});
 		return;
@@ -115,7 +119,7 @@ module.exports.getProductById = (req, res, next) => {
  * Get list of products that contain the search string
  */
 module.exports.searchProductsByName = (req, res, next) => {
-	const { Product, Order } = req.app.get('models');
+	const { Product } = req.app.get('models');
 	Product.findAll({
 		where: {
 			title: {
