@@ -3,10 +3,8 @@
 /** @module Product Controller */
 
 /**
- * Get single product and render 'product-details'
+ * Display form for creating new product
  */
-
-// display form for creating new product
 module.exports.displayProductAdd = (req, res, next) => {
 	const { ProductType } = req.app.get('models');
 	ProductType.findAll()
@@ -90,6 +88,9 @@ module.exports.createNewProduct = (req, res, next) => {
 	}
 };
 
+/**
+ * Gets product info from ID, along with # sold as 'sales'
+ */
 module.exports.getProductById = (req, res, next) => {
 	const { Product, Order } = req.app.get('models');
 	Product.findById(req.params.id, {})
@@ -129,4 +130,21 @@ module.exports.searchProductsByName = (req, res, next) => {
 	})
 		.then(products => res.render('products-search', { products }))
 		.catch(err => next(err));
+};
+
+/**
+ * gets 20 most recently added products, renders home page
+ */
+module.exports.getLatestProducts = (req, res, next) => {
+	const { Product } = req.app.get('models');
+	Product.findAll({
+		order: [['createdAt', 'DESC']],
+		limit: 20
+	})
+		.then(latestProducts => {
+			res.render('home', { latestProducts });
+		})
+		.catch(err => {
+			next(err);
+		});
 };
