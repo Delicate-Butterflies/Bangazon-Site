@@ -3,10 +3,8 @@
 /** @module Product Controller */
 
 /**
- * Get single product and render 'product-details'
+ * display form for creating new product
  */
-
-// display form for creating new product
 module.exports.displayProductAdd = (req, res, next) => {
   const { ProductType } = req.app.get('models');
   ProductType.findAll()
@@ -21,6 +19,9 @@ module.exports.displayProductAdd = (req, res, next) => {
     });
 };
 
+/**
+ * take product form information and return errors or store data
+ */
 module.exports.createNewProduct = (req, res, next) => {
   req.body.sellerUserId = req.session.passport.user.id;
   const { Product } = req.app.get('models');
@@ -53,11 +54,12 @@ module.exports.createNewProduct = (req, res, next) => {
   req.checkBody('quantity').trim();
   req.checkBody('pictureUrl').trim();
 
+  // validate for errors and assign the updated data to a new object
   const errors = req.validationErrors();
   const product = new Product(req.body);
 
+  //ff there are errors render the form again, passing the previously entered values and errors
   if (errors) {
-    //If there are errors render the form again, passing the previously entered values and errors
     const { ProductType } = req.app.get('models');
     ProductType.findAll().then(data => {
       data.productTypes = data.map(trainee => {
@@ -84,6 +86,9 @@ module.exports.createNewProduct = (req, res, next) => {
   }
 };
 
+/**
+ * get a product by its id and view that product
+ */
 module.exports.getProductById = (req, res, next) => {
   const { Product, Order } = req.app.get('models');
   Product.findById(req.params.id, {})
@@ -122,5 +127,37 @@ module.exports.searchProductsByName = (req, res, next) => {
     }
   })
     .then(products => res.render('products-search', { products }))
+    .catch(err => next(err));
+};
+
+/**
+ * user can view all of their products
+ */
+module.exports.showAllUserProducts = (req, res, next) => {
+  const { Product } = req.app.get('models');
+  Product.findAll({
+    where: {
+      sellerUserId: req.session.passport.user.id
+    }
+  })
+    .then(userProducts => {
+      res.render('my-products', { userProducts });
+    })
+    .catch(err => next(err));
+};
+
+/**
+ * user can remove a product they created
+ */
+module.exports.deleteProduct = (req, res, next) => {
+  const { Product } = req.app.get('models');
+  Product.destroy({
+    where: {
+      id: req.body._productId
+    }
+  })
+    .then(() => {
+      res.redirect('my-products');
+    })
     .catch(err => next(err));
 };
