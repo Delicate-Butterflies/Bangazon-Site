@@ -17,6 +17,7 @@ module.exports.displayProductAdd = (req, res, next) => {
   });
 };
 
+// allow user to create a new product to sell
 module.exports.createNewProduct = (req, res, next) => {
   req.body.sellerUserId = req.session.passport.user.id;
   const { Product } = req.app.get('models');
@@ -49,11 +50,12 @@ module.exports.createNewProduct = (req, res, next) => {
   req.checkBody('quantity').trim();
   req.checkBody('pictureUrl').trim();
 
+  // validate for errors and assign the updated data to a new object
   const errors = req.validationErrors();
   const product = new Product(req.body);
 
+  //ff there are errors render the form again, passing the previously entered values and errors
   if (errors) {
-    //If there are errors render the form again, passing the previously entered values and errors
     const { ProductType } = req.app.get('models');
     ProductType.findAll().then(data => {
       data.productTypes = data.map(trainee => {
@@ -66,7 +68,9 @@ module.exports.createNewProduct = (req, res, next) => {
     });
     return;
   } else {
-    Product.create(req.body, {
+    // if no errors then post to the db
+    // need to create using the sanitized product rather than the req.body
+    Product.create(product, {
       'req.body.title': {
         validate: { isAlpha: true }
       }
@@ -121,3 +125,6 @@ module.exports.searchProductsByName = (req, res, next) => {
     .then(products => res.render('products-search', { products }))
     .catch(err => next(err));
 };
+
+// user can remove a product they created
+module.exports.deleteProduct = (req, res, next) => {};
