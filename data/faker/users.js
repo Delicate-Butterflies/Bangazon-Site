@@ -4,8 +4,7 @@
 const faker = require('faker');
 const { amounts: { numUsers } } = require('./generatorAmounts.json');
 let fs = require('fs');
-const bCrypt = require('bcrypt-nodejs');
-
+let bCrypt = require('bcrypt-nodejs');
 let users = [];
 
 let hasher = password => {
