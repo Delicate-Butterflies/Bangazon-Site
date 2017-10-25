@@ -18,9 +18,28 @@ module.exports.getOpenOrder = (req, res, next) => {
       currentOrder = data;
       if (data[0]) {
         //if there is an open order
-        let products = data[0].Products;
-        res.render('cart', { products });
+        if (data[0].Products.length > 0) {
+          let products = data[0].Products;
+          res.render('cart', { products });
+        } else {
+          deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
+          // res.render('cart', data[0]);
+        }
       } else res.render('cart', data[0]); //if no open order
+    })
+    .catch(err => {
+      next(err);
+    });
+};
+
+/**
+ * deletes the order by id. Helper function.
+ */
+let deleteOrder = (req, res, next) => {
+  const { Order } = req.app.get('models');
+  Order.destroy({ where: { id: currentOrder[0].id } })
+    .then(() => {
+      res.redirect('/cart');
     })
     .catch(err => {
       next(err);
@@ -67,8 +86,8 @@ module.exports.removeProductFromCart = (req, res, next) => {
 };
 
 /**
- * cancels the whole order. Removes all the rows associated with that order from database.
- */
+   * cancels the whole order. Removes all the rows associated with that order from database.
+   */
 
 module.exports.cancelOrder = (req, res, next) => {
   const { Order, Product } = req.app.get('models');
@@ -82,7 +101,8 @@ module.exports.cancelOrder = (req, res, next) => {
       });
     })
     .then(() => {
-      res.redirect('/cart');
+      deleteOrder(req, res, next);
+      // res.redirect('/cart');
     })
     // }
     .catch(err => {
