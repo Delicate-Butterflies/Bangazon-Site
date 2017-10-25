@@ -126,5 +126,30 @@ module.exports.searchProductsByName = (req, res, next) => {
     .catch(err => next(err));
 };
 
+// user can view all of their products
+module.exports.showAllUserProducts = (req, res, next) => {
+  const { Product } = req.app.get('models');
+  Product.findAll({
+    where: {
+      sellerUserId: req.session.passport.user.id
+    }
+  })
+    .then(userProducts => {
+      res.render('my-products', { userProducts });
+    })
+    .catch(err => next(err));
+};
+
 // user can remove a product they created
-module.exports.deleteProduct = (req, res, next) => {};
+module.exports.deleteProduct = (req, res, next) => {
+  const { Product } = req.app.get('models');
+  Product.destroy({
+    where: {
+      id: req.body._productId
+    }
+  })
+    .then(() => {
+      res.redirect('my-products');
+    })
+    .catch(err => next(err));
+};
