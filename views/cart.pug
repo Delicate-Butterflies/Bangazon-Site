@@ -1,34 +1,40 @@
 extends layout.pug
 block content
-  h1 Your Cart
-  table(class="table")
-    tbody
-    -let total = 0;
-      tr
-        td
-          h4 Product:
-        td
-          h4 Price:
-      if(products)
-        each product in products
-          tr
-            - let price = parseFloat(product.price).toFixed(2);
-            td #{product.title}
-            td $#{price}
-            - total += parseFloat(price)
-            //- to calculate the total of the current open order
-            td
-              form(method="POST" action=`cart/remove/${product.id}/?_method=DELETE`)
-                button(type="submit" class="btn btn-primary") Remove
+  if(products)
+    table(class="table")
+      tbody
+        tr
+          td
+            h1 Your Cart
+          td
+            form(method="POST" action=`/cart?_method=DELETE`)
+              button(type="submit" class="btn btn-primary") Cancel Order
+      -let total = 0;
+        tr
+          td
+            h4 Product:
+          td
+            h4 Price:
+          td
+          each product in products
+            tr
+              - let price = parseFloat(product.price).toFixed(2);
+              td #{product.title}
+              td $#{price}
+              - total += parseFloat(price)
+              //- to calculate the total of the current open order
+              td
+                form(method="POST" action=`cart/remove/${product.id}/?_method=DELETE`)
+                  button(type="submit" class="btn btn-primary") Remove
 
-        tr
-          td
-            h3 Total:
-          td
-            h3 $#{total.toFixed(2)}
-        tr
-          td
-          td
-            a(type="button" class="btn" href="/payment-types") Check Out
-      else
-        p No open order. Please add some products to your cart.
+          tr
+            td
+              h3 Total:
+            td
+              h3 $#{total.toFixed(2)}
+          tr
+            td
+            td
+              a(type="button" class="btn" href="/payment-types") Check Out
+  else
+    h1 No open order. Please add some products to your cart.

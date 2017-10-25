@@ -1,10 +1,17 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var Order = sequelize.define('Order', {
-    orderDate: DataTypes.DATEONLY,
-    PaymentTypeId: DataTypes.INTEGER,
-    customerUserId: DataTypes.INTEGER
-  });
+  var Order = sequelize.define(
+    'Order',
+    {
+      orderDate: DataTypes.DATEONLY,
+      PaymentTypeId: DataTypes.INTEGER,
+      customerUserId: DataTypes.INTEGER
+    },
+    {
+      timestamps: true,
+      paranoid: true
+    }
+  );
 
   Order.associate = models => {
     Order.belongsToMany(models.Product, {
