@@ -1,6 +1,7 @@
 extends layout.pug
 block content
-  h1 Please login
-  if message
-    h2= message
-  include partials/login-form.pug
+	if message
+		h2= message
+	.row
+		include partials/login-form.pug
+		include partials/user-form.pug
