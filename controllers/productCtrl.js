@@ -9,12 +9,16 @@
 // display form for creating new product
 module.exports.displayProductAdd = (req, res, next) => {
   const { ProductType } = req.app.get('models');
-  ProductType.findAll().then(data => {
-    data.productTypes = data.map(trainee => {
-      return Object.assign({}, trainee.dataValues);
+  ProductType.findAll()
+    .then(data => {
+      data.productTypes = data.map(trainee => {
+        return Object.assign({}, trainee.dataValues);
+      });
+      res.render('add-product', data);
+    })
+    .catch(err => {
+      next(err);
     });
-    res.render('add-product', data);
-  });
 };
 
 // allow user to create a new product to sell
@@ -70,11 +74,8 @@ module.exports.createNewProduct = (req, res, next) => {
   } else {
     // if no errors then post to the db
     // need to create using the sanitized product rather than the req.body
-    Product.create(product, {
-      'req.body.title': {
-        validate: { isAlpha: true }
-      }
-    })
+    product
+      .save(() => {})
       .then(response => {
         // console.log('RESPONSE FROM THE POST', response);
         res.redirect(`/products/${response.dataValues.id}`);
@@ -114,7 +115,7 @@ module.exports.getProductById = (req, res, next) => {
  * Get list of products that contain the search string
  */
 module.exports.searchProductsByName = (req, res, next) => {
-  const { Product, Order } = req.app.get('models');
+  const { Product } = req.app.get('models');
   Product.findAll({
     where: {
       title: {
