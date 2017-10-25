@@ -12,11 +12,10 @@ block content
 			tbody
 				each product in productType.Products
 					tr
-						//- th(scope="row") #{product.id}
 						td
 							a(href=`/products/${product.id}`) #{product.title}
 						td $#{Number.parseFloat(product.price).toFixed(2)}
 						td #{product.description}
 						td
-							a(type="button" class="btn btn-primary" href=`/products/${product.id}`) View
+							a(class="btn btn-primary" href=`/products/${product.id}`) View
 

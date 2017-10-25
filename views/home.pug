@@ -25,5 +25,5 @@ block content
 						td $#{Number.parseFloat(product.price).toFixed(2)}
 						td #{product.description}
 						td
-							button(type="button" class="btn btn-success") Add to Cart
+							a(class="btn btn-primary" href=`/products/${product.id}`) View
 
