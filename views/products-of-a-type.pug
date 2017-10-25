@@ -1,9 +1,21 @@
 extends layout.pug
 block content
 	h3 #{productType.name}
-	.row
-		//- TODO put these in product cards
-		each product in productType.Products
-			p.col-md-6
-				a(href=`/products/${product.id}`) #{product.title}
-				span  - $#{Number.parseFloat(product.price).toFixed(2)}
+	table(class="table")
+			thead
+				tr
+					//- th(scope="col") ID
+					th(scope="col") Title
+					th(scope="col") Price
+					th(scope="col") Description
+					th(scope="col") Action
+			tbody
+				each product in productType.Products
+					tr
+						//- th(scope="row") #{product.id}
+						td
+							a(href=`/products/${product.id}`) #{product.title}
+						td $#{Number.parseFloat(product.price).toFixed(2)}
+						td #{product.description}
+						td
+							button(type="button" class="btn btn-success") Add to Cart
