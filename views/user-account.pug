@@ -1,3 +1,49 @@
 extends layout.pug
 block content
-  h1 hello Megan
+  h1 Your Account
+  table(class="table")
+    tbody
+      tr
+        th First Name
+        td #{user.firstName}
+      tr
+        th Last Name
+        td #{user.lastName}
+      tr
+        th Email
+        td #{user.email}
+      tr
+        th Username
+        td #{user.username}
+      tr
+        th Street
+        td #{user.streetAddress}
+      tr
+        th City
+        td #{user.cityAddress}
+      tr
+        th State
+        td #{user.stateCode}
+      tr
+        th Zip Code
+        td #{user.zipCode}
+      tr
+        th Phone Number
+        td #{user.phoneNumber}
+      tr
+        th Last Login
+        td #{user.lastLoginDate}
+  h1 Your Payment Options
+    table(class="table")
+      tbody
+        each payment in PaymentTypes
+          if payment
+            tr
+              th Account Type
+              td ${payment.type}
+            tr
+              th Account Number
+              td ${payment.accountNumber}
+          else
+            p No payment Types
+  h1 Your Order History

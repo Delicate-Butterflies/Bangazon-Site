@@ -3,8 +3,9 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getCurrentUserAccount } = require('../controllers/userAccountCtrl');
+const { getCurrentUserAccountDetails } = require('../controllers/userAccountCtrl');
+// const { getUserPaymentTypes } = require('../controllers/paymentTypeCtrl');
 
-router.get('/account/:id', getCurrentUserAccount);
+router.get('/account/:id', getCurrentUserAccountDetails);
 
 module.exports = router;
