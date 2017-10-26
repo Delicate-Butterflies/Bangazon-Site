@@ -1,7 +1,9 @@
 extends layout.pug
 block content
   h3 Your Account
-  a(class="btn btn-primary" href=`/account-edit/${user.id}`) Edit Account
+  a(class="btn btn-primary account-btn" href=`/account-edit/${user.id}`) Edit Account
+  a(href="/payment-types-list" class="btn btn-outline-primary account-btn") Your Payment Options
+  a(href=`/order-history/${user.id}` class="btn btn-outline-primary account-btn") Your Order History
   table(class="table")
     tbody
       tr
@@ -34,7 +36,5 @@ block content
       tr
         th Last Login
         td #{user.lastLoginDate}
-  a(href="/payment-types-list" class="btn btn-outline-primary") Your Payment Options
-  a(href=`/order-history/${user.id}` class="btn btn-outline-primary") Your Order History
 
 

@@ -106,6 +106,9 @@ module.exports.cancelOrder = (req, res, next) => {
     });
 };
 
+/**
+* Get order details including products and total price
+*/
 module.exports.getUserOrderHistory = (req, res, next) => {
   const { Order } = req.app.get('models');
   Order.findAll({
