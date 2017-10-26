@@ -9,7 +9,8 @@ block content
 	h4 $ #{ price }
 	- let remaining = product.quantity - sales;
 	if remaining > 0
-		button(class="btn btn-primary") Add to Cart
+		form(action=`/cart/add-product/${product.id}`, method="POST")
+			button(type="submit" class="btn btn-primary") Add to Cart
 	else
 		button(class="btn btn-primary" disabled) Add to Cart
 	p()  #{remaining} left
