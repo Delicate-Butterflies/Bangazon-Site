@@ -105,6 +105,23 @@ module.exports.cancelOrder = (req, res, next) => {
       next(err);
     });
 };
+
+module.exports.getUserOrderHistory = (req, res, next) => {
+  const { Order } = req.app.get('models');
+  Order.findAll({
+    where: {
+      customerUserId: req.params.id,
+      $PaymentTypeId$: { $ne: null }
+    }
+  })
+    .then(orders => {
+      res.render('order-history', { orders });
+    })
+    .catch(err => {
+      next(err);
+    });
+};
+
 /**
 * Get order details including products and total price
 */

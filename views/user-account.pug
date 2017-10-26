@@ -1,58 +1,40 @@
 extends layout.pug
 block content
   h3 Your Account
-  a(href="#") Edit Account
+  a(class="btn btn-primary" href=`/account-edit/${user.id}`) Edit Account
   table(class="table")
     tbody
       tr
         th First Name
-        td #{userDetails.user.firstName}
+        td #{user.firstName}
       tr
         th Last Name
-        td #{userDetails.user.lastName}
+        td #{user.lastName}
       tr
         th Email
-        td #{userDetails.user.email}
+        td #{user.email}
       tr
         th Username
-        td #{userDetails.user.username}
+        td #{user.username}
       tr
         th Street
-        td #{userDetails.user.streetAddress}
+        td #{user.streetAddress}
       tr
         th City
-        td #{userDetails.user.cityAddress}
+        td #{user.cityAddress}
       tr
         th State
-        td #{userDetails.user.stateCode}
+        td #{user.stateCode}
       tr
         th Zip Code
-        td #{userDetails.user.zipCode}
+        td #{user.zipCode}
       tr
         th Phone Number
-        td #{userDetails.user.phoneNumber}
+        td #{user.phoneNumber}
       tr
         th Last Login
-        td #{userDetails.user.lastLoginDate}
-  h3 Your Payment Options
-  table(class="table")
-    tbody
-      each payment in userDetails.paymentType
-        if payment
-          tr
-            th #{payment.id}
-            td #{payment.type}
-            td #{payment.accountNumber}
-        else
-          p You do not have any payment options saved
-  h3 Your Order History
-  table(class="table")
-    tbody
-      each order in userDetails.orders
-        if order
-          tr
-            th #{order.id}
-            td #{order.orderDate}
-            td: a(href=`/order/${order.id}`) View Details
-        else
-          p You do not have any completed orders
+        td #{user.lastLoginDate}
+  a(href="/payment-types-list" class="btn btn-outline-primary") Your Payment Options
+  a(href=`/order-history/${user.id}` class="btn btn-outline-primary") Your Order History
+
+
