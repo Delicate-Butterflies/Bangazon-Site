@@ -1,0 +1,41 @@
+extends layout.pug
+block content
+  .col-8
+    h3 Your Account
+    a(class="btn btn-primary account-btn" href=`/edit-account`) Edit Account
+    a(href="/payment-types-list" class="btn btn-outline-primary account-btn") Your Payment Options
+    a(href=`/order-history/${user.id}` class="btn btn-outline-primary account-btn") Your Order History
+    table(class="table")
+      tbody
+        tr
+          th First Name
+          td #{user.firstName}
+        tr
+          th Last Name
+          td #{user.lastName}
+        tr
+          th Email
+          td #{user.email}
+        tr
+          th Username
+          td #{user.username}
+        tr
+          th Street
+          td #{user.streetAddress}
+        tr
+          th City
+          td #{user.cityAddress}
+        tr
+          th State
+          td #{user.stateCode}
+        tr
+          th Zip Code
+          td #{user.zipCode}
+        tr
+          th Phone Number
+          td #{user.phoneNumber}
+        tr
+          th Last Login
+          td #{user.lastLoginDate}
+
+
