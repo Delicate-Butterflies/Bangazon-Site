@@ -1,0 +1,35 @@
+extends layout.pug
+block content
+  .col-8
+    h3 Edit Your Account Details
+    form(method="post" action="/edit-account?_method=PUT")
+      table(class="table")
+        tbody
+          tr
+            th First Name
+            td: input(name="firstName" id="firstName" type="text" class="form-control" value=`${user.firstName}`)
+          tr
+            th Last Name
+            td: input(name="lastName" id="lastName" type="text" class="form-control" value=`${user.lastName}`)
+          tr
+            th Email
+            td: input(name="email" id="email" type="email" class="form-control" value=`${user.email}`)
+          tr
+            th Username
+            td: input(name="username" id="username" type="text" class="form-control" value=`${user.username}`)
+          tr
+            th Street
+            td: input(name="streetAddress" id="streetAddress" type="text" class="form-control" value=`${user.streetAddress}`)
+          tr
+            th City
+            td: input(name="cityAddress" id="cityAddress" type="text" class="form-control" value=`${user.cityAddress}`)
+          tr
+            th State
+            td: input(name="stateAddress" id="stateAddress" type="text" class="form-control" value=`${user.stateCode}`)
+          tr
+            th Zip Code
+            td: input(name="zipCode" id="zipCode" type="text" class="form-control" value=`${user.zipCode}`)
+          tr
+            th Phone Number
+            td: input(name="phoneNumber" id="phoneNumber" type="" class="form-control" value=`${user.phoneNumber}`)
+      button(type="submit" class="btn-primary") Submit

@@ -107,6 +107,43 @@ module.exports.cancelOrder = (req, res, next) => {
 };
 
 /**
+* Get order details including products and total price
+*/
+module.exports.getUserOrderHistory = (req, res, next) => {
+  const { Order } = req.app.get('models');
+  Order.findAll({
+    where: {
+      customerUserId: req.params.id,
+      $PaymentTypeId$: { $ne: null }
+    }
+  })
+    .then(orders => {
+      res.render('order-history', { orders });
+    })
+    .catch(err => {
+      next(err);
+    });
+};
+
+/**
+* Get order details including products and total price
+*/
+module.exports.getUserOrderDetails = (req, res, next) => {
+  const { Order, Product } = req.app.get('models');
+  Order.findAll({
+    include: [{ model: Product }],
+    where: { id: req.params.id }
+  })
+    .then(results => {
+      let orderDetails = results[0];
+      res.render('order-details', { orderDetails });
+    })
+    .catch(err => {
+      next(err);
+    });
+};
+
+/**
  * add new products to the cart
  */
 module.exports.addProductToCart = (req, res, next) => {
