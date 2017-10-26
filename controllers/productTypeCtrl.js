@@ -35,7 +35,6 @@ module.exports.getProductTypeById = (req, res, next) => {
     ]
   })
     .then(productType => {
-      // res.json(productType);
       res.render('products-of-a-type', { productType });
     })
     .catch(err => {

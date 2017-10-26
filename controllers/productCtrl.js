@@ -178,7 +178,6 @@ module.exports.getLatestProducts = (req, res, next) => {
     limit: 20
   })
     .then(latestProducts => {
-      // res.json(latestProducts);
       res.render('home', { latestProducts });
     })
     .catch(err => {
