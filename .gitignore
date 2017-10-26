@@ -54,3 +54,5 @@ Thumbs.db
 .env
 /config/config.json
 /docs/***
+
+/**/fb-config.js

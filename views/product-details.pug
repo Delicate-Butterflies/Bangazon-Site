@@ -2,7 +2,7 @@ extends layout.pug
 block content
 	h3 #{product.title}
 	if product.pictureUrl
-		img(src=`${product.pictureUrl}`)
+		img(src=`${product.pictureUrl}` class="img-fluid")
 	h5 #{product.description}
 	//- TODO - can we return xx.00 directly from psql?
 	- let price = Number.parseFloat(product.price).toFixed(2);
