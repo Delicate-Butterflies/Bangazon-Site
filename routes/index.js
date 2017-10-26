@@ -12,10 +12,10 @@ router.get('/', getLatestProducts);
 router.use(require('./authRoute'));
 router.use(require('./product-add'));
 router.use(require('./orders'));
-router.use(require('./paymentTypes'));
 router.use(require('./product-types'));
 router.use(require('./products'));
 router.use(require('./user-account'));
+router.use(require('./payment-types'));
 router.use(require('./my-products'));
 
 module.exports = router;
