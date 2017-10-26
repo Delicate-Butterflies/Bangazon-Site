@@ -16,6 +16,7 @@ module.exports.getOpenOrder = (req, res, next) => {
   })
     .then(data => {
       currentOrder = data;
+      // res.json(currentOrder[0]);
       if (data[0]) {
         //if there is an open order
         if (data[0].Products.length > 0) {
