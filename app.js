@@ -9,17 +9,6 @@ let bodyParser = require('body-parser');
 const flash = require('express-flash');
 const expressValidator = require('express-validator');
 
-// //FIREBASE
-// let firebase = require('firebase/app');
-// let FBconfig = {
-// 	apiKey: process.env.FB_API_KEY,
-// 	authDomain: process.env.FB_AUTH_DOMAIN,
-// 	databaseURL: process.env.FB_DB_URL,
-// 	storageBucket: process.env.FB_STORAGE_BUCKET
-// };
-// require('firebase/auth');
-// firebase.initializeApp(FBconfig);
-
 require('dotenv').config();
 const port = process.env.PORT || 8080;
 
