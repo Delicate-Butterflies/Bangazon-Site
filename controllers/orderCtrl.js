@@ -114,8 +114,9 @@ module.exports.getUserOrderDetails = (req, res, next) => {
     include: [{ model: Product }],
     where: { id: req.params.id }
   })
-    .then(orderDetails => {
-      res.json(orderDetails);
+    .then(results => {
+      let orderDetails = results[0];
+      res.render('order-details', { orderDetails });
     })
     .catch(err => {
       next(err);
