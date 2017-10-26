@@ -30,7 +30,7 @@ module.exports.getProductTypeById = (req, res, next) => {
     include: [
       {
         model: Product,
-        include: [{ model: Order }]
+        include: [{ model: Order }] // include order inside products to connect.
       }
     ]
   })
