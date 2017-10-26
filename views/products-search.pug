@@ -7,16 +7,27 @@ block content
 				th(scope="col") Title
 				th(scope="col") Price
 				th(scope="col") Description
+				th(scope="col")
 				th(scope="col") Action
 		tbody
 			each product in products
+				- let sales = product.Orders.length
+				- let remaining = product.quantity - sales
 				tr
-					//- th(scope="row") #{product.id}
 					td
 						a(href=`/products/${product.id}`) #{product.title}
 					td $#{Number.parseFloat(product.price).toFixed(2)}
 					td #{product.description}
-					td
-						button(type="button" class="btn btn-success") Add to Cart
-			else
-				tr No products returned
+						if remaining <= 0
+							td(class="text-danger") Sold Out
+							td
+								a(class="btn btn-primary" href=`/products/${product.id}`) View
+						else
+							if(remaining > 0 && remaining < 5)
+								td only #{remaining} left
+							else
+								td #{remaining} available
+							td
+								form(action=`/cart/add-product/${product.id}`, method="POST")
+									button(type="submit" class="btn btn-primary") Add to Cart
+

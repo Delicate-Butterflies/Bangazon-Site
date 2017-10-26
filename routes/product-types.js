@@ -3,10 +3,7 @@
 const { Router } = require('express');
 const router = Router();
 
-const {
-	getAllProductTypes,
-	getProductTypeById
-} = require('../controllers/productTypeCtrl.js');
+const { getAllProductTypes, getProductTypeById } = require('../controllers/productTypeCtrl.js');
 
 router.get('/product-types', getAllProductTypes);
 router.get('/product-types/:id', getProductTypeById);

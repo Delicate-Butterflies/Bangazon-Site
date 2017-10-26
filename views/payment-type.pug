@@ -15,6 +15,8 @@ block content
             .form-group
               input(type="radio" id=`${payment.id}` name="paymentId" value=`${payment.id}`)
               label(for=`${payment.id}`) #{payment.type}
-        button(type="submit" class="btn") Done
+        button(type="submit" class="btn btn-primary") Done
       else
         p No payment Types
+        a(class="btn btn-primary" href="/payment-types/add") Add New Payment Type
+

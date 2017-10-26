@@ -1,0 +1,19 @@
+extends layout.pug
+block content
+  h3 Order ##{orderDetails.id}
+  .col-6
+    table(class="table")
+      tbody
+        tr
+          td(colspan="2") #{orderDetails.orderDate}
+        tr
+          th(colspan="2") Items on this order
+            -let total = 0;
+            each item in orderDetails.Products
+              - let price = parseFloat(item.price).toFixed(2);
+              tr
+                td #{item.title}
+                td $#{price}
+                - total += parseFloat(price);
+            tr
+              th(colspan="2") Total: $#{total.toFixed(2)}

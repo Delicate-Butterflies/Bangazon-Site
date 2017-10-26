@@ -3,12 +3,24 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getOpenOrder, savePaymentType, removeProductFromCart, cancelOrder } = require('../controllers/orderCtrl');
+const {
+  getOpenOrder,
+  savePaymentType,
+  removeProductFromCart,
+  cancelOrder,
+  addProductToCart,
+  getUserOrderHistory,
+  getUserOrderDetails
+} = require('../controllers/orderCtrl');
 
 router.get('/cart', isLoggedIn, getOpenOrder);
 router.post('/cart', isLoggedIn, cancelOrder);
 router.post('/add-payment', isLoggedIn, savePaymentType);
+router.post('/cart/add-product/:productId', isLoggedIn, addProductToCart);
 router.post('/cart/remove/:productId', isLoggedIn, removeProductFromCart);
+router.get('/order-history/:id', isLoggedIn, getUserOrderHistory);
+router.get('/order/:id', isLoggedIn, getUserOrderDetails);
+
 module.exports = router;
 
 function isLoggedIn(req, res, next) {

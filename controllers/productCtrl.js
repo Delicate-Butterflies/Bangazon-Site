@@ -87,7 +87,7 @@ module.exports.createNewProduct = (req, res, next) => {
 };
 
 /**
- * get a product by its id and view that product
+ * Gets product info from ID, along with # sold as 'sales'
  */
 module.exports.getProductById = (req, res, next) => {
   const { Product, Order } = req.app.get('models');
@@ -118,15 +118,18 @@ module.exports.getProductById = (req, res, next) => {
  * Get list of products that contain the search string
  */
 module.exports.searchProductsByName = (req, res, next) => {
-  const { Product } = req.app.get('models');
+  const { Product, Order } = req.app.get('models');
   Product.findAll({
+    include: [{ model: Order }],
     where: {
       title: {
         $iLike: `%${req.query.title}%`
       }
     }
   })
-    .then(products => res.render('products-search', { products }))
+    .then(products => {
+      res.render('products-search', { products });
+    })
     .catch(err => next(err));
 };
 
@@ -173,4 +176,27 @@ module.exports.deleteProduct = (req, res, next) => {
       res.redirect('my-products');
     })
     .catch(err => next(err));
+};
+
+/**
+ * gets 20 most recently added products, renders home page
+ */
+module.exports.getLatestProducts = (req, res, next) => {
+  const { Product, Order } = req.app.get('models');
+
+  Product.findAll({
+    include: [
+      {
+        model: Order
+      }
+    ],
+    order: [['createdAt', 'DESC']],
+    limit: 20
+  })
+    .then(latestProducts => {
+      res.render('home', { latestProducts });
+    })
+    .catch(err => {
+      next(err);
+    });
 };
