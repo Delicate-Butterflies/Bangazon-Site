@@ -105,3 +105,47 @@ module.exports.cancelOrder = (req, res, next) => {
       next(err);
     });
 };
+
+/**
+ * add new products to the cart
+ */
+module.exports.addProductToCart = (req, res, next) => {
+  const { Order, Product } = req.app.get('models');
+  let activeUserId = req.session.passport.user.id; //get current active user
+  Order.findAll({
+    include: [{ model: Product }],
+    where: { customerUserId: activeUserId, PaymentTypeId: null }
+  })
+    .then(theOrder => {
+      if (theOrder[0]) {
+        // if there is an open order
+        Order.findById(theOrder[0].id, {
+          include: [{ model: Product }]
+        }).then(currentOrder => {
+          currentOrder.addProducts(req.params.productId);
+          res.redirect('/cart');
+        });
+      } else {
+        createOrder(req, res, next); // if there is no open order, call createOrder
+      }
+    })
+    .catch(err => {
+      next(err);
+    });
+};
+
+/**
+ * helper function to create an order if there are no current open order.
+ */
+let createOrder = (req, res, next) => {
+  let activeUserId = req.session.passport.user.id; //get current active user
+  const { Order } = req.app.get('models');
+  let orderObj = {
+    orderDate: new Date().toISOString(),
+    PaymentTypeId: null,
+    customerUserId: activeUserId
+  };
+  Order.create(orderObj).then(() => {
+    module.exports.addProductToCart(req, res, next);
+  });
+};
