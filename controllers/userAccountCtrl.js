@@ -8,11 +8,10 @@
 
 module.exports.getCurrentUserAccountDetails = (req, res, next) => {
   const { User, PaymentType, Order } = req.app.get('models');
-  const userDetails = {};
-  User.findById(req.params.id, {})
+  let activeUserId = req.session.passport.user.id; //current active user
+  User.findById(activeUserId, {})
     .then(user => {
       res.render('user-account', { user });
-      // res.json(userDetails);
     })
     .catch(err => {
       next(err);

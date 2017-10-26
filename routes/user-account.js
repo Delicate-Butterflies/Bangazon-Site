@@ -5,6 +5,6 @@ const router = Router();
 
 const { getCurrentUserAccountDetails } = require('../controllers/userAccountCtrl');
 
-router.get('/account/:id', getCurrentUserAccountDetails);
+router.get('/account', getCurrentUserAccountDetails);
 
 module.exports = router;
