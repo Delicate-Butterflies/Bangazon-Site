@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
-require('firebase');
-require('dotenv').config();
+// require('firebase');
+// require('dotenv').config();
