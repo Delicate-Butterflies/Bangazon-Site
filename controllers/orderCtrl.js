@@ -105,3 +105,19 @@ module.exports.cancelOrder = (req, res, next) => {
       next(err);
     });
 };
+/**
+* Get order details including products and total price
+*/
+module.exports.getUserOrderDetails = (req, res, next) => {
+  const { Order, Product } = req.app.get('models');
+  Order.findAll({
+    include: [{ model: Product }],
+    where: { id: req.params.id }
+  })
+    .then(orderDetails => {
+      res.json(orderDetails);
+    })
+    .catch(err => {
+      next(err);
+    });
+};
