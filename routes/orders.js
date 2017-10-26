@@ -18,8 +18,8 @@ router.post('/cart', isLoggedIn, cancelOrder);
 router.post('/add-payment', isLoggedIn, savePaymentType);
 router.post('/cart/add-product/:productId', isLoggedIn, addProductToCart);
 router.post('/cart/remove/:productId', isLoggedIn, removeProductFromCart);
-router.get('/order-history/:id', getUserOrderHistory);
-router.get('/order/:id', getUserOrderDetails);
+router.get('/order-history/:id', isLoggedIn, getUserOrderHistory);
+router.get('/order/:id', isLoggedIn, getUserOrderDetails);
 
 module.exports = router;
 
