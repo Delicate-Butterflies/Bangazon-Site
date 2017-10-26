@@ -22,8 +22,13 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 - Run ```npm install``` from the root of the directory to install all of the dependencies
 
 ## Get Started
-- Set up the database using ```npm run db:reset``` command in terminal
+- Make a config.json file in config folder located in the root directory. Use config.json.example template.
+- Make a .env file in the root directory. Use the .env.example template also located in the root directory.
+- Make a fb-config.js in the static/javascripts directory. Use the static/javascripts/fb-config.js.example template. Contact one of the project website developers for the values you will need to input.
+- Create a PostgreSQL database with the name "bangazonsite".
+- Set up the database using ```npm run dbrb``` command in terminal
 - Run ```npm start``` from the terminal
+- View in browser
 
 ## Helper Applications
 - [PostgreSQL](http://www.postgresapp.com)
@@ -39,8 +44,6 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 - [mocha](https://www.mochajs.org)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [jsdoc](https://www.usejsdoc.org)
-
-## Usage Directions
 
 ## Credits
 ### Project Manager
