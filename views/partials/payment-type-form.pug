@@ -1,0 +1,10 @@
+.row
+  .col-6
+    form(name="register-user" method="post" action="/payment-types")
+      .form-group
+        label(class="form-control-label" for="cardType") Type
+        input(id="cardType" type="text" class="form-control" placeholder="e.g. Gold American Express" name="type")
+      .form-group
+        label(class="form-control-label" for="cardNumber") Account Number
+        input(id="cardNumber" type="number" class="form-control" placeholder="XXXXXXXXXXXXXXXX" name="accountNumber")
+      button(type="submit" class="btn-primary") Submit
