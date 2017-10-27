@@ -8,39 +8,42 @@ let currentOrder; //make current order global to the controller so that it can b
  */
 
 module.exports.getOpenOrder = (req, res, next) => {
-	const { Order, Product, sequelize } = req.app.get('models');
-	let activeUserId = req.session.passport.user.id; //get current active user
-	Order.findAll({
-		include: [{ model: Product }],
-		where: { customerUserId: activeUserId, PaymentTypeId: null }
-	})
-		.then(data => {
-			currentOrder = data;
-			if (data[0]) {
-				// res.json(data[0]);
-				sequelize // raw query to count products in open order.
-					.query(
-						`SELECT  "ProductId", COUNT(*) as "productCount" FROM "OrdersProducts" WHERE "OrderId" = ${data[0]
-							.id} GROUP BY "ProductId"`,
-						{
-							type: sequelize.QueryTypes.SELECT
-						}
-					)
-					.then(counts => {
-						res.json(counts);
-						if (data[0].Products.length > 0) {
-							let products = data[0].Products;
-							res.render('cart', { products, counts });
-						} else {
-							deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
-						}
-					});
-			} else res.render('cart', data[0]); //if no open order
-			//if there is an open order
-		})
-		.catch(err => {
-			next(err);
-		});
+  const { Order, Product, sequelize } = req.app.get('models');
+  let activeUserId = req.session.passport.user.id; //get current active user
+  Order.findAll({
+    include: [
+      {
+        model: Product
+      }
+    ],
+    where: { customerUserId: activeUserId, PaymentTypeId: null }
+  })
+    .then(data => {
+      currentOrder = data;
+      if (data[0]) {
+        sequelize // raw query to count products in open order.
+          .query(
+            `SELECT  "ProductId", COUNT(*) as "productCount" FROM "OrdersProducts" WHERE "OrderId" = ${data[0]
+              .id} GROUP BY "ProductId"`,
+            {
+              type: sequelize.QueryTypes.SELECT
+            }
+          )
+          .then(counts => {
+            if (data[0].Products.length > 0) {
+              let products = data[0].Products;
+              // res.json(products);
+              res.render('cart', { products, counts });
+            } else {
+              deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
+            }
+          });
+      } else res.render('cart', data[0]); //if no open order
+      //if there is an open order
+    })
+    .catch(err => {
+      next(err);
+    });
 };
 
 /**
@@ -171,6 +174,31 @@ module.exports.getUserOrderDetails = (req, res, next) => {
  * add new products to the cart
  */
 module.exports.addProductToCart = (req, res, next) => {
+<<<<<<< HEAD
+  const { Order, Product } = req.app.get('models');
+  let activeUserId = req.session.passport.user.id; //get current active user
+  Order.findAll({
+    include: [{ model: Product }],
+    where: { customerUserId: activeUserId, PaymentTypeId: null }
+  })
+    .then(theOrder => {
+      if (theOrder[0]) {
+        // if there is an open order
+        Order.findById(theOrder[0].id, {
+          include: [{ model: Product }]
+        }).then(currentOrder => {
+          currentOrder.addProducts(req.params.productId);
+          // res.json(currentOrder);
+          res.redirect('/cart');
+        });
+      } else {
+        createOrder(req, res, next); // if there is no open order, call createOrder
+      }
+    })
+    .catch(err => {
+      next(err);
+    });
+=======
 	const { Order, Product } = req.app.get('models');
 	let activeUserId = req.session.passport.user.id; //get current active user
 	Order.findAll({
@@ -193,6 +221,7 @@ module.exports.addProductToCart = (req, res, next) => {
 		.catch(err => {
 			next(err);
 		});
+>>>>>>> master
 };
 
 /**
@@ -211,4 +240,27 @@ let createOrder = (req, res, next) => {
 	});
 };
 
-module.exports.upadteProductQtyinCart = (req, res, next) => {};
+/**
+ * Update the quantity of a product from the cart.
+ */
+module.exports.upadteProductQtyinCart = (req, res, next) => {
+  let changedQty = req.body.quantity;
+  const { Order, Product } = req.app.get('models');
+  Order.findById(currentOrder[0].id, {
+    include: [
+      {
+        model: Product
+      }
+    ]
+  })
+    .then(cart => {
+      cart.removeProducts(req.params.productId);
+    })
+    .then(() => {
+      if (changedQty > 0) for (let i = 0; i < changedQty; i++) module.exports.addProductToCart(req, res, next);
+      else res.redirect('/cart');
+    })
+    .catch(err => {
+      next(err);
+    });
+};

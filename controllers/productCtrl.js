@@ -123,6 +123,34 @@ module.exports.getProductById = (req, res, next) => {
  * Get list of products that contain the search string
  */
 module.exports.searchProductsByName = (req, res, next) => {
+<<<<<<< HEAD
+  const { sequelize } = req.app.get('models');
+  // Product.findAll({
+  //   include: [{ model: Order }],
+  //   where: {
+  //     title: {
+  //       $iLike: `%${req.query.title}%`
+  //     }
+  //   }
+  // })
+  sequelize // raw query to count products in open order.
+    .query(
+      `SELECT  "Products".*, COUNT("OrdersProducts"."ProductId") as "productCount"
+    FROM "OrdersProducts"
+    JOIN "Products"
+    ON "OrdersProducts"."ProductId" =  "Products"."id"
+    WHERE LOWER("Products"."title") LIKE LOWER('%${req.query.title}%')
+    GROUP BY "Products"."id"`,
+      {
+        type: sequelize.QueryTypes.SELECT
+      }
+    )
+    .then(products => {
+      // res.json(products);
+      res.render('products-search', { products });
+    })
+    .catch(err => next(err));
+=======
 	const { Product } = req.app.get('models');
 	Product.findAll({
 		where: {
@@ -133,6 +161,7 @@ module.exports.searchProductsByName = (req, res, next) => {
 	})
 		.then(products => res.render('products-search', { products }))
 		.catch(err => next(err));
+>>>>>>> master
 };
 
 /**
@@ -190,6 +219,43 @@ module.exports.deleteProduct = (req, res, next) => {
  * gets 20 most recently added products, renders home page
  */
 module.exports.getLatestProducts = (req, res, next) => {
+<<<<<<< HEAD
+  const { sequelize } = req.app.get('models');
+
+  //-----EXAMPLE SEQUELIZE QUERY------
+  // Product.findAll({
+  //   include: [
+  //     {
+  //       model: Order
+  //     }
+  //   ],
+  //   order: [['createdAt', 'DESC']],
+  //   limit: 20
+  // })
+  //   .then(latestProducts => {
+  //     let countArr = [];
+  //     latestProducts.forEach(latestProduct => {
+  sequelize // raw query to count products in open order.
+    .query(
+      `SELECT  "Products".*, COUNT("OrdersProducts"."ProductId") as "productCount"
+      FROM "OrdersProducts"
+      JOIN "Products"
+      ON "OrdersProducts"."ProductId" =  "Products"."id"
+      GROUP BY "Products"."id"
+      ORDER BY "Products"."createdAt" DESC
+      LIMIT 20`,
+      {
+        type: sequelize.QueryTypes.SELECT
+      }
+    )
+    .then(latestProducts => {
+      // res.json(latestProducts);
+      res.render('home', { latestProducts });
+    })
+    .catch(err => {
+      next(err);
+    });
+=======
 	const { Product, Order } = req.app.get('models');
 
 	Product.findAll({
@@ -207,4 +273,5 @@ module.exports.getLatestProducts = (req, res, next) => {
 		.catch(err => {
 			next(err);
 		});
+>>>>>>> master
 };

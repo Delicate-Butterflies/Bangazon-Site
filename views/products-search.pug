@@ -11,7 +11,7 @@ block content
 				th(scope="col") Action
 		tbody
 			each product in products
-				- let sales = product.Orders.length
+				- let sales = product.productCount
 				- let remaining = product.quantity - sales
 				tr
 					td
