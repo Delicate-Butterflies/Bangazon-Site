@@ -6,15 +6,21 @@ block content
 			thead
 				tr
 					th(scope="col") Account Name
+					th(scope="col") Account Number
 					th(scope="col") Created On
 					th(scope="col") Updated On
 					th(scope="col") Delete
 			tbody
 				each paymentType in paymentTypes
+					//- https://stackoverflow.com/questions/35256611/replace-all-chars-with-except-for-last-4
+					- let hideAccountNum = paymentType.accountNumber.replace(/.(?=.{4,}$)/g, '*');
+					- let createdAt = paymentType.createdAt.toString().substring(0, 15);
+					- let updatedAt = paymentType.updatedAt.toString().substring(0, 15);
 					tr
 						th(scope="row") #{paymentType.type}
-						td #{paymentType.createdAt}
-						td #{paymentType.updatedAt}
+						td #{hideAccountNum}
+						td #{createdAt}
+						td #{updatedAt}
 						td
 							a(href="#")
 								form(method="POST" action=`payment-types/${paymentType.id}/?_method=DELETE`)

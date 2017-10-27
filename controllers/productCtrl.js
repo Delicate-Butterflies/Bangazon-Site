@@ -161,14 +161,31 @@ module.exports.searchProductsByName = (req, res, next) => {
  * user can view all of their products
  */
 module.exports.showAllUserProducts = (req, res, next) => {
-  const { Product } = req.app.get('models');
+  const { Product, Order, Sequelize } = req.app.get('models');
   Product.findAll({
-    where: {
-      sellerUserId: req.session.passport.user.id
-    }
+    // limiting find all to the current users products
+    attributes: ['id', 'title', 'quantity'],
+    where: { sellerUserId: req.session.passport.user.id },
+    include: [
+      {
+        model: Order,
+        through: {
+          attributes: [[Sequelize.fn('COUNT', Sequelize.col('ProductId')), 'sales']],
+          where: { $PaymentTypeId$: { $ne: null } },
+          required: false
+          // include: [{ model: Product }]
+        }
+      }
+    ]
+
+    // need the include to get an array of all orders that product is found on
+    // only orders that have been completed should be returned
+    // return ALL products regardless if they have orders on which they have been completed
+    // without required: false the findAll will ONLY return products that have been on a completed order
   })
     .then(userProducts => {
-      res.render('my-products', { userProducts });
+      res.json(userProducts);
+      // res.render('my-products', { userProducts });
     })
     .catch(err => next(err));
 };

@@ -12,14 +12,15 @@ block content
 					th(scope="col") Action
 			tbody
 				each product in productType.Products
-					- let sales = product.Orders.length
-					- let remaining = product.quantity - sales
+					- let remaining = product.quantity
+					if (product.sales)
+						- let remaining = Number.parseInt(product.quantity) - Number.parseInt(product.sales)
 					tr
 						td
 							a(href=`/products/${product.id}`) #{product.title}
 						td $#{Number.parseFloat(product.price).toFixed(2)}
 						td #{product.description}
-						if remaining === 0
+						if remaining < 1
 							td(class="text-danger") Sold Out
 							td
 								a(class="btn btn-primary" href=`/products/${product.id}`) View

@@ -1,13 +1,14 @@
 extends layout.pug
 block content
-  h3 Your Order History
-  table(class="table")
-    tbody
-      each order in orders
-        if order
-          tr
-            th #{order.id}
-            td #{order.orderDate}
-            td: a(class="btn btn-primary" href=`/order/${order.id}`) View
-        else
-          p You do not have any completed orders
+  .col-8
+    h3 Your Order History
+    table(class="table")
+      tbody
+        each order in orders
+          if order
+            tr
+              th #{order.id}
+              td #{order.orderDate}
+              td: a(class="btn btn-primary" href=`/order/${order.id}`) View
+          else
+            p You do not have any completed orders
