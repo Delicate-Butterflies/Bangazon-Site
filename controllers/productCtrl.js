@@ -67,7 +67,6 @@ module.exports.createNewProduct = (req, res, next) => {
       });
       data.product = product;
       data.errors = errors;
-      console.log(data);
       res.render('add-product', data);
     });
     return;

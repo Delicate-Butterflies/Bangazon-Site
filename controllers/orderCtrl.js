@@ -32,6 +32,7 @@ module.exports.getOpenOrder = (req, res, next) => {
           .then(counts => {
             if (data[0].Products.length > 0) {
               let products = data[0].Products;
+              // res.json(products);
               res.render('cart', { products, counts });
             } else {
               deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
@@ -174,6 +175,7 @@ module.exports.addProductToCart = (req, res, next) => {
           include: [{ model: Product }]
         }).then(currentOrder => {
           currentOrder.addProducts(req.params.productId);
+          // res.json(currentOrder);
           res.redirect('/cart');
         });
       } else {
@@ -201,6 +203,9 @@ let createOrder = (req, res, next) => {
   });
 };
 
+/**
+ * Update the quantity of a product from the cart.
+ */
 module.exports.upadteProductQtyinCart = (req, res, next) => {
   let changedQty = req.body.quantity;
   const { Order, Product } = req.app.get('models');
@@ -215,7 +220,8 @@ module.exports.upadteProductQtyinCart = (req, res, next) => {
       cart.removeProducts(req.params.productId);
     })
     .then(() => {
-      for (let i = 0; i < changedQty; i++) module.exports.addProductToCart(req, res, next);
+      if (changedQty > 0) for (let i = 0; i < changedQty; i++) module.exports.addProductToCart(req, res, next);
+      else res.redirect('/cart');
     })
     .catch(err => {
       next(err);
