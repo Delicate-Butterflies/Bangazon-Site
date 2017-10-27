@@ -117,16 +117,29 @@ module.exports.getProductById = (req, res, next) => {
  * Get list of products that contain the search string
  */
 module.exports.searchProductsByName = (req, res, next) => {
-  const { Product, Order } = req.app.get('models');
-  Product.findAll({
-    include: [{ model: Order }],
-    where: {
-      title: {
-        $iLike: `%${req.query.title}%`
+  const { sequelize } = req.app.get('models');
+  // Product.findAll({
+  //   include: [{ model: Order }],
+  //   where: {
+  //     title: {
+  //       $iLike: `%${req.query.title}%`
+  //     }
+  //   }
+  // })
+  sequelize // raw query to count products in open order.
+    .query(
+      `SELECT  "Products".*, COUNT("OrdersProducts"."ProductId") as "productCount"
+    FROM "OrdersProducts"
+    JOIN "Products"
+    ON "OrdersProducts"."ProductId" =  "Products"."id"
+    WHERE LOWER("Products"."title") LIKE LOWER('%${req.query.title}%')
+    GROUP BY "Products"."id"`,
+      {
+        type: sequelize.QueryTypes.SELECT
       }
-    }
-  })
+    )
     .then(products => {
+      // res.json(products);
       res.render('products-search', { products });
     })
     .catch(err => next(err));
@@ -168,8 +181,9 @@ module.exports.deleteProduct = (req, res, next) => {
  * gets 20 most recently added products, renders home page
  */
 module.exports.getLatestProducts = (req, res, next) => {
-  const { Product, Order, sequelize } = req.app.get('models');
+  const { sequelize } = req.app.get('models');
 
+  //-----EXAMPLE SEQUELIZE QUERY------
   // Product.findAll({
   //   include: [
   //     {
