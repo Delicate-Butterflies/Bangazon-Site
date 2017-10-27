@@ -77,7 +77,7 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 
 ### Contributing
 
-### Developer Documetation
+### Developer Documentation
 To generate the developer documentation run ```npm run docs``` and the docs will generate at "./docs/".
 
 #### Sequelize config.json:
