@@ -20,7 +20,7 @@ block content
 		tbody
 			if latestProducts
 				each product in latestProducts
-					- let sales = product.Orders.length
+					- let sales = product.productCount
 					- let remaining = product.quantity - sales
 					tr
 						td

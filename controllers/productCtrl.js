@@ -168,18 +168,35 @@ module.exports.deleteProduct = (req, res, next) => {
  * gets 20 most recently added products, renders home page
  */
 module.exports.getLatestProducts = (req, res, next) => {
-  const { Product, Order } = req.app.get('models');
+  const { Product, Order, sequelize } = req.app.get('models');
 
-  Product.findAll({
-    include: [
+  // Product.findAll({
+  //   include: [
+  //     {
+  //       model: Order
+  //     }
+  //   ],
+  //   order: [['createdAt', 'DESC']],
+  //   limit: 20
+  // })
+  //   .then(latestProducts => {
+  //     let countArr = [];
+  //     latestProducts.forEach(latestProduct => {
+  sequelize // raw query to count products in open order.
+    .query(
+      `SELECT  "Products".*, COUNT("OrdersProducts"."ProductId") as "productCount"
+      FROM "OrdersProducts"
+      JOIN "Products"
+      ON "OrdersProducts"."ProductId" =  "Products"."id"
+      GROUP BY "Products"."id"
+      ORDER BY "Products"."createdAt" DESC
+      LIMIT 20`,
       {
-        model: Order
+        type: sequelize.QueryTypes.SELECT
       }
-    ],
-    order: [['createdAt', 'DESC']],
-    limit: 20
-  })
+    )
     .then(latestProducts => {
+      // res.json(latestProducts);
       res.render('home', { latestProducts });
     })
     .catch(err => {
