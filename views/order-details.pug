@@ -7,13 +7,20 @@ block content
         tr
           td(colspan="2") #{orderDetails.orderDate}
         tr
-          th(colspan="2") Items on this order
+          th Items on this order
+          th Quantity
+          th Price
             -let total = 0;
             each item in orderDetails.Products
               - let price = parseFloat(item.price).toFixed(2);
               tr
-                td #{item.title}
-                td $#{price}
-                - total += parseFloat(price);
+                td: a(href=`/products/${item.id}`) #{item.title}
+                each count in counts
+                  if (item.id === count.ProductId)
+                    - let price = parseFloat(item.price)*parseFloat(count.productCount);
+                    - total += parseFloat(price);
+                    td #{count.productCount}
+                    td $#{price.toFixed(2)}
             tr
               th(colspan="2") Total: $#{total.toFixed(2)}
+  a(class="btn btn-primary account-btn" href=`/order-history`) Return to Order History
