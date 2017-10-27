@@ -29,7 +29,7 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 - Make a fb-config.js in the static/javascripts directory. Use the static/javascripts/fb-config.js.example template. Contact one of the project website developers for the values you will need to input.
 - Set up the database using ```npm run dbrb``` command in terminal
 - Run ```npm start``` from the terminal
-- View in browser
+- View in browser at the address output in the terminal
 
 ## Helper Applications
 - [PostgreSQL](http://www.postgresapp.com)
