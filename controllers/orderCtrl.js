@@ -8,7 +8,7 @@ let currentOrder; //make current order global to the controller so that it can b
  */
 
 module.exports.getOpenOrder = (req, res, next) => {
-  const { Order, Product } = req.app.get('models');
+  const { Order, Product, sequelize } = req.app.get('models');
   let activeUserId = req.session.passport.user.id; //get current active user
   Order.findAll({
     include: [{ model: Product }],
@@ -17,19 +17,42 @@ module.exports.getOpenOrder = (req, res, next) => {
     .then(data => {
       currentOrder = data;
       if (data[0]) {
-        //if there is an open order
-        if (data[0].Products.length > 0) {
-          let products = data[0].Products;
-          res.render('cart', { products });
-        } else {
-          deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
-        }
+        sequelize // raw query to count products in open order.
+          .query(
+            `SELECT  "ProductId", COUNT(*) as "productCount" FROM "OrdersProducts" WHERE "OrderId" = ${data[0]
+              .id} GROUP BY "ProductId"`,
+            {
+              type: sequelize.QueryTypes.SELECT
+            }
+          )
+          .then(counts => {
+            if (data[0].Products.length > 0) {
+              let products = data[0].Products;
+              res.render('cart', { products, counts });
+            } else {
+              deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
+            }
+          });
       } else res.render('cart', data[0]); //if no open order
+      //if there is an open order
     })
     .catch(err => {
       next(err);
     });
 };
+
+// module.exports.getOpenOrder = (req, res, next) => {
+//   const { Order, Product, sequelize } = req.app.get('models');
+//   // let {Sequelize} = require('sequelize');
+//   let activeUserId = req.session.passport.user.id; //get current active user
+//   sequelize
+//     .query(`SELECT * FROM "Orders" WHERE "PaymentTypeId" = null`, {
+//       type: sequelize.QueryTypes.SELECT
+//     })
+//     .then(orders => {
+//       res.json(orders);
+//     });
+// };
 
 /**
  * deletes the order by id. Helper function.
@@ -186,3 +209,5 @@ let createOrder = (req, res, next) => {
     module.exports.addProductToCart(req, res, next);
   });
 };
+
+module.exports.upadteProductQtyinCart = (req, res, next) => {};

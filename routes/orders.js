@@ -10,7 +10,8 @@ const {
   cancelOrder,
   addProductToCart,
   getUserOrderHistory,
-  getUserOrderDetails
+  getUserOrderDetails,
+  upadteProductQtyinCart
 } = require('../controllers/orderCtrl');
 
 router.get('/cart', isLoggedIn, getOpenOrder);
@@ -18,6 +19,7 @@ router.post('/cart', isLoggedIn, cancelOrder);
 router.post('/add-payment', isLoggedIn, savePaymentType);
 router.post('/cart/add-product/:productId', isLoggedIn, addProductToCart);
 router.post('/cart/remove/:productId', isLoggedIn, removeProductFromCart);
+router.post('/cart/update/:productId', isLoggedIn, upadteProductQtyinCart);
 router.get('/order-history/:id', isLoggedIn, getUserOrderHistory);
 router.get('/order/:id', isLoggedIn, getUserOrderDetails);
 

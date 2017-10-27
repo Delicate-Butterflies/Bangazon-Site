@@ -12,17 +12,29 @@ block content
       -let total = 0;
         tr
           td
-            h4 Product:
+            h4 Product
           td
-            h4 Price:
+            h4 Price
+          td
+            h4 Quantity
+          td
           td
           each product in products
             tr
               - let price = parseFloat(product.price).toFixed(2);
               td #{product.title}
               td $#{price}
-              - total += parseFloat(price)
               //- to calculate the total of the current open order
+              each count in counts
+                if(product.id === count.ProductId)
+                  - price = price*parseFloat(count.productCount).toFixed(2);
+                  - total += parseFloat(price)
+                  td
+                    input(type="number" name="quantity" value=`${count.productCount}`)
+                  td
+                    form(method="POST" action=`cart/update/${product.id}/?_method=PUT`)
+                      button(type="submit" class="btn btn-outline-success") UPDATE
+
               td
                 form(method="POST" action=`cart/remove/${product.id}/?_method=DELETE`)
                   button(type="submit" class="btn btn-outline-warning") Remove
