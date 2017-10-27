@@ -7,7 +7,6 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 1. [Software Requirements](#software-requirements)
 1. [Insallation](#installation)
 1. [Get Started](#get-started)
-1. [Helper Applications](#helper-applications)
 1. [Third Party Libraries](#third-party-libraries)
 1. [Usage Directions](#usage-directions)
 1. [Credits](#credits)
@@ -22,16 +21,13 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 - Run ```npm install``` from the root of the directory to install all of the dependencies
 
 ## Get Started
-- Create a PostgreSQL database.
+- Create a [PostgreSQL](http://www.postgresapp.com) database.
 - Make a config.json file in config folder located in the root directory. Use config.json.example template. Make sure that the database value matches the name of your database.
 - Make a .env file in the root directory. Use the .env.example template also located in the root directory.
 - Make a fb-config.js in the static/javascripts directory. Use the static/javascripts/fb-config.js.example template. Contact one of the project website developers for the values you will need to input.
 - Set up the database using ```npm run dbrb``` command in terminal
 - Run ```npm start``` from the terminal
 - View in browser
-
-## Helper Applications
-- [PostgreSQL](http://www.postgresapp.com)
 
 ## Third Party Libraries
 - [express](https://www.expressjs.com)
