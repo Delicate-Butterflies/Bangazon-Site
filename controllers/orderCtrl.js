@@ -209,3 +209,5 @@ let createOrder = (req, res, next) => {
     module.exports.addProductToCart(req, res, next);
   });
 };
+
+module.exports.upadteProductQtyinCart = (req, res, next) => {};
