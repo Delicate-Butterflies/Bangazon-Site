@@ -22,18 +22,19 @@ block content
           each product in products
             tr
               - let price = parseFloat(product.price).toFixed(2);
-              td #{product.title}
+              td
+                a(href=`/products/${product.id}`) #{product.title}
               td $#{price}
               //- to calculate the total of the current open order
               each count in counts
                 if(product.id === count.ProductId)
                   - price = price*parseFloat(count.productCount).toFixed(2);
                   - total += parseFloat(price)
-                  td
-                    input(type="number" name="quantity" value=`${count.productCount}`)
-                  td
-                    form(method="POST" action=`cart/update/${product.id}/?_method=PUT`)
-                      button(type="submit" class="btn btn-outline-success") UPDATE
+                  form(method="POST" action=`cart/update/${product.id}/?_method=PUT`)
+                    td
+                      input(type="number" name="quantity" value=`${count.productCount}`)
+                      td
+                        button(type="submit" class="btn btn-outline-success") UPDATE
 
               td
                 form(method="POST" action=`cart/remove/${product.id}/?_method=DELETE`)

@@ -11,7 +11,11 @@ module.exports.getOpenOrder = (req, res, next) => {
   const { Order, Product, sequelize } = req.app.get('models');
   let activeUserId = req.session.passport.user.id; //get current active user
   Order.findAll({
-    include: [{ model: Product }],
+    include: [
+      {
+        model: Product
+      }
+    ],
     where: { customerUserId: activeUserId, PaymentTypeId: null }
   })
     .then(data => {
@@ -40,19 +44,6 @@ module.exports.getOpenOrder = (req, res, next) => {
       next(err);
     });
 };
-
-// module.exports.getOpenOrder = (req, res, next) => {
-//   const { Order, Product, sequelize } = req.app.get('models');
-//   // let {Sequelize} = require('sequelize');
-//   let activeUserId = req.session.passport.user.id; //get current active user
-//   sequelize
-//     .query(`SELECT * FROM "Orders" WHERE "PaymentTypeId" = null`, {
-//       type: sequelize.QueryTypes.SELECT
-//     })
-//     .then(orders => {
-//       res.json(orders);
-//     });
-// };
 
 /**
  * deletes the order by id. Helper function.
@@ -210,4 +201,23 @@ let createOrder = (req, res, next) => {
   });
 };
 
-module.exports.upadteProductQtyinCart = (req, res, next) => {};
+module.exports.upadteProductQtyinCart = (req, res, next) => {
+  let changedQty = req.body.quantity;
+  const { Order, Product } = req.app.get('models');
+  Order.findById(currentOrder[0].id, {
+    include: [
+      {
+        model: Product
+      }
+    ]
+  })
+    .then(cart => {
+      cart.removeProducts(req.params.productId);
+    })
+    .then(() => {
+      for (let i = 0; i < changedQty; i++) module.exports.addProductToCart(req, res, next);
+    })
+    .catch(err => {
+      next(err);
+    });
+};
