@@ -89,24 +89,36 @@ module.exports.createNewProduct = (req, res, next) => {
  * Gets product info from ID, along with # sold as 'sales'
  */
 module.exports.getProductById = (req, res, next) => {
-  const { Product, Order } = req.app.get('models');
+  const { Product, Order, sequelize } = req.app.get('models');
   Product.findById(req.params.id, {})
     .then(product => {
-      Product.count({
-        where: { id: req.params.id },
-        include: [
+      // Product.count({
+      //   where: { id: req.params.id },
+      //   include: [
+      //     {
+      //       model: Order,
+      //       where: {
+      //         PaymentTypeId: {
+      //           $ne: null
+      //         }
+      //       }
+      //     }
+      //   ]
+      sequelize // raw query to count products in open order.
+        .query(
+          `SELECT  "ProductId", COUNT(*) as "productCount"
+      FROM "OrdersProducts"
+      WHERE "ProductId" = ${req.params.id}
+      GROUP BY "ProductId"`,
           {
-            model: Order,
-            where: {
-              PaymentTypeId: {
-                $ne: null
-              }
-            }
+            type: sequelize.QueryTypes.SELECT
           }
-        ]
-      }).then(sales => {
-        res.render('product-details', { product, sales });
-      });
+        )
+        .then(results => {
+          // res.json(sales);
+          let sales = results[0].productCount;
+          res.render('product-details', { product, sales });
+        });
     })
     .catch(err => {
       next(err);
