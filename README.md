@@ -16,6 +16,7 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 ## Software Requirements
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
+- [Postgresql](https://www.postgresql.org/)
 
 ## Installation
 - To clone the project down, run  ```git clone [repo link]```
@@ -34,14 +35,31 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 - [PostgreSQL](http://www.postgresapp.com)
 
 ## Third Party Libraries
+### Express and associated middleware
 - [express](https://www.expressjs.com)
-- [pug](https://www.pugjs.org)
-- [sequelize](https://www.docs.sequelizejs.com)
 - [body-parser](https://www.npmjs.com/package/body-parser)
+- [express-flash](https://www.npmjs.com/package/express-flash)
+- [express-session](https://www.npmjs.com/package/express-session)
+- [express-validator](https://www.npmjs.com/package/express-validator)
+- [method-override](https://www.npmjs.com/package/method-override)
+### Authentication
+- [passport](http://www.passportjs.org/)
+- [passport-local](https://www.npmjs.com/package/passport-local)
+- [bycrypt-nodejs]()
+### Database/ORM
+- [sequelize](https://www.docs.sequelizejs.com)
+- [pg](https://www.npmjs.com/package/pg)
+- [pg-hstore](https://www.npmjs.com/package/pg-hstore)
+### Front-end/Templating
+- [pug](https://www.pugjs.org)
+- [jquery](https://jquery.com/)
 - [bootstrap](https://www.getbootstrap.com)
 - [popper.js](https://www.popperjs.org)
+### Testing
 - [chai](https://www.chaijs.com)
 - [mocha](https://www.mochajs.org)
+### Setup/Config/Documentation
+- [faker](https://www.npmjs.com/package/faker)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [jsdoc](https://www.usejsdoc.org)
 
@@ -63,10 +81,13 @@ This system allows users to view, create, edit, and delete a list of: users, pro
 
 ### Contributing
 
+### Developer Documetation
+To generate the developer documentation run ```npm run docs``` and the docs will generate at "./docs/".
+
 #### Sequelize config.json:
 You may need to add your psql username and password the the development database in the /config/config.json file.  For this reason, it has been .gitignored.  There is, however, a config.json.example. Copy all from the .example file, paste into a new config.json file in the /config folder, and try as is before adding your user/password to the development config info.
 
 #### Note on Model/Migration creation:
 We are using camelCase for our database attribute names.  By default, sequelize uses camelCase, which comes into play for the auto-generated updatedAt and createdAt attributes. This should cause less issues.
 
-<p align="center">&copy; 2017 Delicate-Butterflys</p>
+<p align="center">&copy; 2017 Delicate-Butterflies</p>
