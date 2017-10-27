@@ -41,19 +41,6 @@ module.exports.getOpenOrder = (req, res, next) => {
     });
 };
 
-// module.exports.getOpenOrder = (req, res, next) => {
-//   const { Order, Product, sequelize } = req.app.get('models');
-//   // let {Sequelize} = require('sequelize');
-//   let activeUserId = req.session.passport.user.id; //get current active user
-//   sequelize
-//     .query(`SELECT * FROM "Orders" WHERE "PaymentTypeId" = null`, {
-//       type: sequelize.QueryTypes.SELECT
-//     })
-//     .then(orders => {
-//       res.json(orders);
-//     });
-// };
-
 /**
  * deletes the order by id. Helper function.
  */
@@ -134,9 +121,10 @@ module.exports.cancelOrder = (req, res, next) => {
 */
 module.exports.getUserOrderHistory = (req, res, next) => {
   const { Order } = req.app.get('models');
+  let activeUserId = req.session.passport.user.id; //get current active user
   Order.findAll({
     where: {
-      customerUserId: req.params.id,
+      customerUserId: activeUserId,
       $PaymentTypeId$: { $ne: null }
     }
   })
@@ -152,18 +140,29 @@ module.exports.getUserOrderHistory = (req, res, next) => {
 * Get order details including products and total price
 */
 module.exports.getUserOrderDetails = (req, res, next) => {
-  const { Order, Product } = req.app.get('models');
+  const { Order, Product, sequelize } = req.app.get('models');
   Order.findAll({
     include: [{ model: Product }],
     where: { id: req.params.id }
-  })
-    .then(results => {
-      let orderDetails = results[0];
-      res.render('order-details', { orderDetails });
-    })
-    .catch(err => {
-      next(err);
-    });
+  }).then(results => {
+    let orderDetails = results[0];
+    if (results[0]) {
+      sequelize // raw query to count products in open order.
+        .query(
+          `SELECT  "ProductId", COUNT(*) as "productCount" FROM "OrdersProducts" WHERE "OrderId" = ${results[0]
+            .id} GROUP BY "ProductId"`,
+          {
+            type: sequelize.QueryTypes.SELECT
+          }
+        )
+        .then(counts => {
+          res.render('order-details', { orderDetails, counts });
+        })
+        .catch(err => {
+          next(err);
+        });
+    }
+  });
 };
 
 /**
