@@ -16,7 +16,6 @@ module.exports.getOpenOrder = (req, res, next) => {
   })
     .then(data => {
       currentOrder = data;
-      // res.json(currentOrder[0]);
       if (data[0]) {
         sequelize // raw query to count products in open order.
           .query(
@@ -29,7 +28,6 @@ module.exports.getOpenOrder = (req, res, next) => {
           .then(counts => {
             if (data[0].Products.length > 0) {
               let products = data[0].Products;
-              // res.json(counts);
               res.render('cart', { products, counts });
             } else {
               deleteOrder(req, res, next); // if the order does not have any products left in it, delete the order.
