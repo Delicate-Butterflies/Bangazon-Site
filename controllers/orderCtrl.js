@@ -18,7 +18,7 @@ module.exports.getOpenOrder = (req, res, next) => {
       currentOrder = data;
       // res.json(currentOrder[0]);
       if (data[0]) {
-        sequelize
+        sequelize // raw query to count products in open order.
           .query(
             `SELECT  "ProductId", COUNT(*) as "productCount" FROM "OrdersProducts" WHERE "OrderId" = ${data[0]
               .id} GROUP BY "ProductId"`,
