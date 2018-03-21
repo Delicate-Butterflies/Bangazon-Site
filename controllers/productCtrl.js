@@ -76,8 +76,9 @@ module.exports.createNewProduct = (req, res, next) => {
     product
       .save(() => {})
       .then(response => {
+        // res.json(response);
         // console.log('RESPONSE FROM THE POST', response);
-        res.redirect(`/products/${response.dataValues.id}`);
+        res.redirect(`/products/${response.id}`);
       })
       .catch(err => {
         next(err);
@@ -115,8 +116,10 @@ module.exports.getProductById = (req, res, next) => {
           }
         )
         .then(results => {
-          // res.json(sales);
-          let sales = results[0].productCount;
+          let sales = 0;
+          if (results[0]) {
+            sales = results[0].productCount;
+          }
           res.render('product-details', { product, sales });
         });
     })
